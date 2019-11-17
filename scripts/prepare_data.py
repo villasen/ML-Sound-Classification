@@ -51,7 +51,7 @@ def predict(records, n):
 	return max, index
 
 ########################  Prepare
-labels=['left', 'rihth', 'go', 'no', 'follow', 'up', 'stop', 'yes', 'down', 'forward']
+labels=['left', 'rigth', 'go', 'no', 'follow', 'up', 'stop', 'yes', 'down', 'forward']
 	
 X_test = np.load("X_test.npy")
 y_test = np.load("y_test.npy")
@@ -80,10 +80,17 @@ interpreter_quant.allocate_tensors()
 ####################
 # Inference
 
-for m in range(1, 100):
+
+runs = 100
+print("Running inferencing for ", runs, "times.")
+
+
+for m in range(1, 10):
 	
 	print("\nRunning number ", m)
 	predict_number = m
+
+# Running Float inference
 	i=0
 	
 	for sound in urban_ds:
@@ -92,9 +99,21 @@ for m in range(1, 100):
 			break
 		i = i+1
 	
-	
 	interpreter.set_tensor(interpreter.get_input_details()[0]["index"], sound)
-	interpreter.invoke()
+
+	if runs == 1:
+		start = timer()	
+		interpreter.invoke()
+		end = timer()
+		print("Elapsed time running Non-quantized model is ", ((end - start)/runs)*1000, 'ms')
+	else:
+		start = timer()
+		for i in range(0, runs):
+			interpreter.invoke()
+		end = timer()
+		print("Elapsed time running Non-quantized model is ", ((end - start)/runs)*1000, 'ms')    
+        
+
 	predictions = interpreter.get_tensor( interpreter.get_output_details()[0]["index"])
 	
 	print(predictions)
@@ -119,10 +138,10 @@ for m in range(1, 100):
 	print("----------------")
 	print("Predicted class is ", labels[indice])
 	print("Real class is ", labels[real_word])
-	print("-----------------")
+	print("-----------------\n\n")
 	
 
-
+# Running Integer Inference
 	i=0
 	
 	for sound in urban_ds_uint8:
@@ -130,13 +149,25 @@ for m in range(1, 100):
 		if i == predict_number:
 			break
 		i = i+1
-	
-	
+		
 	interpreter_quant.set_tensor(interpreter_quant.get_input_details()[0]["index"], sound)
-	interpreter_quant.invoke()
+
+	if runs == 1:
+		start = timer()
+		interpreter_quant.invoke()
+		end = timer()
+		print("Elapsed time for one run of Quantized model is ", ((end - start)/runs)*1000, 'ms')
+	else: 
+		start = timer()
+		for i in range(0, runs):
+			interpreter.invoke()
+		end = timer()
+		print("Elapsed time running Quantized model is ", ((end - start)/runs)*1000, 'ms')
+
+
 	predictions = interpreter_quant.get_tensor(interpreter_quant.get_output_details()[0]["index"])
 	
-	print(predictions)
+	#print(predictions)
 	
 	class_prediction = predictions.tolist()
 	
@@ -149,7 +180,6 @@ for m in range(1, 100):
 	
 	class_predicted, indice = predict(records, n)
 	
-	print(predictions)
 	
 
 	print("\nINTEGERS")
