@@ -57,7 +57,7 @@ X_test = np.load("X_test.npy")
 y_test = np.load("y_test.npy")
 
 tflite_model_file = "speech-model.tflite"
-tflite_quant_model_file = "speech_model_quant.tflite"
+tflite_quant_model_file = "speech-model_quant_io.tflite"
 
 X_test = X_test.reshape(X_test.shape[0], MFCC, 51, 1)
 
@@ -74,13 +74,13 @@ urban_ds_uint8 = tf.data.Dataset.from_tensor_slices(sounds_uint8).batch(1)
 interpreter = tf.lite.Interpreter(model_path=str(tflite_model_file))
 interpreter.allocate_tensors()
 
-interpreter_quant = tf.lite.Interpreter(model_path=str(tflite_quant_model_file ))
+interpreter_quant = tf.lite.Interpreter(model_path=str(tflite_quant_model_file))
 interpreter_quant.allocate_tensors()
 
 ####################
 # Inference
 
-for m in range(1, 10):
+for m in range(1, 100):
 	
 	print("\nRunning number ", m)
 	predict_number = m
@@ -134,7 +134,7 @@ for m in range(1, 10):
 	
 	interpreter_quant.set_tensor(interpreter_quant.get_input_details()[0]["index"], sound)
 	interpreter_quant.invoke()
-	predictions = interpreter_quant.get_tensor( interpreter_quant.get_output_details()[0]["index"])
+	predictions = interpreter_quant.get_tensor(interpreter_quant.get_output_details()[0]["index"])
 	
 	print(predictions)
 	
