@@ -81,15 +81,15 @@ interpreter_quant.allocate_tensors()
 # Inference
 
 
-runs = 100
+runs = 1
 print("Running inferencing for ", runs, "times.")
 
 
-for m in range(1, 10):
+for m in range(1, 4):
 	
 	print("\nRunning number ", m)
 	predict_number = m
-
+	print(labels)
 # Running Float inference
 	i=0
 	
@@ -105,7 +105,7 @@ for m in range(1, 10):
 		start = timer()	
 		interpreter.invoke()
 		end = timer()
-		print("Elapsed time running Non-quantized model is ", ((end - start)/runs)*1000, 'ms')
+		print("\n\nElapsed time running Non-quantized model is ", ((end - start)/runs)*1000, 'ms')
 	else:
 		start = timer()
 		for i in range(0, runs):
@@ -115,7 +115,7 @@ for m in range(1, 10):
         
 
 	predictions = interpreter.get_tensor( interpreter.get_output_details()[0]["index"])
-	
+	print("\nFloat predictions\n")
 	print(predictions)
 	
 	class_prediction = predictions.tolist()
@@ -132,11 +132,11 @@ for m in range(1, 10):
 	real_words = y_test[predict_number]
 	real_word = int(real_words)
 	word_predicted = labels[indice]
-	
-	print(labels)
+	percentage = records[indice] * 100
+
 	print("\nFLOATS")
 	print("----------------")
-	print("Predicted class is ", labels[indice])
+	print("Predicted class is ", labels[indice], "with %5.2f" %(percentage) , "% accuracy")
 	print("Real class is ", labels[real_word])
 	print("-----------------\n\n")
 	
@@ -165,11 +165,12 @@ for m in range(1, 10):
 		print("Elapsed time running Quantized model is ", ((end - start)/runs)*1000, 'ms')
 
 
-	predictions = interpreter_quant.get_tensor(interpreter_quant.get_output_details()[0]["index"])
+	quant_predictions = interpreter_quant.get_tensor(interpreter_quant.get_output_details()[0]["index"])
+	print("\nQuantized predictions\n")
+	print(quant_predictions)	
 	
-	#print(predictions)
 	
-	class_prediction = predictions.tolist()
+	class_prediction = quant_predictions.tolist()
 	
 	for record in class_prediction:
 		record
@@ -178,13 +179,17 @@ for m in range(1, 10):
 	
 	n = len(records)
 	
+	
 	class_predicted, indice = predict(records, n)
+	print("quant records", records)
+	quant_percentage = (records[indice] /255) * 100
 	
 	
+		
 
 	print("\nINTEGERS")
 	print("----------------")
-	print("Predicted class is ", labels[indice])
+	print("Predicted class is ", labels[indice], "with %5.2f" %(quant_percentage) , "% accuracy")	
 	print("Real class is ", labels[real_word])
 	print("-----------------")
 	
