@@ -84,14 +84,17 @@ interpreter_quant.allocate_tensors()
 runs = 1
 print("Running inferencing for ", runs, "times.")
 
+total_seen = 0
+num_correct = 0
 
-for m in range(1, 4):
+for m in range(1,50):
 	
 	print("\nRunning number ", m)
 	predict_number = m
 	print(labels)
 # Running Float inference
 	i=0
+	total_seen +=1
 	
 	for sound in urban_ds:
 		
@@ -131,6 +134,7 @@ for m in range(1, 4):
 	
 	real_words = y_test[predict_number]
 	real_word = int(real_words)
+	word_to_predict = labels[real_word]
 	word_predicted = labels[indice]
 	percentage = records[indice] * 100
 
@@ -193,9 +197,18 @@ for m in range(1, 4):
 	print("Real class is ", labels[real_word])
 	print("-----------------")
 	
-	 
+	
 
+	if word_predicted == word_to_predict:
+		print("predicted correct word")
+		num_correct+=1
+		
+	
 
+print("correct number of word predicted is ", num_correct)
+
+print("Test Accuracy after %i images: %f" %(total_seen, float(num_correct) / float(total_seen)))
+	
 print("complete")
 
 
