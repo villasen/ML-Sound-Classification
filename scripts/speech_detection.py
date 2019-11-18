@@ -85,7 +85,8 @@ runs = 1
 print("Running inferencing for ", runs, "times.")
 
 total_seen = 0
-num_correct = 0
+num_correct_float = 0
+num_correct_quant = 0
 
 for m in range(1,50):
 	
@@ -184,31 +185,46 @@ for m in range(1,50):
 	n = len(records)
 	
 	
-	class_predicted, indice = predict(records, n)
+	class_predicted, indice_quant = predict(records, n)
 	print("quant records", records)
-	quant_percentage = (records[indice] /255) * 100
+	word_quant_to_predict =labels[indice_quant]
+	print(word_quant_to_predict)
+	quant_percentage = (records[indice_quant] /255) * 100
 	
 	
 		
 
 	print("\nINTEGERS")
 	print("----------------")
-	print("Predicted class is ", labels[indice], "with %5.2f" %(quant_percentage) , "% accuracy")	
+	print("Predicted class is ", labels[indice_quant], "with %5.2f" %(quant_percentage) , "% accuracy")	
 	print("Real class is ", labels[real_word])
 	print("-----------------")
 	
 	
 
 	if word_predicted == word_to_predict:
-		print("predicted correct word")
-		num_correct+=1
-		
-	
+		print("predicted correct word by float model")
+		num_correct_float+=1
 
-print("correct number of word predicted is ", num_correct)
-
-print("Test Accuracy after %i images: %f" %(total_seen, float(num_correct) / float(total_seen)))
+	if word_predicted == word_quant_to_predict:
+		print("predicted correct word by quant model")
+		num_correct_quant+=1		
 	
+print("\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n")
+print("correct number of words predicted by Float model is ", num_correct_float)
+print("Test Accuracy after %i images: %f" %(total_seen, float(num_correct_float) / float(total_seen)))
+print("\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n")
+
+
+
+
+print("\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n")
+print("correct number of words predicted by Quantized model is ", num_correct_quant)
+print("Test Accuracy after %i images: %f" %(total_seen, float(num_correct_quant) / float(total_seen)))
+print("\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n")	
+
+
+
 print("complete")
 
 
