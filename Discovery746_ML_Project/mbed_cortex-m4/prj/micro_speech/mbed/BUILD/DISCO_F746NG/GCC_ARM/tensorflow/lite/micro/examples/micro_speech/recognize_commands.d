@@ -1,0 +1,9 @@
+BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/recognize_commands.o: \
+ tensorflow/lite/micro/examples/micro_speech/recognize_commands.cc \
+ BUILD/DISCO_F746NG/GCC_ARM/mbed_config.h \
+ tensorflow/lite/micro/examples/micro_speech/recognize_commands.h \
+ tensorflow/lite/c/common.h \
+ tensorflow/lite/micro/examples/micro_speech/micro_features/micro_model_settings.h \
+ tensorflow/lite/micro/micro_error_reporter.h \
+ tensorflow/lite/core/api/error_reporter.h \
+ tensorflow/lite/micro/compatibility.h tensorflow/lite/micro/debug_log.h

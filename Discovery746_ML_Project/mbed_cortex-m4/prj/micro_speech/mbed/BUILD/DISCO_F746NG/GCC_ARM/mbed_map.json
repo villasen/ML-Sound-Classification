@@ -1,0 +1,197 @@
+[
+    {
+        "module": "AUDIO_DISCO_F746NG/AUDIO_DISCO_F746NG.o", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 0, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 52
+        }
+    }, 
+    {
+        "module": "BSP_DISCO_F746NG/Drivers", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 1288, 
+            ".data": 50, 
+            ".bss-delta": 0, 
+            ".text": 6396
+        }
+    }, 
+    {
+        "module": "BSP_DISCO_F746NG/Utilities", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 0, 
+            ".data": 8, 
+            ".bss-delta": 0, 
+            ".text": 0
+        }
+    }, 
+    {
+        "module": "LCD_DISCO_F746NG/LCD_DISCO_F746NG.o", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 0, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 140
+        }
+    }, 
+    {
+        "module": "SDRAM_DISCO_F746NG/SDRAM_DISCO_F746NG.o", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 0, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 24
+        }
+    }, 
+    {
+        "module": "[fill]", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 21, 
+            ".data": 12, 
+            ".bss-delta": 0, 
+            ".text": 132
+        }
+    }, 
+    {
+        "module": "[lib]/c.a", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 89, 
+            ".data": 2472, 
+            ".bss-delta": 0, 
+            ".text": 34552
+        }
+    }, 
+    {
+        "module": "[lib]/gcc.a", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 0, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 3608
+        }
+    }, 
+    {
+        "module": "[lib]/m.a", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 0, 
+            ".data": 1, 
+            ".bss-delta": 0, 
+            ".text": 10452
+        }
+    }, 
+    {
+        "module": "[lib]/misc", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 28, 
+            ".data": 4, 
+            ".bss-delta": 0, 
+            ".text": 180
+        }
+    }, 
+    {
+        "module": "[lib]/nosys.a", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 0, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 32
+        }
+    }, 
+    {
+        "module": "[lib]/stdc++.a", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 16, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 40
+        }
+    }, 
+    {
+        "module": "mbed-os/drivers", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 0, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 950
+        }
+    }, 
+    {
+        "module": "mbed-os/hal", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 130, 
+            ".data": 8, 
+            ".bss-delta": 0, 
+            ".text": 1390
+        }
+    }, 
+    {
+        "module": "mbed-os/platform", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 240, 
+            ".data": 260, 
+            ".bss-delta": 0, 
+            ".text": 4176
+        }
+    }, 
+    {
+        "module": "mbed-os/targets", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 1164, 
+            ".data": 4, 
+            ".bss-delta": 0, 
+            ".text": 16732
+        }
+    }, 
+    {
+        "module": "tensorflow/lite", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 30416, 
+            ".data": 53, 
+            ".bss-delta": 0, 
+            ".text": 29556
+        }
+    }, 
+    {
+        "summary": {
+            "static_ram": 36264, 
+            "total_flash_delta": 0, 
+            "static_ram_delta": 0, 
+            "total_flash": 111284
+        }
+    }
+]
