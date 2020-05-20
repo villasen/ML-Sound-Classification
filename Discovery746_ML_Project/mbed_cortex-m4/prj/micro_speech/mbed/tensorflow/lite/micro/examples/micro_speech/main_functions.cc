@@ -28,11 +28,14 @@ limitations under the License.
 #include "tensorflow/lite/schema/schema_generated.h"
 #include "tensorflow/lite/version.h"
 
+#include "tensorflow/lite/micro/examples/micro_speech/micro_features/no_micro_features_data.h"
+#include "tensorflow/lite/micro/examples/micro_speech/micro_features/yes_micro_features_data.h"
+
 // Globals, used for compatibility with Arduino-style sketches.
 namespace {
 tflite::ErrorReporter* error_reporter = nullptr;
 const tflite::Model* model = nullptr;
-tflite::MicroInterpreter* interpreter = nullptr;
+//tflite::MicroInterpreter* interpreter = nullptr;
 TfLiteTensor* model_input = nullptr;
 FeatureProvider* feature_provider = nullptr;
 RecognizeCommands* recognizer = nullptr;
@@ -43,8 +46,8 @@ int32_t previous_time = 0;
 // determined by experimentation.
 constexpr int kTensorArenaSize = 10 * 1024;
 uint8_t tensor_arena[kTensorArenaSize];
-uint8_t feature_buffer[kFeatureElementCount];
-uint8_t* model_input_buffer = nullptr;
+//uint8_t feature_buffer[kFeatureElementCount];
+//uint8_t* model_input_buffer = nullptr;
 }  // namespace
 
 // The name of this function is important for Arduino compatibility.
@@ -56,7 +59,7 @@ void setup() {
   error_reporter = &micro_error_reporter;
 
 
-error_reporter->Report("Starting Sound Recognition Program");
+error_reporter->Report("\n*****Starting Sound Recognition Program*****\n");
 
   // Map the model into a usable data structure. This doesn't involve any
   // copying or parsing, it's a very lightweight operation.
@@ -77,29 +80,36 @@ error_reporter->Report("Starting Sound Recognition Program");
   //
   // tflite::ops::micro::AllOpsResolver resolver;
   // NOLINTNEXTLINE(runtime-global-variables)
-  static tflite::MicroOpResolver<3> micro_op_resolver;
-  micro_op_resolver.AddBuiltin(
+  
+  static tflite::MicroMutableOpResolver micro_mutable_op_resolver;
+  
+  // Depthwise op layer
+  micro_mutable_op_resolver.AddBuiltin(
       tflite::BuiltinOperator_DEPTHWISE_CONV_2D,
       tflite::ops::micro::Register_DEPTHWISE_CONV_2D());
-  micro_op_resolver.AddBuiltin(tflite::BuiltinOperator_FULLY_CONNECTED,
-                               tflite::ops::micro::Register_FULLY_CONNECTED());
-  micro_op_resolver.AddBuiltin(tflite::BuiltinOperator_SOFTMAX,
-                               tflite::ops::micro::Register_SOFTMAX());
+  // fully connected op layer
+  micro_mutable_op_resolver.AddBuiltin(
+      tflite::BuiltinOperator_FULLY_CONNECTED,
+      tflite::ops::micro::Register_FULLY_CONNECTED());
+  // Softmax op layer
+  micro_mutable_op_resolver.AddBuiltin(tflite::BuiltinOperator_SOFTMAX,
+                                       tflite::ops::micro::Register_SOFTMAX());
 
   // Build an interpreter to run the model with.
-  static tflite::MicroInterpreter static_interpreter(
-      model, micro_op_resolver, tensor_arena, kTensorArenaSize, error_reporter);
-  interpreter = &static_interpreter;
+  tflite::MicroInterpreter interpreter(model, micro_mutable_op_resolver,
+                                    tensor_arena, kTensorArenaSize,
+                                    error_reporter);
 
   // Allocate memory from the tensor_arena for the model's tensors.
-  TfLiteStatus allocate_status = interpreter->AllocateTensors();
+  TfLiteStatus allocate_status = interpreter.AllocateTensors();
   if (allocate_status != kTfLiteOk) {
-    TF_LITE_REPORT_ERROR(error_reporter, "AllocateTensors() failed");
+    error_reporter->Report( "AllocateTensors() failed");
     return;
   }
 
   // Get information about the memory area to use for the model's input.
-  model_input = interpreter->input(0);
+  model_input = interpreter.input(0);
+
   if ((model_input->dims->size != 4) || (model_input->dims->data[0] != 1) ||
       (model_input->dims->data[1] != kFeatureSliceCount) ||
       (model_input->dims->data[2] != kFeatureSliceSize) ||
@@ -108,64 +118,103 @@ error_reporter->Report("Starting Sound Recognition Program");
                          "Bad input tensor parameters in model");
     return;
   }
-  model_input_buffer = model_input->data.uint8;
+
+  error_reporter->Report("model dim size=%d", model_input->dims->size);
+  error_reporter->Report("model dim data0=%d", model_input->dims->data[0]);
+  error_reporter->Report("model dim data1=%d", model_input->dims->data[1]);
+  error_reporter->Report("model dim data2=%d", model_input->dims->data[2]);
+  error_reporter->Report("model type=%d", model_input->type);
+ // model_input_buffer = model_input->data.uint8;
 
   // Prepare to access the audio spectrograms from a microphone or other source
   // that will provide the inputs to the neural network.
   // NOLINTNEXTLINE(runtime-global-variables)
-  static FeatureProvider static_feature_provider(kFeatureElementCount,
-                                                 feature_buffer);
-  feature_provider = &static_feature_provider;
+ 
+  //static FeatureProvider static_feature_provider(kFeatureElementCount,
+  //                                               feature_buffer);
+ // feature_provider = &static_feature_provider;
 
-  static RecognizeCommands static_recognizer(error_reporter);
-  recognizer = &static_recognizer;
+ // static RecognizeCommands static_recognizer(error_reporter);
+ // recognizer = &static_recognizer;
 
-  previous_time = 0;
+ // previous_time = 0;
 
 
 // The name of this function is important for Arduino compatibility.
 
   // Fetch the spectrogram for the current time.
-  const int32_t current_time = LatestAudioTimestamp();
-  int how_many_new_slices = 0;
-  TfLiteStatus feature_status = feature_provider->PopulateFeatureData(
-      error_reporter, previous_time, current_time, &how_many_new_slices);
-  if (feature_status != kTfLiteOk) {
-    TF_LITE_REPORT_ERROR(error_reporter, "Feature generation failed");
-    return;
-  }
-  previous_time = current_time;
+ // const int32_t current_time = LatestAudioTimestamp();
+//  int how_many_new_slices = 0;
+//  TfLiteStatus feature_status = feature_provider->PopulateFeatureData(
+//      error_reporter, previous_time, current_time, &how_many_new_slices);
+ // if (feature_status != kTfLiteOk) {
+ //   TF_LITE_REPORT_ERROR(error_reporter, "Feature generation failed");
+//    return;
+ // }
+ // previous_time = current_time;
   // If no new audio samples have been received since last time, don't bother
   // running the network model.
-  if (how_many_new_slices == 0) {
-    return;
-  }
+ // if (how_many_new_slices == 0) {
+//    return;
+//  }
 
   // Copy feature buffer to input tensor
-  for (int i = 0; i < kFeatureElementCount; i++) {
-    model_input_buffer[i] = feature_buffer[i];
+//  for (int i = 0; i < kFeatureElementCount; i++) {
+//    model_input_buffer[i] = feature_buffer[i];
+//  }
+
+
+// Copy a spectrogram created from a .wav audio file 
+  // into the memory area used for the input.
+  const uint8_t* features_data = g_yes_micro_f2e59fea_nohash_1_data;
+  error_reporter->Report("getting input data");
+  //const uint8_t* features_data = g_no_micro_f9643d42_nohash_4_data;
+  for (int i = 0; i < model_input->bytes; ++i) {
+    model_input->data.uint8[i] = features_data[i];
   }
 
+
+
   // Run the model on the spectrogram input and make sure it succeeds.
-  TfLiteStatus invoke_status = interpreter->Invoke();
+  TfLiteStatus invoke_status = interpreter.Invoke();
   if (invoke_status != kTfLiteOk) {
     TF_LITE_REPORT_ERROR(error_reporter, "Invoke failed");
     return;
   }
 
   // Obtain a pointer to the output tensor
-  TfLiteTensor* output = interpreter->output(0);
+  TfLiteTensor* output = interpreter.output(0);
+  error_reporter->Report("output: %d", output->data.uint8[0]);
+
+  // There are four possible classes in the output, each with a score.
+  const int kSilenceIndex = 0;
+  const int kUnknownIndex = 1;
+  const int kYesIndex = 2;
+  const int kNoIndex = 3; 
+
+
+  // Make sure that the expected "Yes" score is higher than the other classes.
+  uint8_t silence_score = output->data.uint8[kSilenceIndex];
+  uint8_t unknown_score = output->data.uint8[kUnknownIndex];
+  uint8_t yes_score = output->data.uint8[kYesIndex];
+  uint8_t no_score = output->data.uint8[kNoIndex];
+
+
+  error_reporter->Report("Softmax: silence=%d, unknown=%d, yes=%d, no=%d", silence_score, unknown_score, yes_score, no_score); 
+
+  error_reporter->Report("\n*****End of Sound Recognition Classifier*****");
+
   // Determine whether a command was recognized based on the output of inference
-  const char* found_command = nullptr;
-  uint8_t score = 0;
-  bool is_new_command = false;
-  TfLiteStatus process_status = recognizer->ProcessLatestResults(
-      output, current_time, &found_command, &score, &is_new_command);
-  if (process_status != kTfLiteOk) {
-    TF_LITE_REPORT_ERROR(error_reporter,
-                         "RecognizeCommands::ProcessLatestResults() failed");
-    return;
-  }
+ // const char* found_command = nullptr;
+  //uint8_t score = 0;
+ // bool is_new_command = false;
+//  TfLiteStatus process_status = recognizer->ProcessLatestResults(
+ //     output, current_time, &found_command, &score, &is_new_command);
+ // if (process_status != kTfLiteOk) {
+ //   TF_LITE_REPORT_ERROR(error_reporter,
+ //                        "RecognizeCommands::ProcessLatestResults() failed");
+  //  return;
+ // }
   // Do something based on the recognized command. The default implementation
   // just prints to the error console, but you should replace this with your
   // own function for a real application.

@@ -7,18 +7,18 @@
             ".bss": 0, 
             ".data": 0, 
             ".bss-delta": 0, 
-            ".text": 52
+            ".text": 30
         }
     }, 
     {
         "module": "BSP_DISCO_F746NG/Drivers", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": -476, 
+            ".text-delta": 0, 
             ".bss": 1288, 
             ".data": 50, 
             ".bss-delta": 0, 
-            ".text": 5920
+            ".text": 5708
         }
     }, 
     {
@@ -36,7 +36,7 @@
         "module": "LCD_DISCO_F746NG/LCD_DISCO_F746NG.o", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": -20, 
+            ".text-delta": 0, 
             ".bss": 0, 
             ".data": 0, 
             ".bss-delta": 0, 
@@ -58,11 +58,11 @@
         "module": "[fill]", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": 48, 
-            ".bss": 21, 
-            ".data": 12, 
+            ".text-delta": 0, 
+            ".bss": 18, 
+            ".data": 13, 
             ".bss-delta": 0, 
-            ".text": 180
+            ".text": 148
         }
     }, 
     {
@@ -73,7 +73,7 @@
             ".bss": 89, 
             ".data": 2472, 
             ".bss-delta": 0, 
-            ".text": 34552
+            ".text": 34388
         }
     }, 
     {
@@ -84,7 +84,7 @@
             ".bss": 0, 
             ".data": 0, 
             ".bss-delta": 0, 
-            ".text": 3608
+            ".text": 3448
         }
     }, 
     {
@@ -95,7 +95,7 @@
             ".bss": 0, 
             ".data": 1, 
             ".bss-delta": 0, 
-            ".text": 10452
+            ".text": 1296
         }
     }, 
     {
@@ -172,26 +172,26 @@
             ".bss": 1164, 
             ".data": 4, 
             ".bss-delta": 0, 
-            ".text": 16732
+            ".text": 15910
         }
     }, 
     {
         "module": "tensorflow/lite", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": -256, 
-            ".bss": 30416, 
-            ".data": 53, 
+            ".text-delta": 0, 
+            ".bss": 14643, 
+            ".data": 36, 
             ".bss-delta": 0, 
-            ".text": 29300
+            ".text": 20380
         }
     }, 
     {
         "summary": {
-            "static_ram": 36264, 
-            "total_flash_delta": -704, 
+            "static_ram": 20472, 
+            "total_flash_delta": 0, 
             "static_ram_delta": 0, 
-            "total_flash": 110580
+            "total_flash": 91076
         }
     }
 ]
