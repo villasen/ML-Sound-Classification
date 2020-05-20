@@ -14,11 +14,11 @@
         "module": "BSP_DISCO_F746NG/Drivers", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": 0, 
+            ".text-delta": -476, 
             ".bss": 1288, 
             ".data": 50, 
             ".bss-delta": 0, 
-            ".text": 6396
+            ".text": 5920
         }
     }, 
     {
@@ -36,11 +36,11 @@
         "module": "LCD_DISCO_F746NG/LCD_DISCO_F746NG.o", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": 0, 
+            ".text-delta": -20, 
             ".bss": 0, 
             ".data": 0, 
             ".bss-delta": 0, 
-            ".text": 140
+            ".text": 120
         }
     }, 
     {
@@ -58,11 +58,11 @@
         "module": "[fill]", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": 0, 
+            ".text-delta": 48, 
             ".bss": 21, 
             ".data": 12, 
             ".bss-delta": 0, 
-            ".text": 132
+            ".text": 180
         }
     }, 
     {
@@ -179,19 +179,19 @@
         "module": "tensorflow/lite", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": 0, 
+            ".text-delta": -256, 
             ".bss": 30416, 
             ".data": 53, 
             ".bss-delta": 0, 
-            ".text": 29556
+            ".text": 29300
         }
     }, 
     {
         "summary": {
             "static_ram": 36264, 
-            "total_flash_delta": 0, 
+            "total_flash_delta": -704, 
             "static_ram_delta": 0, 
-            "total_flash": 111284
+            "total_flash": 110580
         }
     }
 ]

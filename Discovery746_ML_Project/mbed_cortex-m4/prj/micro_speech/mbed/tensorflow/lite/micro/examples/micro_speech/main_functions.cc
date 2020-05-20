@@ -55,6 +55,9 @@ void setup() {
   static tflite::MicroErrorReporter micro_error_reporter;
   error_reporter = &micro_error_reporter;
 
+
+error_reporter->Report("Starting Sound Recognition Program");
+
   // Map the model into a usable data structure. This doesn't involve any
   // copying or parsing, it's a very lightweight operation.
   model = tflite::GetModel(g_tiny_conv_micro_features_model_data);
@@ -118,10 +121,10 @@ void setup() {
   recognizer = &static_recognizer;
 
   previous_time = 0;
-}
+
 
 // The name of this function is important for Arduino compatibility.
-void loop() {
+
   // Fetch the spectrogram for the current time.
   const int32_t current_time = LatestAudioTimestamp();
   int how_many_new_slices = 0;
@@ -166,6 +169,9 @@ void loop() {
   // Do something based on the recognized command. The default implementation
   // just prints to the error console, but you should replace this with your
   // own function for a real application.
-  RespondToCommand(error_reporter, current_time, found_command, score,
-                   is_new_command);
+  
+//  RespondToCommand(error_reporter, current_time, found_command, score,
+//                   is_new_command);
+
+
 }

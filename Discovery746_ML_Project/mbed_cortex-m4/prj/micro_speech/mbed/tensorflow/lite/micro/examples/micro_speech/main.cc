@@ -22,6 +22,6 @@ limitations under the License.
 int main(int argc, char* argv[]) {
   setup();
   while (true) {
-    loop();
+   // loop();
   }
 }
