@@ -44,7 +44,7 @@ int32_t previous_time = 0;
 // Create an area of memory to use for input, output, and intermediate arrays.
 // The size of this will depend on the model you're using, and may need to be
 // determined by experimentation.
-constexpr int kTensorArenaSize = 10 * 1024;
+constexpr int kTensorArenaSize = 20 * 1024;
 uint8_t tensor_arena[kTensorArenaSize];
 //uint8_t feature_buffer[kFeatureElementCount];
 //uint8_t* model_input_buffer = nullptr;
@@ -86,14 +86,20 @@ error_reporter->Report("\n*****Starting Sound Recognition Program*****\n");
   // Depthwise op layer
   micro_mutable_op_resolver.AddBuiltin(
       tflite::BuiltinOperator_DEPTHWISE_CONV_2D,
-      tflite::ops::micro::Register_DEPTHWISE_CONV_2D());
+      tflite::ops::micro::Register_DEPTHWISE_CONV_2D(), 1, 3);
+  
   // fully connected op layer
   micro_mutable_op_resolver.AddBuiltin(
       tflite::BuiltinOperator_FULLY_CONNECTED,
-      tflite::ops::micro::Register_FULLY_CONNECTED());
+      tflite::ops::micro::Register_FULLY_CONNECTED(), 1, 4);
+    
+// Reshape operator
+  micro_mutable_op_resolver.AddBuiltin(
+      tflite::BuiltinOperator_RESHAPE ,
+      tflite::ops::micro::Register_RESHAPE());     
   // Softmax op layer
   micro_mutable_op_resolver.AddBuiltin(tflite::BuiltinOperator_SOFTMAX,
-                                       tflite::ops::micro::Register_SOFTMAX());
+                                       tflite::ops::micro::Register_SOFTMAX(), 1, 2);
 
   // Build an interpreter to run the model with.
   tflite::MicroInterpreter interpreter(model, micro_mutable_op_resolver,
@@ -110,6 +116,13 @@ error_reporter->Report("\n*****Starting Sound Recognition Program*****\n");
   // Get information about the memory area to use for the model's input.
   model_input = interpreter.input(0);
 
+  error_reporter->Report("model dim size=%d", model_input->dims->size);
+  error_reporter->Report("model dim data0=%d", model_input->dims->data[0]);
+  error_reporter->Report("model dim data1=%d", model_input->dims->data[1]);
+  error_reporter->Report("model dim data2=%d", model_input->dims->data[2]);
+  error_reporter->Report("model type=%d", model_input->type);
+
+
   if ((model_input->dims->size != 4) || (model_input->dims->data[0] != 1) ||
       (model_input->dims->data[1] != kFeatureSliceCount) ||
       (model_input->dims->data[2] != kFeatureSliceSize) ||
@@ -119,11 +132,10 @@ error_reporter->Report("\n*****Starting Sound Recognition Program*****\n");
     return;
   }
 
-  error_reporter->Report("model dim size=%d", model_input->dims->size);
-  error_reporter->Report("model dim data0=%d", model_input->dims->data[0]);
-  error_reporter->Report("model dim data1=%d", model_input->dims->data[1]);
-  error_reporter->Report("model dim data2=%d", model_input->dims->data[2]);
-  error_reporter->Report("model type=%d", model_input->type);
+
+
+
+
  // model_input_buffer = model_input->data.uint8;
 
   // Prepare to access the audio spectrograms from a microphone or other source
@@ -171,9 +183,10 @@ error_reporter->Report("\n*****Starting Sound Recognition Program*****\n");
   //const uint8_t* features_data = g_no_micro_f9643d42_nohash_4_data;
   for (int i = 0; i < model_input->bytes; ++i) {
     model_input->data.uint8[i] = features_data[i];
+    //error_reporter->Report("%d", model_input->data.uint8[i]);
   }
 
-
+    
 
   // Run the model on the spectrogram input and make sure it succeeds.
   TfLiteStatus invoke_status = interpreter.Invoke();
@@ -200,7 +213,8 @@ error_reporter->Report("\n*****Starting Sound Recognition Program*****\n");
   uint8_t no_score = output->data.uint8[kNoIndex];
 
 
-  error_reporter->Report("Softmax: silence=%d, unknown=%d, yes=%d, no=%d", silence_score, unknown_score, yes_score, no_score); 
+  error_reporter->Report("Softmax: silence=%d, unknown=%d, yes=%d, no=%d", 
+  silence_score, unknown_score, yes_score, no_score); 
 
   error_reporter->Report("\n*****End of Sound Recognition Classifier*****");
 
