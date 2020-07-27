@@ -31,7 +31,7 @@ limitations under the License.
 const int g_yes_micro_f2e59fea_nohash_1_width = 40;
 const int g_yes_micro_f2e59fea_nohash_1_height = 49;
 
-/* 
+ 
 const unsigned char g_yes_micro_f2e59fea_nohash_1_data[] = {
     244, 226, 245, 223, 234, 213, 228, 208, 194, 110, 95,  116, 102, 0,   137,
     161, 183, 173, 137, 116, 133, 157, 151, 156, 128, 110, 128, 0,   68,  78,
@@ -165,7 +165,7 @@ const unsigned char g_yes_micro_f2e59fea_nohash_1_data[] = {
     0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,
     0,   0,   0,   0,   0,   0,   0,   0,   0,   0,
 };
-*/
+
 
 /*  Stop speech word */
 /* 
@@ -571,7 +571,7 @@ const unsigned char g_yes_micro_f2e59fea_nohash_1_data[]= {
 };
 */
 /* clapping sound */
-/* 
+/*  
 const unsigned char g_yes_micro_f2e59fea_nohash_1_data[]= {
   245, 226, 246, 227, 248, 227, 245, 228, 251, 228, 
   251, 229, 251, 230, 249, 229, 250, 229, 251, 229, 
@@ -771,7 +771,9 @@ const unsigned char g_yes_micro_f2e59fea_nohash_1_data[]= {
   125, 95, 141, 0, 143, 105, 170, 90, 156, 126, 
 };
 */
+
 /* Gun shot sound */
+/* 
 const unsigned char g_yes_micro_f2e59fea_nohash_1_data[]= {
   251, 230, 252, 230, 252, 231, 252, 230, 250, 228, 
   251, 229, 250, 228, 250, 227, 248, 227, 248, 229, 
@@ -970,3 +972,4 @@ const unsigned char g_yes_micro_f2e59fea_nohash_1_data[]= {
   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 };
+*/
