@@ -34,7 +34,7 @@ constexpr int kFeatureSliceStrideMs = 20;
 constexpr int kFeatureSliceDurationMs = 30;
 
 //constexpr int kCategoryCount = 4;  //original
-constexpr int kCategoryCount = 5;
+constexpr int kCategoryCount = 6; 
 constexpr int kSilenceIndex = 0;
 constexpr int kUnknownIndex = 1;
 extern const char* kCategoryLabels[kCategoryCount];

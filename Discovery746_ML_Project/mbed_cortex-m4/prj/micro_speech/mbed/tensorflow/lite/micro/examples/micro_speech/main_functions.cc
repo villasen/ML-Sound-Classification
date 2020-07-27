@@ -44,7 +44,8 @@ int32_t previous_time = 0;
 // Create an area of memory to use for input, output, and intermediate arrays.
 // The size of this will depend on the model you're using, and may need to be
 // determined by experimentation.
-constexpr int kTensorArenaSize = 20 * 1024;
+constexpr int kTensorArenaSize = 7 * 1024; // highest 
+                                            // available is 70*1024
 uint8_t tensor_arena[kTensorArenaSize];
 //uint8_t feature_buffer[kFeatureElementCount];
 //uint8_t* model_input_buffer = nullptr;
@@ -203,20 +204,22 @@ error_reporter->Report("\n*****Starting Sound Recognition Program*****\n");
   const int kSilenceIndex = 0;
   const int kUnknownIndex = 1;
   const int kYesIndex = 2;
-  const int kClappingIndex = 3; 
-  const int kGunShotIndex = 4;
+  const int kNoIndex = 3;
+  const int kClappingIndex = 4; 
+  const int kGunShotIndex = 5;
 
 
   // Make sure that the expected "Yes" score is higher than the other classes.
   uint8_t silence_score = output->data.uint8[kSilenceIndex];
   uint8_t unknown_score = output->data.uint8[kUnknownIndex];
   uint8_t yes_score = output->data.uint8[kYesIndex];
+  uint8_t no_score = output->data.uint8[kNoIndex];
   uint8_t clapping_score = output->data.uint8[kClappingIndex];
   uint8_t gunshot_score = output->data.uint8[kGunShotIndex];
 
 
-  error_reporter->Report("Softmax: silence=%d, unknown=%d, yes=%d, clapping=%d, gunshot=%d", 
-  silence_score, unknown_score, yes_score, clapping_score, gunshot_score); 
+  error_reporter->Report("Softmax: silence=%d, unknown=%d, yes=%d, no=%d, clapping=%d, gunshot=%d", 
+  silence_score, unknown_score, yes_score, no_score, clapping_score, gunshot_score); 
 
   error_reporter->Report("\n*****End of Sound Recognition Classifier*****");
 

@@ -31,6 +31,7 @@ limitations under the License.
 const int g_no_micro_f9643d42_nohash_4_width = 40;
 const int g_no_micro_f9643d42_nohash_4_height = 49;
 const unsigned char g_no_micro_f9643d42_nohash_4_data[] = {
+    /* 
     230, 205, 191, 203, 202, 181, 180, 194, 205, 187, 183, 197, 203, 198, 196,
     186, 202, 159, 151, 126, 110, 138, 141, 142, 137, 148, 133, 120, 110, 126,
     117, 110, 117, 116, 137, 134, 95,  116, 123, 110, 184, 144, 183, 189, 197,
@@ -162,4 +163,5 @@ const unsigned char g_no_micro_f9643d42_nohash_4_data[] = {
     0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,
     0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,
     0,   0,   0,   0,   0,   0,   0,   0,   0,   0,
+    */
 };

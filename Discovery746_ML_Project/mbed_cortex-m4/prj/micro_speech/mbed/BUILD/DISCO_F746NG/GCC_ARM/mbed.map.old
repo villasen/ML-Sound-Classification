@@ -10429,7 +10429,7 @@ Discarded input sections
  .data          0x0000000000000000        0x0 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/micro_model_settings.o
  .bss           0x0000000000000000        0x0 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/micro_model_settings.o
  .data.kCategoryLabels
-                0x0000000000000000       0x14 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/micro_model_settings.o
+                0x0000000000000000       0x18 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/micro_model_settings.o
  .rodata.str1.1
                 0x0000000000000000       0x26 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/micro_model_settings.o
  .debug_info    0x0000000000000000       0xf2 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/micro_model_settings.o
@@ -10445,7 +10445,7 @@ Discarded input sections
  .data          0x0000000000000000        0x0 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/no_micro_features_data.o
  .bss           0x0000000000000000        0x0 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/no_micro_features_data.o
  .rodata.g_no_micro_f9643d42_nohash_4_data
-                0x0000000000000000      0x7a8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/no_micro_features_data.o
+                0x0000000000000000        0x0 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/no_micro_features_data.o
  .rodata.g_no_micro_f9643d42_nohash_4_height
                 0x0000000000000000        0x4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/no_micro_features_data.o
  .rodata.g_no_micro_f9643d42_nohash_4_width
@@ -10455,7 +10455,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x18 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/no_micro_features_data.o
  .debug_line    0x0000000000000000       0x93 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/no_micro_features_data.o
- .debug_str     0x0000000000000000      0x294 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/no_micro_features_data.o
+ .debug_str     0x0000000000000000      0x291 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/no_micro_features_data.o
  .comment       0x0000000000000000       0x76 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/no_micro_features_data.o
  .ARM.attributes
                 0x0000000000000000       0x37 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/no_micro_features_data.o
@@ -10476,7 +10476,7 @@ Discarded input sections
  .data          0x0000000000000000        0x0 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/recognize_commands.o
  .bss           0x0000000000000000        0x0 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/recognize_commands.o
  .text._ZN20PreviousResultsQueue6ResultC2Ev
-                0x0000000000000000        0xa BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/recognize_commands.o
+                0x0000000000000000       0x16 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/recognize_commands.o
  .text._ZN17RecognizeCommandsC2EPN6tflite13ErrorReporterElhll
                 0x0000000000000000       0x44 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/recognize_commands.o
  .text._ZN17RecognizeCommands20ProcessLatestResultsEPK12TfLiteTensorlPPKcPhPb
@@ -10490,8 +10490,8 @@ Discarded input sections
  .debug_loc     0x0000000000000000      0x6b1 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/recognize_commands.o
  .debug_aranges
                 0x0000000000000000       0x30 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/recognize_commands.o
- .debug_ranges  0x0000000000000000      0x108 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/recognize_commands.o
- .debug_line    0x0000000000000000      0x8a7 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/recognize_commands.o
+ .debug_ranges  0x0000000000000000      0x110 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/recognize_commands.o
+ .debug_line    0x0000000000000000      0x8af BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/recognize_commands.o
  .debug_str     0x0000000000000000     0x13cb BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/recognize_commands.o
  .comment       0x0000000000000000       0x76 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/recognize_commands.o
  .debug_frame   0x0000000000000000       0x6c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/recognize_commands.o
@@ -18469,7 +18469,7 @@ LOAD /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-maj
                 0x0000000000001000                STACK_SIZE = 0x1000
                 0x0000000000000100                M_CRASH_DATA_RAM_SIZE = 0x100
 
-.text           0x0000000008000000    0x20138
+.text           0x0000000008000000    0x210e0
  *(.isr_vector)
  .isr_vector    0x0000000008000000      0x1c8 BUILD/DISCO_F746NG/GCC_ARM/mbed-os/targets/TARGET_STM/TARGET_STM32F7/TARGET_STM32F746xG/device/TOOLCHAIN_GCC_ARM/startup_stm32f746xx.o
                 0x0000000008000000                g_pfnVectors
@@ -19785,338 +19785,337 @@ LOAD /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-maj
                 0x0000000008008764       0x4a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
                 0x0000000008008764                tflite::MicroOpResolver<128u>::AddBuiltin(tflite::BuiltinOperator, TfLiteRegistration*, int, int)
  *fill*         0x00000000080087ae        0x2 
- .text.setup    0x00000000080087b0      0x27c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
+ .text.setup    0x00000000080087b0      0x280 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
                 0x00000000080087b0                setup
  .text._ZN6tflite12RuntimeShapeD2Ev
-                0x0000000008008a2c        0xe BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/activations.o
-                0x0000000008008a2c                tflite::RuntimeShape::~RuntimeShape()
-                0x0000000008008a2c                tflite::RuntimeShape::~RuntimeShape()
+                0x0000000008008a30        0xe BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/activations.o
+                0x0000000008008a30                tflite::RuntimeShape::~RuntimeShape()
+                0x0000000008008a30                tflite::RuntimeShape::~RuntimeShape()
  .text._ZNK6tflite12RuntimeShape4DimsEi
-                0x0000000008008a3a       0x22 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/activations.o
-                0x0000000008008a3a                tflite::RuntimeShape::Dims(int) const
+                0x0000000008008a3e       0x22 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/activations.o
+                0x0000000008008a3e                tflite::RuntimeShape::Dims(int) const
  .text._ZN6tflite14GetTensorShapeEPK12TfLiteTensor
-                0x0000000008008a5c       0x26 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/activations.o
-                0x0000000008008a5c                tflite::GetTensorShape(TfLiteTensor const*)
+                0x0000000008008a60       0x26 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/activations.o
+                0x0000000008008a60                tflite::GetTensorShape(TfLiteTensor const*)
  .text._ZNK6tflite12RuntimeShape8FlatSizeEv
-                0x0000000008008a82       0x20 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/add.o
-                0x0000000008008a82                tflite::RuntimeShape::FlatSize() const
+                0x0000000008008a86       0x20 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/add.o
+                0x0000000008008a86                tflite::RuntimeShape::FlatSize() const
  .text._ZN6tflite6OffsetERKNS_12RuntimeShapeEiiii
-                0x0000000008008aa2       0x44 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/add.o
-                0x0000000008008aa2                tflite::Offset(tflite::RuntimeShape const&, int, int, int, int)
+                0x0000000008008aa6       0x44 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/add.o
+                0x0000000008008aa6                tflite::Offset(tflite::RuntimeShape const&, int, int, int, int)
  .text._ZN6tflite11MatchingDimERKNS_12RuntimeShapeEiS2_i
-                0x0000000008008ae6       0x1e BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/concatenation.o
-                0x0000000008008ae6                tflite::MatchingDim(tflite::RuntimeShape const&, int, tflite::RuntimeShape const&, int)
+                0x0000000008008aea       0x1e BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/concatenation.o
+                0x0000000008008aea                tflite::MatchingDim(tflite::RuntimeShape const&, int, tflite::RuntimeShape const&, int)
  .text._ZN6tflite29MultiplyByQuantizedMultiplierElli
-                0x0000000008008b04       0x9c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/conv.o
-                0x0000000008008b04                tflite::MultiplyByQuantizedMultiplier(long, long, int)
+                0x0000000008008b08       0x9c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/conv.o
+                0x0000000008008b08                tflite::MultiplyByQuantizedMultiplier(long, long, int)
  .text._ZN6tflite14ComputeOutSizeE13TfLitePaddingiiii
-                0x0000000008008ba0       0x28 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/conv.o
-                0x0000000008008ba0                tflite::ComputeOutSize(TfLitePadding, int, int, int, int)
+                0x0000000008008ba4       0x28 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/conv.o
+                0x0000000008008ba4                tflite::ComputeOutSize(TfLitePadding, int, int, int, int)
  .text._ZN6tflite3ops5micro14depthwise_conv4InitEP13TfLiteContextPKcj
-                0x0000000008008bc8        0x4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/depthwise_conv.o
-                0x0000000008008bc8                tflite::ops::micro::depthwise_conv::Init(TfLiteContext*, char const*, unsigned int)
+                0x0000000008008bcc        0x4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/depthwise_conv.o
+                0x0000000008008bcc                tflite::ops::micro::depthwise_conv::Init(TfLiteContext*, char const*, unsigned int)
  .text._ZN6tflite3ops5micro14depthwise_conv4FreeEP13TfLiteContextPv
-                0x0000000008008bcc        0x2 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/depthwise_conv.o
-                0x0000000008008bcc                tflite::ops::micro::depthwise_conv::Free(TfLiteContext*, void*)
+                0x0000000008008bd0        0x2 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/depthwise_conv.o
+                0x0000000008008bd0                tflite::ops::micro::depthwise_conv::Free(TfLiteContext*, void*)
  .text._ZN6tflite3ops5micro14depthwise_conv7PrepareEP13TfLiteContextP10TfLiteNode
-                0x0000000008008bce        0x4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/depthwise_conv.o
-                0x0000000008008bce                tflite::ops::micro::depthwise_conv::Prepare(TfLiteContext*, TfLiteNode*)
+                0x0000000008008bd2        0x4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/depthwise_conv.o
+                0x0000000008008bd2                tflite::ops::micro::depthwise_conv::Prepare(TfLiteContext*, TfLiteNode*)
  .text._ZN6tflite21reference_integer_ops23DepthwiseConvPerChannelERKNS_15DepthwiseParamsEPKlS5_RKNS_12RuntimeShapeEPKaS8_SA_S8_S5_S8_Pa
-                0x0000000008008bd2      0x228 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/depthwise_conv.o
-                0x0000000008008bd2                tflite::reference_integer_ops::DepthwiseConvPerChannel(tflite::DepthwiseParams const&, long const*, long const*, tflite::RuntimeShape const&, signed char const*, tflite::RuntimeShape const&, signed char const*, tflite::RuntimeShape const&, long const*, tflite::RuntimeShape const&, signed char*)
- *fill*         0x0000000008008dfa        0x2 
+                0x0000000008008bd6      0x228 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/depthwise_conv.o
+                0x0000000008008bd6                tflite::reference_integer_ops::DepthwiseConvPerChannel(tflite::DepthwiseParams const&, long const*, long const*, tflite::RuntimeShape const&, signed char const*, tflite::RuntimeShape const&, signed char const*, tflite::RuntimeShape const&, long const*, tflite::RuntimeShape const&, signed char*)
+ *fill*         0x0000000008008dfe        0x2 
  .text._ZN6tflite13reference_ops13DepthwiseConvERKNS_15DepthwiseParamsERKNS_12RuntimeShapeEPKfS6_S8_S6_S8_S6_Pf
-                0x0000000008008dfc      0x238 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/depthwise_conv.o
-                0x0000000008008dfc                tflite::reference_ops::DepthwiseConv(tflite::DepthwiseParams const&, tflite::RuntimeShape const&, float const*, tflite::RuntimeShape const&, float const*, tflite::RuntimeShape const&, float const*, tflite::RuntimeShape const&, float*)
+                0x0000000008008e00      0x238 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/depthwise_conv.o
+                0x0000000008008e00                tflite::reference_ops::DepthwiseConv(tflite::DepthwiseParams const&, tflite::RuntimeShape const&, float const*, tflite::RuntimeShape const&, float const*, tflite::RuntimeShape const&, float const*, tflite::RuntimeShape const&, float*)
  .text._ZN6tflite3ops5micro26Register_DEPTHWISE_CONV_2DEv
-                0x0000000008009034       0x28 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/depthwise_conv.o
-                0x0000000008009034                tflite::ops::micro::Register_DEPTHWISE_CONV_2D()
+                0x0000000008009038       0x28 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/depthwise_conv.o
+                0x0000000008009038                tflite::ops::micro::Register_DEPTHWISE_CONV_2D()
  .text._ZN6tflite13reference_ops14depthwise_conv24DepthwiseConvBasicKernelILNS_27DepthwiseConvOutputRoundingE1EE3RunERKNS_15DepthwiseParamsERKNS_12RuntimeShapeEPKhSA_SC_SA_PKlSA_Ph
-                0x000000000800905c      0x22a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/depthwise_conv.o
-                0x000000000800905c                tflite::reference_ops::depthwise_conv::DepthwiseConvBasicKernel<(tflite::DepthwiseConvOutputRounding)1>::Run(tflite::DepthwiseParams const&, tflite::RuntimeShape const&, unsigned char const*, tflite::RuntimeShape const&, unsigned char const*, tflite::RuntimeShape const&, long const*, tflite::RuntimeShape const&, unsigned char*)
- *fill*         0x0000000008009286        0x2 
+                0x0000000008009060      0x22a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/depthwise_conv.o
+                0x0000000008009060                tflite::reference_ops::depthwise_conv::DepthwiseConvBasicKernel<(tflite::DepthwiseConvOutputRounding)1>::Run(tflite::DepthwiseParams const&, tflite::RuntimeShape const&, unsigned char const*, tflite::RuntimeShape const&, unsigned char const*, tflite::RuntimeShape const&, long const*, tflite::RuntimeShape const&, unsigned char*)
+ *fill*         0x000000000800928a        0x2 
  .text._ZN6tflite3ops5micro14depthwise_conv4EvalEP13TfLiteContextP10TfLiteNode
-                0x0000000008009288      0x508 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/depthwise_conv.o
-                0x0000000008009288                tflite::ops::micro::depthwise_conv::Eval(TfLiteContext*, TfLiteNode*)
+                0x000000000800928c      0x508 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/depthwise_conv.o
+                0x000000000800928c                tflite::ops::micro::depthwise_conv::Eval(TfLiteContext*, TfLiteNode*)
  .text._ZN6tflite3ops5micro15fully_connected4InitEP13TfLiteContextPKcj
-                0x0000000008009790       0x1a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
-                0x0000000008009790                tflite::ops::micro::fully_connected::Init(TfLiteContext*, char const*, unsigned int)
+                0x0000000008009794       0x1a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
+                0x0000000008009794                tflite::ops::micro::fully_connected::Init(TfLiteContext*, char const*, unsigned int)
  .text._ZN6tflite3ops5micro15fully_connected4FreeEP13TfLiteContextPv
-                0x00000000080097aa        0x2 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
-                0x00000000080097aa                tflite::ops::micro::fully_connected::Free(TfLiteContext*, void*)
+                0x00000000080097ae        0x2 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
+                0x00000000080097ae                tflite::ops::micro::fully_connected::Free(TfLiteContext*, void*)
  .text._ZN6tflite3ops5micro15fully_connected7PrepareEP13TfLiteContextP10TfLiteNode
-                0x00000000080097ac       0xdc BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
-                0x00000000080097ac                tflite::ops::micro::fully_connected::Prepare(TfLiteContext*, TfLiteNode*)
+                0x00000000080097b0       0xdc BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
+                0x00000000080097b0                tflite::ops::micro::fully_connected::Prepare(TfLiteContext*, TfLiteNode*)
  .text._ZN6tflite15FlatSizeSkipDimERKNS_12RuntimeShapeEi
-                0x0000000008009888       0x38 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
-                0x0000000008009888                tflite::FlatSizeSkipDim(tflite::RuntimeShape const&, int)
+                0x000000000800988c       0x38 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
+                0x000000000800988c                tflite::FlatSizeSkipDim(tflite::RuntimeShape const&, int)
  .text._ZN6tflite13reference_ops14FullyConnectedERKNS_20FullyConnectedParamsERKNS_12RuntimeShapeEPKhS6_S8_S6_PKlS6_Ph
-                0x00000000080098c0       0xec BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
-                0x00000000080098c0                tflite::reference_ops::FullyConnected(tflite::FullyConnectedParams const&, tflite::RuntimeShape const&, unsigned char const*, tflite::RuntimeShape const&, unsigned char const*, tflite::RuntimeShape const&, long const*, tflite::RuntimeShape const&, unsigned char*)
+                0x00000000080098c4       0xec BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
+                0x00000000080098c4                tflite::reference_ops::FullyConnected(tflite::FullyConnectedParams const&, tflite::RuntimeShape const&, unsigned char const*, tflite::RuntimeShape const&, unsigned char const*, tflite::RuntimeShape const&, long const*, tflite::RuntimeShape const&, unsigned char*)
  .text._ZN6tflite21reference_integer_ops14FullyConnectedERKNS_20FullyConnectedParamsERKNS_12RuntimeShapeEPKaS6_S8_S6_PKlS6_Pa
-                0x00000000080099ac       0xf0 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
-                0x00000000080099ac                tflite::reference_integer_ops::FullyConnected(tflite::FullyConnectedParams const&, tflite::RuntimeShape const&, signed char const*, tflite::RuntimeShape const&, signed char const*, tflite::RuntimeShape const&, long const*, tflite::RuntimeShape const&, signed char*)
+                0x00000000080099b0       0xf0 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
+                0x00000000080099b0                tflite::reference_integer_ops::FullyConnected(tflite::FullyConnectedParams const&, tflite::RuntimeShape const&, signed char const*, tflite::RuntimeShape const&, signed char const*, tflite::RuntimeShape const&, long const*, tflite::RuntimeShape const&, signed char*)
  .text._ZN6tflite3ops5micro15fully_connected4EvalEP13TfLiteContextP10TfLiteNode
-                0x0000000008009a9c      0x3f8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
-                0x0000000008009a9c                tflite::ops::micro::fully_connected::Eval(TfLiteContext*, TfLiteNode*)
+                0x0000000008009aa0      0x3f8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
+                0x0000000008009aa0                tflite::ops::micro::fully_connected::Eval(TfLiteContext*, TfLiteNode*)
  .text._ZN6tflite3ops5micro24Register_FULLY_CONNECTEDEv
-                0x0000000008009e94       0x28 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
-                0x0000000008009e94                tflite::ops::micro::Register_FULLY_CONNECTED()
+                0x0000000008009e98       0x28 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
+                0x0000000008009e98                tflite::ops::micro::Register_FULLY_CONNECTED()
  .text._ZN6tflite3ops5micro7reshape4EvalEP13TfLiteContextP10TfLiteNode
-                0x0000000008009ebc       0x34 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/reshape.o
-                0x0000000008009ebc                tflite::ops::micro::reshape::Eval(TfLiteContext*, TfLiteNode*)
+                0x0000000008009ec0       0x34 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/reshape.o
+                0x0000000008009ec0                tflite::ops::micro::reshape::Eval(TfLiteContext*, TfLiteNode*)
  .text._ZN6tflite3ops5micro7reshape13ReshapeOutputEP13TfLiteContextP10TfLiteNode
-                0x0000000008009ef0      0x11c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/reshape.o
-                0x0000000008009ef0                tflite::ops::micro::reshape::ReshapeOutput(TfLiteContext*, TfLiteNode*)
+                0x0000000008009ef4      0x11c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/reshape.o
+                0x0000000008009ef4                tflite::ops::micro::reshape::ReshapeOutput(TfLiteContext*, TfLiteNode*)
  .text._ZN6tflite3ops5micro7reshape7PrepareEP13TfLiteContextP10TfLiteNode
-                0x000000000800a00c       0x98 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/reshape.o
-                0x000000000800a00c                tflite::ops::micro::reshape::Prepare(TfLiteContext*, TfLiteNode*)
+                0x000000000800a010       0x98 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/reshape.o
+                0x000000000800a010                tflite::ops::micro::reshape::Prepare(TfLiteContext*, TfLiteNode*)
  .text._ZN6tflite3ops5micro16Register_RESHAPEEv
-                0x000000000800a0a4       0x18 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/reshape.o
-                0x000000000800a0a4                tflite::ops::micro::Register_RESHAPE()
+                0x000000000800a0a8       0x18 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/reshape.o
+                0x000000000800a0a8                tflite::ops::micro::Register_RESHAPE()
  .text._ZN6tflite3ops5micro11activations4InitEP13TfLiteContextPKcj
-                0x000000000800a0bc        0x4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
-                0x000000000800a0bc                tflite::ops::micro::activations::Init(TfLiteContext*, char const*, unsigned int)
+                0x000000000800a0c0        0x4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
+                0x000000000800a0c0                tflite::ops::micro::activations::Init(TfLiteContext*, char const*, unsigned int)
  .text._ZN6tflite3ops5micro11activations4FreeEP13TfLiteContextPv
-                0x000000000800a0c0        0x2 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
-                0x000000000800a0c0                tflite::ops::micro::activations::Free(TfLiteContext*, void*)
- *fill*         0x000000000800a0c2        0x2 
+                0x000000000800a0c4        0x2 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
+                0x000000000800a0c4                tflite::ops::micro::activations::Free(TfLiteContext*, void*)
+ *fill*         0x000000000800a0c6        0x2 
  .text._ZN6tflite3ops5micro11activations14SoftmaxPrepareEP13TfLiteContextP10TfLiteNode
-                0x000000000800a0c4       0x8c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
-                0x000000000800a0c4                tflite::ops::micro::activations::SoftmaxPrepare(TfLiteContext*, TfLiteNode*)
+                0x000000000800a0c8       0x8c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
+                0x000000000800a0c8                tflite::ops::micro::activations::SoftmaxPrepare(TfLiteContext*, TfLiteNode*)
  .text._ZN8gemmlowp33SaturatingRoundingDoublingHighMulIlEET_S1_S1_
-                0x000000000800a150       0x54 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
-                0x000000000800a150                long gemmlowp::SaturatingRoundingDoublingHighMul<long>(long, long)
+                0x000000000800a154       0x54 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
+                0x000000000800a154                long gemmlowp::SaturatingRoundingDoublingHighMul<long>(long, long)
  .text._ZN6tflite23MatchingFlatSizeSkipDimERKNS_12RuntimeShapeEiS2_
-                0x000000000800a1a4       0x68 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
-                0x000000000800a1a4                tflite::MatchingFlatSizeSkipDim(tflite::RuntimeShape const&, int, tflite::RuntimeShape const&)
+                0x000000000800a1a8       0x68 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
+                0x000000000800a1a8                tflite::MatchingFlatSizeSkipDim(tflite::RuntimeShape const&, int, tflite::RuntimeShape const&)
  .text._ZN6tflite13reference_ops7SoftmaxERKNS_13SoftmaxParamsERKNS_12RuntimeShapeEPKfS6_Pf
-                0x000000000800a20c      0x11c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
-                0x000000000800a20c                tflite::reference_ops::Softmax(tflite::SoftmaxParams const&, tflite::RuntimeShape const&, float const*, tflite::RuntimeShape const&, float*)
+                0x000000000800a210      0x11c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
+                0x000000000800a210                tflite::reference_ops::Softmax(tflite::SoftmaxParams const&, tflite::RuntimeShape const&, float const*, tflite::RuntimeShape const&, float*)
  .text._ZN6tflite3ops5micro11activations12SoftmaxFloatEPK12TfLiteTensorPS3_RKNS_13SoftmaxParamsE
-                0x000000000800a328       0x40 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
-                0x000000000800a328                tflite::ops::micro::activations::SoftmaxFloat(TfLiteTensor const*, TfLiteTensor*, tflite::SoftmaxParams const&)
+                0x000000000800a32c       0x40 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
+                0x000000000800a32c                tflite::ops::micro::activations::SoftmaxFloat(TfLiteTensor const*, TfLiteTensor*, tflite::SoftmaxParams const&)
  .text._ZN6tflite3ops5micro16Register_SOFTMAXEv
-                0x000000000800a368        0x8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
-                0x000000000800a368                tflite::ops::micro::Register_SOFTMAX()
+                0x000000000800a36c        0x8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
+                0x000000000800a36c                tflite::ops::micro::Register_SOFTMAX()
  .text._ZN8gemmlowp19RoundingDivideByPOTIlEET_S1_i
-                0x000000000800a370       0x4c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
-                0x000000000800a370                long gemmlowp::RoundingDivideByPOT<long>(long, int)
+                0x000000000800a374       0x4c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
+                0x000000000800a374                long gemmlowp::RoundingDivideByPOT<long>(long, int)
  .text._ZN8gemmlowp32one_over_one_plus_x_for_x_in_0_1IlEENS_10FixedPointIT_Li0EEES3_
-                0x000000000800a3bc      0x144 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
-                0x000000000800a3bc                gemmlowp::FixedPoint<long, 0> gemmlowp::one_over_one_plus_x_for_x_in_0_1<long>(gemmlowp::FixedPoint<long, 0>)
+                0x000000000800a3c0      0x144 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
+                0x000000000800a3c0                gemmlowp::FixedPoint<long, 0> gemmlowp::one_over_one_plus_x_for_x_in_0_1<long>(gemmlowp::FixedPoint<long, 0>)
  .text._ZN6tflite13GetReciprocalEliPi
-                0x000000000800a500       0x16 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
-                0x000000000800a500                tflite::GetReciprocal(long, int, int*)
+                0x000000000800a504       0x16 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
+                0x000000000800a504                tflite::GetReciprocal(long, int, int*)
  .text._ZN8gemmlowp26RescaleConstantInitializerINS_10FixedPointIlLi0EEEEENT_13ScalarRawTypeEl
-                0x000000000800a516        0xa BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
-                0x000000000800a516                gemmlowp::FixedPoint<long, 0>::ScalarRawType gemmlowp::RescaleConstantInitializer<gemmlowp::FixedPoint<long, 0> >(long)
+                0x000000000800a51a        0xa BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
+                0x000000000800a51a                gemmlowp::FixedPoint<long, 0>::ScalarRawType gemmlowp::RescaleConstantInitializer<gemmlowp::FixedPoint<long, 0> >(long)
  .text._ZN8gemmlowpmlIlLi0ELi0EEENS_10FixedPointIT_XplT0_T1_EEENS1_IS2_XT0_EEENS1_IS2_XT1_EEE
-                0x000000000800a520        0x8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
-                0x000000000800a520                gemmlowp::FixedPoint<long, (0)+(0)> gemmlowp::operator*<long, 0, 0>(gemmlowp::FixedPoint<long, 0>, gemmlowp::FixedPoint<long, 0>)
+                0x000000000800a524        0x8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
+                0x000000000800a524                gemmlowp::FixedPoint<long, (0)+(0)> gemmlowp::operator*<long, 0, 0>(gemmlowp::FixedPoint<long, 0>, gemmlowp::FixedPoint<long, 0>)
  .text._ZN8gemmlowp55exp_on_interval_between_negative_one_quarter_and_0_exclIlEENS_10FixedPointIT_Li0EEES3_
-                0x000000000800a528       0x60 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
-                0x000000000800a528                gemmlowp::FixedPoint<long, 0> gemmlowp::exp_on_interval_between_negative_one_quarter_and_0_excl<long>(gemmlowp::FixedPoint<long, 0>)
+                0x000000000800a52c       0x60 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
+                0x000000000800a52c                gemmlowp::FixedPoint<long, 0> gemmlowp::exp_on_interval_between_negative_one_quarter_and_0_excl<long>(gemmlowp::FixedPoint<long, 0>)
  .text._ZN8gemmlowp22exp_on_negative_valuesIlLi5EEENS_10FixedPointIT_Li0EEENS1_IS2_XT0_EEE
-                0x000000000800a588      0x134 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
-                0x000000000800a588                gemmlowp::FixedPoint<long, 0> gemmlowp::exp_on_negative_values<long, 5>(gemmlowp::FixedPoint<long, 5>)
+                0x000000000800a58c      0x134 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
+                0x000000000800a58c                gemmlowp::FixedPoint<long, 0> gemmlowp::exp_on_negative_values<long, 5>(gemmlowp::FixedPoint<long, 5>)
  .text._ZN6tflite13reference_ops7SoftmaxIhhEEvRKNS_13SoftmaxParamsERKNS_12RuntimeShapeEPKT_S7_PT0_
-                0x000000000800a6bc      0x12a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
-                0x000000000800a6bc                void tflite::reference_ops::Softmax<unsigned char, unsigned char>(tflite::SoftmaxParams const&, tflite::RuntimeShape const&, unsigned char const*, tflite::RuntimeShape const&, unsigned char*)
- *fill*         0x000000000800a7e6        0x2 
+                0x000000000800a6c0      0x12a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
+                0x000000000800a6c0                void tflite::reference_ops::Softmax<unsigned char, unsigned char>(tflite::SoftmaxParams const&, tflite::RuntimeShape const&, unsigned char const*, tflite::RuntimeShape const&, unsigned char*)
+ *fill*         0x000000000800a7ea        0x2 
  .text._ZN6tflite13reference_ops7SoftmaxIasEEvRKNS_13SoftmaxParamsERKNS_12RuntimeShapeEPKT_S7_PT0_
-                0x000000000800a7e8      0x140 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
-                0x000000000800a7e8                void tflite::reference_ops::Softmax<signed char, short>(tflite::SoftmaxParams const&, tflite::RuntimeShape const&, signed char const*, tflite::RuntimeShape const&, short*)
+                0x000000000800a7ec      0x140 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
+                0x000000000800a7ec                void tflite::reference_ops::Softmax<signed char, short>(tflite::SoftmaxParams const&, tflite::RuntimeShape const&, signed char const*, tflite::RuntimeShape const&, short*)
  .text._ZN6tflite13reference_ops7SoftmaxIaaEEvRKNS_13SoftmaxParamsERKNS_12RuntimeShapeEPKT_S7_PT0_
-                0x000000000800a928      0x134 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
-                0x000000000800a928                void tflite::reference_ops::Softmax<signed char, signed char>(tflite::SoftmaxParams const&, tflite::RuntimeShape const&, signed char const*, tflite::RuntimeShape const&, signed char*)
+                0x000000000800a92c      0x134 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
+                0x000000000800a92c                void tflite::reference_ops::Softmax<signed char, signed char>(tflite::SoftmaxParams const&, tflite::RuntimeShape const&, signed char const*, tflite::RuntimeShape const&, signed char*)
  .text._ZN6tflite3ops5micro11activations16SoftmaxQuantizedEPK12TfLiteTensorPS3_RKNS_13SoftmaxParamsE
-                0x000000000800aa5c       0x98 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
-                0x000000000800aa5c                tflite::ops::micro::activations::SoftmaxQuantized(TfLiteTensor const*, TfLiteTensor*, tflite::SoftmaxParams const&)
+                0x000000000800aa60       0x98 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
+                0x000000000800aa60                tflite::ops::micro::activations::SoftmaxQuantized(TfLiteTensor const*, TfLiteTensor*, tflite::SoftmaxParams const&)
  .text._ZN6tflite3ops5micro11activations11SoftmaxEvalEP13TfLiteContextP10TfLiteNode
-                0x000000000800aaf4      0x220 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
-                0x000000000800aaf4                tflite::ops::micro::activations::SoftmaxEval(TfLiteContext*, TfLiteNode*)
+                0x000000000800aaf8      0x220 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
+                0x000000000800aaf8                tflite::ops::micro::activations::SoftmaxEval(TfLiteContext*, TfLiteNode*)
  .text.DebugLog
-                0x000000000800ad14       0x64 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/mbed/debug_log.o
-                0x000000000800ad14                DebugLog
+                0x000000000800ad18       0x64 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/mbed/debug_log.o
+                0x000000000800ad18                DebugLog
  .text._ZN6tflite14AlignPointerUpEPhj
-                0x000000000800ad78        0xc BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_helpers.o
-                0x000000000800ad78                tflite::AlignPointerUp(unsigned char*, unsigned int)
+                0x000000000800ad7c        0xc BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_helpers.o
+                0x000000000800ad7c                tflite::AlignPointerUp(unsigned char*, unsigned int)
  .text._ZN6tflite16AlignPointerDownEPhj
-                0x000000000800ad84        0x8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_helpers.o
-                0x000000000800ad84                tflite::AlignPointerDown(unsigned char*, unsigned int)
+                0x000000000800ad88        0x8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_helpers.o
+                0x000000000800ad88                tflite::AlignPointerDown(unsigned char*, unsigned int)
  .text._ZN6tflite11AlignSizeUpEjj
-                0x000000000800ad8c        0xc BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_helpers.o
-                0x000000000800ad8c                tflite::AlignSizeUp(unsigned int, unsigned int)
+                0x000000000800ad90        0xc BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_helpers.o
+                0x000000000800ad90                tflite::AlignSizeUp(unsigned int, unsigned int)
  .text._ZN6tflite16TfLiteTypeSizeOfE10TfLiteTypePjPNS_13ErrorReporterE
-                0x000000000800ad98       0x48 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_helpers.o
-                0x000000000800ad98                tflite::TfLiteTypeSizeOf(TfLiteType, unsigned int*, tflite::ErrorReporter*)
+                0x000000000800ad9c       0x48 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_helpers.o
+                0x000000000800ad9c                tflite::TfLiteTypeSizeOf(TfLiteType, unsigned int*, tflite::ErrorReporter*)
  .text._ZN6tflite22BytesRequiredForTensorERKNS_6TensorEPjS3_PNS_13ErrorReporterE
-                0x000000000800ade0       0x7a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_helpers.o
-                0x000000000800ade0                tflite::BytesRequiredForTensor(tflite::Tensor const&, unsigned int*, unsigned int*, tflite::ErrorReporter*)
+                0x000000000800ade4       0x7a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_helpers.o
+                0x000000000800ade4                tflite::BytesRequiredForTensor(tflite::Tensor const&, unsigned int*, unsigned int*, tflite::ErrorReporter*)
  .text._ZN6tflite19GreedyMemoryPlannerD0Ev
-                0x000000000800ae5a        0x2 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
-                0x000000000800ae5a                tflite::GreedyMemoryPlanner::~GreedyMemoryPlanner()
-                0x000000000800ae5a                tflite::GreedyMemoryPlanner::~GreedyMemoryPlanner()
-                0x000000000800ae5a                tflite::GreedyMemoryPlanner::~GreedyMemoryPlanner()
+                0x000000000800ae5e        0x2 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
+                0x000000000800ae5e                tflite::GreedyMemoryPlanner::~GreedyMemoryPlanner()
+                0x000000000800ae5e                tflite::GreedyMemoryPlanner::~GreedyMemoryPlanner()
+                0x000000000800ae5e                tflite::GreedyMemoryPlanner::~GreedyMemoryPlanner()
  .text._ZN6tflite19GreedyMemoryPlanner14GetBufferCountEv
-                0x000000000800ae5c        0x4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
-                0x000000000800ae5c                tflite::GreedyMemoryPlanner::GetBufferCount()
+                0x000000000800ae60        0x4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
+                0x000000000800ae60                tflite::GreedyMemoryPlanner::GetBufferCount()
  .text._ZN6tflite19GreedyMemoryPlanner9AddBufferEPNS_13ErrorReporterEiii
-                0x000000000800ae60       0x3c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
-                0x000000000800ae60                tflite::GreedyMemoryPlanner::AddBuffer(tflite::ErrorReporter*, int, int, int)
+                0x000000000800ae64       0x3c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
+                0x000000000800ae64                tflite::GreedyMemoryPlanner::AddBuffer(tflite::ErrorReporter*, int, int, int)
  .text._ZN6tflite18ReverseSortInPlaceEPiS0_i
-                0x000000000800ae9c       0x38 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
-                0x000000000800ae9c                tflite::ReverseSortInPlace(int*, int*, int)
+                0x000000000800aea0       0x38 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
+                0x000000000800aea0                tflite::ReverseSortInPlace(int*, int*, int)
  .text._ZN6tflite19GreedyMemoryPlannerC2EPhi
-                0x000000000800aed4       0x38 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
-                0x000000000800aed4                tflite::GreedyMemoryPlanner::GreedyMemoryPlanner(unsigned char*, int)
-                0x000000000800aed4                tflite::GreedyMemoryPlanner::GreedyMemoryPlanner(unsigned char*, int)
+                0x000000000800aed8       0x38 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
+                0x000000000800aed8                tflite::GreedyMemoryPlanner::GreedyMemoryPlanner(unsigned char*, int)
+                0x000000000800aed8                tflite::GreedyMemoryPlanner::GreedyMemoryPlanner(unsigned char*, int)
  .text._ZNK6tflite19GreedyMemoryPlanner22DoesEntryOverlapInTimeEPKNS0_9ListEntryEii
-                0x000000000800af0c       0x22 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
-                0x000000000800af0c                tflite::GreedyMemoryPlanner::DoesEntryOverlapInTime(tflite::GreedyMemoryPlanner::ListEntry const*, int, int) const
+                0x000000000800af10       0x22 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
+                0x000000000800af10                tflite::GreedyMemoryPlanner::DoesEntryOverlapInTime(tflite::GreedyMemoryPlanner::ListEntry const*, int, int) const
  .text._ZN6tflite19GreedyMemoryPlanner30NextSimultaneouslyActiveBufferEPKNS0_9ListEntryEii
-                0x000000000800af2e       0x4a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
-                0x000000000800af2e                tflite::GreedyMemoryPlanner::NextSimultaneouslyActiveBuffer(tflite::GreedyMemoryPlanner::ListEntry const*, int, int)
+                0x000000000800af32       0x4a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
+                0x000000000800af32                tflite::GreedyMemoryPlanner::NextSimultaneouslyActiveBuffer(tflite::GreedyMemoryPlanner::ListEntry const*, int, int)
  .text._ZN6tflite19GreedyMemoryPlanner24CalculateOffsetsIfNeededEv
-                0x000000000800af78      0x128 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
-                0x000000000800af78                tflite::GreedyMemoryPlanner::CalculateOffsetsIfNeeded()
+                0x000000000800af7c      0x128 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
+                0x000000000800af7c                tflite::GreedyMemoryPlanner::CalculateOffsetsIfNeeded()
  .text._ZN6tflite19GreedyMemoryPlanner20GetMaximumMemorySizeEv
-                0x000000000800b0a0       0x36 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
-                0x000000000800b0a0                tflite::GreedyMemoryPlanner::GetMaximumMemorySize()
- *fill*         0x000000000800b0d6        0x2 
+                0x000000000800b0a4       0x36 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
+                0x000000000800b0a4                tflite::GreedyMemoryPlanner::GetMaximumMemorySize()
+ *fill*         0x000000000800b0da        0x2 
  .text._ZN6tflite19GreedyMemoryPlanner18GetOffsetForBufferEPNS_13ErrorReporterEiPi
-                0x000000000800b0d8       0x38 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
-                0x000000000800b0d8                tflite::GreedyMemoryPlanner::GetOffsetForBuffer(tflite::ErrorReporter*, int, int*)
+                0x000000000800b0dc       0x38 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
+                0x000000000800b0dc                tflite::GreedyMemoryPlanner::GetOffsetForBuffer(tflite::ErrorReporter*, int, int*)
  .text._ZN6tflite12_GLOBAL__N_125MicroBuiltinDataAllocator10DeallocateEPv
-                0x000000000800b110        0x2 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x000000000800b114        0x2 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
  .text._ZN6tflite12_GLOBAL__N_125MicroBuiltinDataAllocatorD0Ev
-                0x000000000800b112        0x2 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x000000000800b116        0x2 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
  .text._ZN6tflite12_GLOBAL__N_125MicroBuiltinDataAllocator8AllocateEj
-                0x000000000800b114        0xe BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x000000000800b118        0xe BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
  .text._ZNK6tflite22QuantizationParameters5scaleEv
-                0x000000000800b122       0x14 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
-                0x000000000800b122                tflite::QuantizationParameters::scale() const
+                0x000000000800b126       0x14 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x000000000800b126                tflite::QuantizationParameters::scale() const
  .text._ZNK6tflite22QuantizationParameters10zero_pointEv
-                0x000000000800b136       0x14 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
-                0x000000000800b136                tflite::QuantizationParameters::zero_point() const
+                0x000000000800b13a       0x14 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x000000000800b13a                tflite::QuantizationParameters::zero_point() const
  .text._ZNK6tflite6Tensor11is_variableEv
-                0x000000000800b14a       0x16 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
-                0x000000000800b14a                tflite::Tensor::is_variable() const
+                0x000000000800b14e       0x16 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x000000000800b14e                tflite::Tensor::is_variable() const
  .text._ZNK6tflite8Operator14custom_optionsEv
-                0x000000000800b160       0x14 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
-                0x000000000800b160                tflite::Operator::custom_options() const
+                0x000000000800b164       0x14 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x000000000800b164                tflite::Operator::custom_options() const
  .text._ZNK6tflite8SubGraph7tensorsEv
-                0x000000000800b174       0x14 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
-                0x000000000800b174                tflite::SubGraph::tensors() const
+                0x000000000800b178       0x14 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x000000000800b178                tflite::SubGraph::tensors() const
  .text._ZNK6tflite8SubGraph9operatorsEv
-                0x000000000800b188       0x14 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
-                0x000000000800b188                tflite::SubGraph::operators() const
+                0x000000000800b18c       0x14 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x000000000800b18c                tflite::SubGraph::operators() const
  .text._ZN6tflite14MicroAllocator24AllocatePersistentBufferEjPPv
-                0x000000000800b19c       0x2c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
-                0x000000000800b19c                tflite::MicroAllocator::AllocatePersistentBuffer(unsigned int, void**)
+                0x000000000800b1a0       0x2c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x000000000800b1a0                tflite::MicroAllocator::AllocatePersistentBuffer(unsigned int, void**)
  .text._ZN6tflite14MicroAllocator27RequestScratchBufferInArenaEijPi
-                0x000000000800b1c8       0x60 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
-                0x000000000800b1c8                tflite::MicroAllocator::RequestScratchBufferInArena(int, unsigned int, int*)
+                0x000000000800b1cc       0x60 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x000000000800b1cc                tflite::MicroAllocator::RequestScratchBufferInArena(int, unsigned int, int*)
  .text._ZNK6tflite14MicroAllocator16GetScratchBufferEi
-                0x000000000800b228       0x2c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
-                0x000000000800b228                tflite::MicroAllocator::GetScratchBuffer(int) const
+                0x000000000800b22c       0x2c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x000000000800b22c                tflite::MicroAllocator::GetScratchBuffer(int) const
  .text._ZNK11flatbuffers6VectorIfE3GetEm
-                0x000000000800b254       0x2c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
-                0x000000000800b254                flatbuffers::Vector<float>::Get(unsigned long) const
+                0x000000000800b258       0x2c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x000000000800b258                flatbuffers::Vector<float>::Get(unsigned long) const
  .text._ZNK11flatbuffers6VectorIxE3GetEm
-                0x000000000800b280       0x2c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
-                0x000000000800b280                flatbuffers::Vector<long long>::Get(unsigned long) const
+                0x000000000800b284       0x2c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x000000000800b284                flatbuffers::Vector<long long>::Get(unsigned long) const
  .text._ZNK11flatbuffers6VectorIlE3GetEm
-                0x000000000800b2ac       0x2c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
-                0x000000000800b2ac                flatbuffers::Vector<long>::Get(unsigned long) const
+                0x000000000800b2b0       0x2c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x000000000800b2b0                flatbuffers::Vector<long>::Get(unsigned long) const
  .text._ZNK11flatbuffers6VectorINS_6OffsetIN6tflite6TensorEEEE3GetEm
-                0x000000000800b2d8       0x30 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
-                0x000000000800b2d8                flatbuffers::Vector<flatbuffers::Offset<tflite::Tensor> >::Get(unsigned long) const
+                0x000000000800b2dc       0x30 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x000000000800b2dc                flatbuffers::Vector<flatbuffers::Offset<tflite::Tensor> >::Get(unsigned long) const
  .text._ZNK11flatbuffers6VectorINS_6OffsetIN6tflite8OperatorEEEE3GetEm
-                0x000000000800b308       0x30 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
-                0x000000000800b308                flatbuffers::Vector<flatbuffers::Offset<tflite::Operator> >::Get(unsigned long) const
+                0x000000000800b30c       0x30 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x000000000800b30c                flatbuffers::Vector<flatbuffers::Offset<tflite::Operator> >::Get(unsigned long) const
  .text._ZN11flatbuffers5Table10GetPointerIPKNS_6VectorIlEEEET_t
-                0x000000000800b338       0x12 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
-                0x000000000800b338                flatbuffers::Vector<long> const* flatbuffers::Table::GetPointer<flatbuffers::Vector<long> const*>(unsigned short)
- *fill*         0x000000000800b34a        0x2 
+                0x000000000800b33c       0x12 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x000000000800b33c                flatbuffers::Vector<long> const* flatbuffers::Table::GetPointer<flatbuffers::Vector<long> const*>(unsigned short)
+ *fill*         0x000000000800b34e        0x2 
  .text._ZN6tflite8internal23InitializeRuntimeTensorEPNS_21SimpleMemoryAllocatorERKNS_6TensorEPKN11flatbuffers6VectorINS6_6OffsetINS_6BufferEEEEEPNS_13ErrorReporterEP12TfLiteTensor
-                0x000000000800b34c      0x1c8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
-                0x000000000800b34c                tflite::internal::InitializeRuntimeTensor(tflite::SimpleMemoryAllocator*, tflite::Tensor const&, flatbuffers::Vector<flatbuffers::Offset<tflite::Buffer> > const*, tflite::ErrorReporter*, TfLiteTensor*)
+                0x000000000800b350      0x1c8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x000000000800b350                tflite::internal::InitializeRuntimeTensor(tflite::SimpleMemoryAllocator*, tflite::Tensor const&, flatbuffers::Vector<flatbuffers::Offset<tflite::Buffer> > const*, tflite::ErrorReporter*, TfLiteTensor*)
  .text._ZN6tflite14MicroAllocator4InitEv
-                0x000000000800b514       0xd0 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
-                0x000000000800b514                tflite::MicroAllocator::Init()
+                0x000000000800b518       0xd0 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x000000000800b518                tflite::MicroAllocator::Init()
  .text._ZN6tflite14MicroAllocatorC2EP13TfLiteContextPKNS_5ModelEPhjPNS_13ErrorReporterE
-                0x000000000800b5e4       0x4c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
-                0x000000000800b5e4                tflite::MicroAllocator::MicroAllocator(TfLiteContext*, tflite::Model const*, unsigned char*, unsigned int, tflite::ErrorReporter*)
-                0x000000000800b5e4                tflite::MicroAllocator::MicroAllocator(TfLiteContext*, tflite::Model const*, unsigned char*, unsigned int, tflite::ErrorReporter*)
+                0x000000000800b5e8       0x4c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x000000000800b5e8                tflite::MicroAllocator::MicroAllocator(TfLiteContext*, tflite::Model const*, unsigned char*, unsigned int, tflite::ErrorReporter*)
+                0x000000000800b5e8                tflite::MicroAllocator::MicroAllocator(TfLiteContext*, tflite::Model const*, unsigned char*, unsigned int, tflite::ErrorReporter*)
  .text._ZN6tflite14MicroAllocator28AllocateNodeAndRegistrationsERKNS_10OpResolverEPPNS_19NodeAndRegistrationE
-                0x000000000800b630      0x19c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
-                0x000000000800b630                tflite::MicroAllocator::AllocateNodeAndRegistrations(tflite::OpResolver const&, tflite::NodeAndRegistration**)
+                0x000000000800b634      0x19c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x000000000800b634                tflite::MicroAllocator::AllocateNodeAndRegistrations(tflite::OpResolver const&, tflite::NodeAndRegistration**)
  .text._ZN6tflite14MicroAllocator22FinishTensorAllocationEv
-                0x000000000800b7cc      0x304 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
-                0x000000000800b7cc                tflite::MicroAllocator::FinishTensorAllocation()
+                0x000000000800b7d0      0x304 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x000000000800b7d0                tflite::MicroAllocator::FinishTensorAllocation()
  .text._ZN6tflite18MicroErrorReporter6ReportEPKcSt9__va_list
-                0x000000000800bad0       0x2c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_error_reporter.o
-                0x000000000800bad0                tflite::MicroErrorReporter::Report(char const*, std::__va_list)
+                0x000000000800bad4       0x2c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_error_reporter.o
+                0x000000000800bad4                tflite::MicroErrorReporter::Report(char const*, std::__va_list)
  .text._ZN6tflite8internal13ContextHelper24AllocatePersistentBufferEP13TfLiteContextjPPv
-                0x000000000800bafc        0x8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
-                0x000000000800bafc                tflite::internal::ContextHelper::AllocatePersistentBuffer(TfLiteContext*, unsigned int, void**)
+                0x000000000800bb00        0x8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
+                0x000000000800bb00                tflite::internal::ContextHelper::AllocatePersistentBuffer(TfLiteContext*, unsigned int, void**)
  .text._ZN6tflite8internal13ContextHelper27RequestScratchBufferInArenaEP13TfLiteContextjPi
-                0x000000000800bb04        0xe BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
-                0x000000000800bb04                tflite::internal::ContextHelper::RequestScratchBufferInArena(TfLiteContext*, unsigned int, int*)
+                0x000000000800bb08        0xe BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
+                0x000000000800bb08                tflite::internal::ContextHelper::RequestScratchBufferInArena(TfLiteContext*, unsigned int, int*)
  .text._ZN6tflite8internal13ContextHelper16GetScratchBufferEP13TfLiteContexti
-                0x000000000800bb12        0x8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
-                0x000000000800bb12                tflite::internal::ContextHelper::GetScratchBuffer(TfLiteContext*, int)
+                0x000000000800bb16        0x8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
+                0x000000000800bb16                tflite::internal::ContextHelper::GetScratchBuffer(TfLiteContext*, int)
  .text._ZN6tflite8internal13ContextHelper13ReportOpErrorEP13TfLiteContextPKcz
-                0x000000000800bb1a       0x20 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
-                0x000000000800bb1a                tflite::internal::ContextHelper::ReportOpError(TfLiteContext*, char const*, ...)
- *fill*         0x000000000800bb3a        0x2 
+                0x000000000800bb1e       0x20 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
+                0x000000000800bb1e                tflite::internal::ContextHelper::ReportOpError(TfLiteContext*, char const*, ...)
+ *fill*         0x000000000800bb3e        0x2 
  .text._ZN6tflite16MicroInterpreterC2EPKNS_5ModelERKNS_10OpResolverEPhjPNS_13ErrorReporterE
-                0x000000000800bb3c       0xc4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
-                0x000000000800bb3c                tflite::MicroInterpreter::MicroInterpreter(tflite::Model const*, tflite::OpResolver const&, unsigned char*, unsigned int, tflite::ErrorReporter*)
-                0x000000000800bb3c                tflite::MicroInterpreter::MicroInterpreter(tflite::Model const*, tflite::OpResolver const&, unsigned char*, unsigned int, tflite::ErrorReporter*)
+                0x000000000800bb40       0xc4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
+                0x000000000800bb40                tflite::MicroInterpreter::MicroInterpreter(tflite::Model const*, tflite::OpResolver const&, unsigned char*, unsigned int, tflite::ErrorReporter*)
+                0x000000000800bb40                tflite::MicroInterpreter::MicroInterpreter(tflite::Model const*, tflite::OpResolver const&, unsigned char*, unsigned int, tflite::ErrorReporter*)
  .text._ZN6tflite16MicroInterpreterD2Ev
-                0x000000000800bc00       0x36 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
-                0x000000000800bc00                tflite::MicroInterpreter::~MicroInterpreter()
-                0x000000000800bc00                tflite::MicroInterpreter::~MicroInterpreter()
- *fill*         0x000000000800bc36        0x2 
+                0x000000000800bc04       0x36 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
+                0x000000000800bc04                tflite::MicroInterpreter::~MicroInterpreter()
+                0x000000000800bc04                tflite::MicroInterpreter::~MicroInterpreter()
+ *fill*         0x000000000800bc3a        0x2 
  .text._ZN6tflite16MicroInterpreter15AllocateTensorsEv
-                0x000000000800bc38      0x100 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
-                0x000000000800bc38                tflite::MicroInterpreter::AllocateTensors()
+                0x000000000800bc3c      0x100 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
+                0x000000000800bc3c                tflite::MicroInterpreter::AllocateTensors()
  .text._ZN6tflite16MicroInterpreter6InvokeEv
-                0x000000000800bd38       0x98 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
-                0x000000000800bd38                tflite::MicroInterpreter::Invoke()
+                0x000000000800bd3c       0x98 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
+                0x000000000800bd3c                tflite::MicroInterpreter::Invoke()
  .text._ZN6tflite16MicroInterpreter5inputEj
-                0x000000000800bdd0       0x40 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
-                0x000000000800bdd0                tflite::MicroInterpreter::input(unsigned int)
+                0x000000000800bdd4       0x40 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
+                0x000000000800bdd4                tflite::MicroInterpreter::input(unsigned int)
  .text._ZN6tflite16MicroInterpreter6outputEj
-                0x000000000800be10       0x40 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
-                0x000000000800be10                tflite::MicroInterpreter::output(unsigned int)
+                0x000000000800be14       0x40 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
+                0x000000000800be14                tflite::MicroInterpreter::output(unsigned int)
  .text._ZN12_GLOBAL__N_19StrCatStrEPciPKc
-                0x000000000800be50       0x2c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_string.o
+                0x000000000800be54       0x2c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_string.o
  .text._ZN12_GLOBAL__N_122FastUInt32ToBufferLeftEmPci
-                0x000000000800be7c       0x42 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_string.o
- *fill*         0x000000000800bebe        0x2 
+                0x000000000800be80       0x42 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_string.o
+ *fill*         0x000000000800bec2        0x2 
  .text.MicroVsnprintf
-                0x000000000800bec0      0x1f4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_string.o
-                0x000000000800bec0                MicroVsnprintf
+                0x000000000800bec4      0x1f4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_string.o
+                0x000000000800bec4                MicroVsnprintf
  .text._ZN6tflite21SimpleMemoryAllocator16AllocateFromTailEjj
-                0x000000000800c0b4       0x30 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/simple_memory_allocator.o
-                0x000000000800c0b4                tflite::SimpleMemoryAllocator::AllocateFromTail(unsigned int, unsigned int)
+                0x000000000800c0b8       0x30 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/simple_memory_allocator.o
+                0x000000000800c0b8                tflite::SimpleMemoryAllocator::AllocateFromTail(unsigned int, unsigned int)
  .text._ZN6tflite21SimpleMemoryAllocator20CreateChildAllocatorEv
-                0x000000000800c0e4       0x1c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/simple_memory_allocator.o
-                0x000000000800c0e4                tflite::SimpleMemoryAllocator::CreateChildAllocator()
+                0x000000000800c0e8       0x1c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/simple_memory_allocator.o
+                0x000000000800c0e8                tflite::SimpleMemoryAllocator::CreateChildAllocator()
  .text._ZN6tflite21SimpleMemoryAllocatorD2Ev
-                0x000000000800c100        0xa BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/simple_memory_allocator.o
-                0x000000000800c100                tflite::SimpleMemoryAllocator::~SimpleMemoryAllocator()
-                0x000000000800c100                tflite::SimpleMemoryAllocator::~SimpleMemoryAllocator()
+                0x000000000800c104        0xa BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/simple_memory_allocator.o
+                0x000000000800c104                tflite::SimpleMemoryAllocator::~SimpleMemoryAllocator()
+                0x000000000800c104                tflite::SimpleMemoryAllocator::~SimpleMemoryAllocator()
  .text._ZN6tflite34CreateInPlaceSimpleMemoryAllocatorEPhj
-                0x000000000800c10a       0x4a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/simple_memory_allocator.o
-                0x000000000800c10a                tflite::CreateInPlaceSimpleMemoryAllocator(unsigned char*, unsigned int)
+                0x000000000800c10e       0x4a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/simple_memory_allocator.o
+                0x000000000800c10e                tflite::CreateInPlaceSimpleMemoryAllocator(unsigned char*, unsigned int)
  .text.startup._GLOBAL__sub_I__ZN9__gnu_cxx9__freeresEv
-                0x000000000800c154       0x28 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libstdc++.a(eh_alloc.o)
- *fill*         0x000000000800c17c        0x4 
+                0x000000000800c158       0x28 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libstdc++.a(eh_alloc.o)
  .text.floor    0x000000000800c180       0xf8 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libm.a(lib_a-s_floor.o)
                 0x000000000800c180                floor
  .text.frexp    0x000000000800c278       0x70 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libm.a(lib_a-s_frexp.o)
@@ -20651,205 +20650,203 @@ LOAD /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-maj
                 0x0000000008018d34       0x18 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
                 0x0000000008018d34                vtable for tflite::MicroMutableOpResolver
  .rodata.setup.str1.1
-                0x0000000008018d4c      0x1a9 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
- *fill*         0x0000000008018ef5        0x3 
+                0x0000000008018d4c      0x1b0 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
  .rodata.g_tiny_conv_micro_features_model_data
-                0x0000000008018ef8     0x5710 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/tiny_conv_micro_features_model_data.o
-                0x0000000008018ef8                g_tiny_conv_micro_features_model_data
+                0x0000000008018efc     0x66b8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/tiny_conv_micro_features_model_data.o
+                0x0000000008018efc                g_tiny_conv_micro_features_model_data
  .rodata.g_yes_micro_f2e59fea_nohash_1_data
-                0x000000000801e608      0x7a8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/yes_micro_features_data.o
-                0x000000000801e608                g_yes_micro_f2e59fea_nohash_1_data
+                0x000000000801f5b4      0x7a8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/yes_micro_features_data.o
+                0x000000000801f5b4                g_yes_micro_f2e59fea_nohash_1_data
  .rodata._ZN6tflite29MultiplyByQuantizedMultiplierElli.str1.1
-                0x000000000801edb0       0x3e BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/conv.o
+                0x000000000801fd5c       0x3e BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/conv.o
  .rodata._ZZN8gemmlowp19RoundingDivideByPOTIlEET_S1_iE19__PRETTY_FUNCTION__
-                0x000000000801edee       0x5a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/conv.o
+                0x000000000801fd9a       0x5a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/conv.o
  .rodata._ZN6tflite3ops5micro14depthwise_conv4EvalEP13TfLiteContextP10TfLiteNode.str1.1
-                0x000000000801ee48      0x14e BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/depthwise_conv.o
+                0x000000000801fdf4      0x14e BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/depthwise_conv.o
                                         0x205 (size before relaxing)
  .rodata._ZN6tflite3ops5micro15fully_connected4EvalEP13TfLiteContextP10TfLiteNode.str1.1
-                0x000000000801ef96       0x62 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
+                0x000000000801ff42       0x62 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
  .rodata._ZN6tflite3ops5micro15fully_connected7PrepareEP13TfLiteContextP10TfLiteNode.str1.1
-                0x000000000801eff8       0xa4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
+                0x000000000801ffa4       0xa4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
                                          0xca (size before relaxing)
  .rodata._ZN6tflite3ops5micro7reshape13ReshapeOutputEP13TfLiteContextP10TfLiteNode.str1.1
-                0x000000000801f09c       0x61 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/reshape.o
+                0x0000000008020048       0x61 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/reshape.o
                                          0x94 (size before relaxing)
  .rodata._ZN6tflite3ops5micro7reshape7PrepareEP13TfLiteContextP10TfLiteNode.str1.1
-                0x000000000801f0fd       0x65 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/reshape.o
+                0x00000000080200a9       0x65 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/reshape.o
                                          0x7e (size before relaxing)
  .rodata._ZN6tflite3ops5micro11activations11SoftmaxEvalEP13TfLiteContextP10TfLiteNode.str1.1
-                0x000000000801f162       0xc2 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
+                0x000000000802010e       0xc2 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
                                          0xe9 (size before relaxing)
  .rodata._ZN6tflite3ops5micro11activations14SoftmaxPrepareEP13TfLiteContextP10TfLiteNode.str1.1
-                0x000000000801f224       0x55 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
+                0x00000000080201d0       0x55 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
                                          0x99 (size before relaxing)
  .rodata._ZN8gemmlowp19RoundingDivideByPOTIlEET_S1_i.str1.1
-                0x000000000801f279        0xe BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
+                0x0000000008020225        0xe BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
                                          0x4c (size before relaxing)
  .rodata._ZZN8gemmlowp19RoundingDivideByPOTIlEET_S1_iE19__PRETTY_FUNCTION__
-                0x000000000801f287       0x5a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
+                0x0000000008020233       0x5a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
  .rodata.DebugLog.str1.1
-                0x000000000801f2e1        0xe BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/mbed/debug_log.o
+                0x000000000802028d        0xe BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/mbed/debug_log.o
                                           0x3 (size before relaxing)
  .rodata._ZN6tflite16TfLiteTypeSizeOfE10TfLiteTypePjPNS_13ErrorReporterE.str1.1
-                0x000000000801f2e1       0x22 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_helpers.o
+                0x000000000802028d       0x22 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_helpers.o
  .rodata._ZN6tflite19GreedyMemoryPlanner18GetOffsetForBufferEPNS_13ErrorReporterEiPi.str1.1
-                0x000000000801f303       0x29 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
+                0x00000000080202af       0x29 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
  .rodata._ZN6tflite19GreedyMemoryPlanner9AddBufferEPNS_13ErrorReporterEiii.str1.1
-                0x000000000801f32c       0x1d BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
- *fill*         0x000000000801f349        0x3 
+                0x00000000080202d8       0x1d BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
+ *fill*         0x00000000080202f5        0x3 
  .rodata._ZTVN6tflite19GreedyMemoryPlannerE
-                0x000000000801f34c       0x20 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
-                0x000000000801f34c                vtable for tflite::GreedyMemoryPlanner
+                0x00000000080202f8       0x20 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
+                0x00000000080202f8                vtable for tflite::GreedyMemoryPlanner
  .rodata._ZN6tflite14MicroAllocator22FinishTensorAllocationEv.str1.1
-                0x000000000801f36c      0x133 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x0000000008020318      0x133 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
  .rodata._ZN6tflite14MicroAllocator24AllocatePersistentBufferEjPPv.str1.1
-                0x000000000801f49f       0x30 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x000000000802044b       0x30 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
  .rodata._ZN6tflite14MicroAllocator27RequestScratchBufferInArenaEijPi.str1.1
-                0x000000000801f4cf       0x97 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x000000000802047b       0x97 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
  .rodata._ZN6tflite14MicroAllocator28AllocateNodeAndRegistrationsERKNS_10OpResolverEPPNS_19NodeAndRegistrationE.str1.1
-                0x000000000801f566       0xf4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x0000000008020512       0xf4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
                                          0xf5 (size before relaxing)
  .rodata._ZN6tflite14MicroAllocator4InitEv.str1.1
-                0x000000000801f65a       0x8a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x0000000008020606       0x8a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
  .rodata._ZN6tflite14MicroAllocatorC2EP13TfLiteContextPKNS_5ModelEPhjPNS_13ErrorReporterE.str1.1
-                0x000000000801f6e4       0x26 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x0000000008020690       0x26 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
  .rodata._ZNK11flatbuffers6VectorIfE3GetEm.str1.1
-                0x000000000801f70a       0x47 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x00000000080206b6       0x47 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
  .rodata._ZNK6tflite14MicroAllocator16GetScratchBufferEi.str1.1
-                0x000000000801f751       0x2b BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x00000000080206fd       0x2b BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
  .rodata._ZTVN6tflite12_GLOBAL__N_125MicroBuiltinDataAllocatorE
-                0x000000000801f77c       0x18 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x0000000008020728       0x18 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
  .rodata._ZZNK11flatbuffers6VectorINS_6OffsetIN6tflite6BufferEEEE3GetEmE19__PRETTY_FUNCTION__
-                0x000000000801f794       0xf6 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x0000000008020740       0xf6 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
  .rodata._ZZNK11flatbuffers6VectorINS_6OffsetIN6tflite6TensorEEEE3GetEmE19__PRETTY_FUNCTION__
-                0x000000000801f88a       0xf6 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x0000000008020836       0xf6 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
  .rodata._ZZNK11flatbuffers6VectorINS_6OffsetIN6tflite8OperatorEEEE3GetEmE19__PRETTY_FUNCTION__
-                0x000000000801f980       0xfa BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x000000000802092c       0xfa BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
  .rodata._ZZNK11flatbuffers6VectorIfE3GetEmE19__PRETTY_FUNCTION__
-                0x000000000801fa7a       0xc8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x0000000008020a26       0xc8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
  .rodata._ZZNK11flatbuffers6VectorIlE3GetEmE19__PRETTY_FUNCTION__
-                0x000000000801fb42       0xce BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x0000000008020aee       0xce BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
  .rodata._ZZNK11flatbuffers6VectorIxE3GetEmE19__PRETTY_FUNCTION__
-                0x000000000801fc10       0xd8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+                0x0000000008020bbc       0xd8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
  .rodata._ZN6tflite18MicroErrorReporter6ReportEPKcSt9__va_list.str1.1
-                0x000000000801fce8        0x3 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_error_reporter.o
- *fill*         0x000000000801fceb        0x1 
+                0x0000000008020c94        0x3 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_error_reporter.o
+ *fill*         0x0000000008020c97        0x1 
  .rodata._ZTVN6tflite18MicroErrorReporterE
-                0x000000000801fcec       0x14 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_error_reporter.o
-                0x000000000801fcec                vtable for tflite::MicroErrorReporter
+                0x0000000008020c98       0x14 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_error_reporter.o
+                0x0000000008020c98                vtable for tflite::MicroErrorReporter
  .rodata._ZN6tflite16MicroInterpreter15AllocateTensorsEv.str1.1
-                0x000000000801fd00       0x36 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
+                0x0000000008020cac       0x36 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
                                          0x37 (size before relaxing)
  .rodata._ZN6tflite16MicroInterpreter5inputEj.str1.1
-                0x000000000801fd36       0x2b BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
+                0x0000000008020ce2       0x2b BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
  .rodata._ZN6tflite16MicroInterpreter6InvokeEv.str1.1
-                0x000000000801fd61       0x61 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
+                0x0000000008020d0d       0x61 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
  .rodata._ZN6tflite16MicroInterpreter6outputEj.str1.1
-                0x000000000801fdc2       0x2c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
+                0x0000000008020d6e       0x2c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
  .rodata._ZN6tflite16MicroInterpreterC2EPKNS_5ModelERKNS_10OpResolverEPhjPNS_13ErrorReporterE.str1.1
-                0x000000000801fdee       0x29 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
- .rodata        0x000000000801fdee        0xd BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_string.o
+                0x0000000008020d9a       0x29 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
+ .rodata        0x0000000008020d9a        0xd BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_string.o
  .rodata.MicroVsnprintf.str1.1
-                0x000000000801fdfb        0xc BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_string.o
- *fill*         0x000000000801fe07        0x1 
+                0x0000000008020da7        0xc BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_string.o
+ *fill*         0x0000000008020db3        0x1 
  .rodata.expf.str1.4
-                0x000000000801fe08        0x5 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libm.a(lib_a-wf_exp.o)
- *fill*         0x000000000801fe0d        0x3 
- .rodata.halF   0x000000000801fe10        0x8 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libm.a(lib_a-ef_exp.o)
- .rodata.ln2HI  0x000000000801fe18        0x8 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libm.a(lib_a-ef_exp.o)
- .rodata.ln2LO  0x000000000801fe20        0x8 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libm.a(lib_a-ef_exp.o)
+                0x0000000008020db4        0x5 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libm.a(lib_a-wf_exp.o)
+ *fill*         0x0000000008020db9        0x3 
+ .rodata.halF   0x0000000008020dbc        0x8 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libm.a(lib_a-ef_exp.o)
+ .rodata.ln2HI  0x0000000008020dc4        0x8 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libm.a(lib_a-ef_exp.o)
+ .rodata.ln2LO  0x0000000008020dcc        0x8 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libm.a(lib_a-ef_exp.o)
  .rodata.__assert_func.str1.4
-                0x000000000801fe28       0x3f /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-assert.o)
+                0x0000000008020dd4       0x3f /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-assert.o)
                                          0x43 (size before relaxing)
- *fill*         0x000000000801fe67        0x1 
+ *fill*         0x0000000008020e13        0x1 
  .rodata._global_impure_ptr
-                0x000000000801fe68        0x4 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-impure.o)
-                0x000000000801fe68                _global_impure_ptr
+                0x0000000008020e14        0x4 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-impure.o)
+                0x0000000008020e14                _global_impure_ptr
  .rodata._vfiprintf_r.str1.4
-                0x000000000801fe6c       0x2f /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-vfiprintf.o)
- *fill*         0x000000000801fe9b        0x1 
+                0x0000000008020e18       0x2f /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-vfiprintf.o)
+ *fill*         0x0000000008020e47        0x1 
  .rodata.blanks.8665
-                0x000000000801fe9c       0x10 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-vfiprintf.o)
+                0x0000000008020e48       0x10 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-vfiprintf.o)
  .rodata.zeroes.8666
-                0x000000000801feac       0x10 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-vfiprintf.o)
+                0x0000000008020e58       0x10 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-vfiprintf.o)
  .rodata._vfprintf_r.str1.4
-                0x000000000801febc       0x12 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-vfprintf.o)
+                0x0000000008020e68       0x12 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-vfprintf.o)
                                          0x42 (size before relaxing)
- *fill*         0x000000000801fece        0x2 
+ *fill*         0x0000000008020e7a        0x2 
  .rodata.blanks.8687
-                0x000000000801fed0       0x10 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-vfprintf.o)
+                0x0000000008020e7c       0x10 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-vfprintf.o)
  .rodata.zeroes.8688
-                0x000000000801fee0       0x10 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-vfprintf.o)
+                0x0000000008020e8c       0x10 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-vfprintf.o)
  .rodata._ctype_
-                0x000000000801fef0      0x101 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-ctype_.o)
-                0x000000000801fef0                _ctype_
- *fill*         0x000000000801fff1        0x3 
+                0x0000000008020e9c      0x101 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-ctype_.o)
+                0x0000000008020e9c                _ctype_
+ *fill*         0x0000000008020f9d        0x3 
  .rodata._dtoa_r.str1.4
-                0x000000000801fff4        0xd /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-dtoa.o)
+                0x0000000008020fa0        0xd /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-dtoa.o)
                                          0x12 (size before relaxing)
- *fill*         0x0000000008020001        0x3 
+ *fill*         0x0000000008020fad        0x3 
  .rodata._setlocale_r.str1.4
-                0x0000000008020004        0xa /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-locale.o)
+                0x0000000008020fb0        0xa /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-locale.o)
                                           0xd (size before relaxing)
- *fill*         0x000000000802000e        0x2 
+ *fill*         0x0000000008020fba        0x2 
  .rodata.str1.4
-                0x0000000008020010        0x4 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-locale.o)
+                0x0000000008020fbc        0x4 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-locale.o)
                                           0x2 (size before relaxing)
- *fill*         0x0000000008020014        0x4 
  .rodata.__mprec_bigtens
-                0x0000000008020018       0x28 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-mprec.o)
-                0x0000000008020018                __mprec_bigtens
+                0x0000000008020fc0       0x28 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-mprec.o)
+                0x0000000008020fc0                __mprec_bigtens
  .rodata.__mprec_tens
-                0x0000000008020040       0xc8 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-mprec.o)
-                0x0000000008020040                __mprec_tens
+                0x0000000008020fe8       0xc8 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-mprec.o)
+                0x0000000008020fe8                __mprec_tens
  .rodata.p05.7442
-                0x0000000008020108        0xc /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-mprec.o)
+                0x00000000080210b0        0xc /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-mprec.o)
  .rodata._svfprintf_r.str1.4
-                0x0000000008020114       0x42 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-svfprintf.o)
+                0x00000000080210bc       0x42 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-svfprintf.o)
  .rodata.blanks.8672
-                0x0000000008020114       0x10 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-svfprintf.o)
+                0x00000000080210bc       0x10 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-svfprintf.o)
  .rodata.zeroes.8673
-                0x0000000008020124       0x10 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-svfprintf.o)
+                0x00000000080210cc       0x10 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-svfprintf.o)
  *(.eh_frame*)
- .eh_frame      0x0000000008020134        0x0 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/softfp/crtbegin.o
- .eh_frame      0x0000000008020134        0x4 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/softfp/crtend.o
+ .eh_frame      0x00000000080210dc        0x0 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/softfp/crtbegin.o
+ .eh_frame      0x00000000080210dc        0x4 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/softfp/crtend.o
 
-.glue_7         0x0000000008020138        0x0
- .glue_7        0x0000000008020138        0x0 linker stubs
+.glue_7         0x00000000080210e0        0x0
+ .glue_7        0x00000000080210e0        0x0 linker stubs
 
-.glue_7t        0x0000000008020138        0x0
- .glue_7t       0x0000000008020138        0x0 linker stubs
+.glue_7t        0x00000000080210e0        0x0
+ .glue_7t       0x00000000080210e0        0x0 linker stubs
 
-.vfp11_veneer   0x0000000008020138        0x0
- .vfp11_veneer  0x0000000008020138        0x0 linker stubs
+.vfp11_veneer   0x00000000080210e0        0x0
+ .vfp11_veneer  0x00000000080210e0        0x0 linker stubs
 
-.v4_bx          0x0000000008020138        0x0
- .v4_bx         0x0000000008020138        0x0 linker stubs
+.v4_bx          0x00000000080210e0        0x0
+ .v4_bx         0x00000000080210e0        0x0 linker stubs
 
-.iplt           0x0000000008020138        0x0
- .iplt          0x0000000008020138        0x0 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/softfp/crtbegin.o
+.iplt           0x00000000080210e0        0x0
+ .iplt          0x00000000080210e0        0x0 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/softfp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000000008020138                __exidx_start = .
+                0x00000000080210e0                __exidx_start = .
 
-.ARM.exidx      0x0000000008020138        0x8
+.ARM.exidx      0x00000000080210e0        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x0000000008020138        0x8 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/crt0.o
- .ARM.exidx     0x0000000008020140        0x0 BUILD/DISCO_F746NG/GCC_ARM/mbed-os/platform/source/TARGET_CORTEX_M/TOOLCHAIN_GCC/except.o
+ .ARM.exidx     0x00000000080210e0        0x8 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/crt0.o
+ .ARM.exidx     0x00000000080210e8        0x0 BUILD/DISCO_F746NG/GCC_ARM/mbed-os/platform/source/TARGET_CORTEX_M/TOOLCHAIN_GCC/except.o
                                          0x28 (size before relaxing)
  .ARM.exidx.text.startup._GLOBAL__sub_I__ZN9__gnu_cxx9__freeresEv
-                0x0000000008020140        0x0 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libstdc++.a(eh_alloc.o)
+                0x00000000080210e8        0x0 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libstdc++.a(eh_alloc.o)
                                           0x8 (size before relaxing)
- .ARM.exidx     0x0000000008020140        0x0 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_udivmoddi4.o)
+ .ARM.exidx     0x00000000080210e8        0x0 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_udivmoddi4.o)
                                           0x8 (size before relaxing)
-                0x0000000008020140                __exidx_end = .
-                0x0000000008020140                __etext = .
-                0x0000000008020140                _sidata = .
+                0x00000000080210e8                __exidx_end = .
+                0x00000000080210e8                __etext = .
+                0x00000000080210e8                _sidata = .
 
-.rel.dyn        0x0000000008020140        0x0
- .rel.iplt      0x0000000008020140        0x0 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/softfp/crtbegin.o
+.rel.dyn        0x00000000080210e8        0x0
+ .rel.iplt      0x00000000080210e8        0x0 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/softfp/crtbegin.o
 
 .crash_data_ram
                 0x00000000200001c8      0x100
@@ -20863,7 +20860,7 @@ LOAD /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-maj
                 0x00000000200002c8                . = ALIGN (0x8)
                 0x00000000200002c8                __CRASH_DATA_RAM_END__ = .
 
-.data           0x00000000200002c8      0xb40 load address 0x0000000008020140
+.data           0x00000000200002c8      0xb40 load address 0x00000000080210e8
                 0x00000000200002c8                __data_start__ = .
                 0x00000000200002c8                _sdata = .
  *(vtable)
@@ -20943,10 +20940,10 @@ LOAD /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-maj
                 0x0000000020000e08                __data_end__ = .
                 0x0000000020000e08                _edata = .
 
-.igot.plt       0x0000000020000e08        0x0 load address 0x0000000008020c80
+.igot.plt       0x0000000020000e08        0x0 load address 0x0000000008021c28
  .igot.plt      0x0000000020000e08        0x0 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/softfp/crtbegin.o
 
-.bss            0x0000000020000e08     0x6cf0 load address 0x0000000008020c80
+.bss            0x0000000020000e08     0x38f0 load address 0x0000000008021c28
                 0x0000000020000e08                . = ALIGN (0x8)
                 0x0000000020000e08                __bss_start__ = .
                 0x0000000020000e08                _sbss = .
@@ -21071,81 +21068,81 @@ LOAD /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-maj
  .bss._ZN12_GLOBAL__N_111model_inputE
                 0x0000000020001388        0x4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
  .bss._ZN12_GLOBAL__N_112tensor_arenaE
-                0x000000002000138c     0x5000 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
+                0x000000002000138c     0x1c00 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
  .bss._ZN12_GLOBAL__N_114error_reporterE
-                0x000000002000638c        0x4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
+                0x0000000020002f8c        0x4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
  .bss._ZN12_GLOBAL__N_15modelE
-                0x0000000020006390        0x4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
+                0x0000000020002f90        0x4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
  .bss._ZZ5setupE25micro_mutable_op_resolver
-                0x0000000020006394     0x1008 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
+                0x0000000020002f94     0x1008 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
  .bss._ZZN6tflite3ops5micro26Register_DEPTHWISE_CONV_2DEvE1r
-                0x000000002000739c       0x20 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/depthwise_conv.o
+                0x0000000020003f9c       0x20 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/depthwise_conv.o
  .bss._ZZN6tflite3ops5micro24Register_FULLY_CONNECTEDEvE1r
-                0x00000000200073bc       0x20 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
+                0x0000000020003fbc       0x20 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
  .bss._ZZN6tflite3ops5micro16Register_RESHAPEEvE1r
-                0x00000000200073dc       0x20 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/reshape.o
+                0x0000000020003fdc       0x20 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/reshape.o
  .bss._ZGVZ8DebugLogE2pc
-                0x00000000200073fc        0x4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/mbed/debug_log.o
+                0x0000000020003ffc        0x4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/mbed/debug_log.o
  .bss._ZZ8DebugLogE2pc
-                0x0000000020007400       0xd0 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/mbed/debug_log.o
+                0x0000000020004000       0xd0 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/mbed/debug_log.o
  .bss._ZN12_GLOBAL__N_114emergency_poolE
-                0x00000000200074d0       0x10 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libstdc++.a(eh_alloc.o)
+                0x00000000200040d0       0x10 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libstdc++.a(eh_alloc.o)
  .bss.__malloc_current_mallinfo
-                0x00000000200074e0       0x28 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-mallocr.o)
-                0x00000000200074e0                __malloc_current_mallinfo
+                0x00000000200040e0       0x28 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-mallocr.o)
+                0x00000000200040e0                __malloc_current_mallinfo
  .bss.__malloc_max_sbrked_mem
-                0x0000000020007508        0x4 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-mallocr.o)
-                0x0000000020007508                __malloc_max_sbrked_mem
+                0x0000000020004108        0x4 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-mallocr.o)
+                0x0000000020004108                __malloc_max_sbrked_mem
  .bss.__malloc_max_total_mem
-                0x000000002000750c        0x4 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-mallocr.o)
-                0x000000002000750c                __malloc_max_total_mem
+                0x000000002000410c        0x4 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-mallocr.o)
+                0x000000002000410c                __malloc_max_total_mem
  .bss.__malloc_top_pad
-                0x0000000020007510        0x4 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-mallocr.o)
-                0x0000000020007510                __malloc_top_pad
+                0x0000000020004110        0x4 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-mallocr.o)
+                0x0000000020004110                __malloc_top_pad
  *(COMMON)
- COMMON         0x0000000020007514       0x44 BUILD/DISCO_F746NG/GCC_ARM/BSP_DISCO_F746NG/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.o
-                0x0000000020007514                audio_drv
-                0x0000000020007518                haudio_tim
- COMMON         0x0000000020007558       0xa8 BUILD/DISCO_F746NG/GCC_ARM/BSP_DISCO_F746NG/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_lcd.o
-                0x0000000020007558                hLtdcHandler
- COMMON         0x0000000020007600       0x34 BUILD/DISCO_F746NG/GCC_ARM/BSP_DISCO_F746NG/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_sdram.o
-                0x0000000020007600                sdramHandle
- COMMON         0x0000000020007634       0x54 BUILD/DISCO_F746NG/GCC_ARM/mbed-os/platform/source/TARGET_CORTEX_M/mbed_fault_handler.o
-                0x0000000020007634                fault_context
- COMMON         0x0000000020007688      0x380 BUILD/DISCO_F746NG/GCC_ARM/mbed-os/targets/TARGET_STM/TARGET_STM32F7/serial_device.o
-                0x0000000020007688                uart_handlers
- COMMON         0x0000000020007a08       0x30 BUILD/DISCO_F746NG/GCC_ARM/mbed-os/targets/TARGET_STM/lp_ticker.o
-                0x0000000020007a08                LptimHandle
- COMMON         0x0000000020007a38       0x4c BUILD/DISCO_F746NG/GCC_ARM/mbed-os/targets/TARGET_STM/serial_api.o
-                0x0000000020007a38                stdio_uart
- COMMON         0x0000000020007a84       0x4c BUILD/DISCO_F746NG/GCC_ARM/mbed-os/targets/TARGET_STM/us_ticker.o
-                0x0000000020007a84                TimMasterHandle
-                0x0000000020007ac4                timer_ccr1_reg
-                0x0000000020007ac8                timer_dier_reg
-                0x0000000020007acc                timer_cnt_reg
- COMMON         0x0000000020007ad0       0x21 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-lock.o)
-                0x0000000020007ad0                __lock___malloc_recursive_mutex
-                0x0000000020007ad4                __lock___atexit_recursive_mutex
-                0x0000000020007ad8                __lock___dd_hash_mutex
-                0x0000000020007adc                __lock___sinit_recursive_mutex
-                0x0000000020007ae0                __lock___sfp_recursive_mutex
-                0x0000000020007ae4                __lock___at_quick_exit_mutex
-                0x0000000020007ae8                __lock___env_recursive_mutex
-                0x0000000020007aec                __lock___tz_mutex
-                0x0000000020007af0                __lock___arc4random_mutex
- *fill*         0x0000000020007af1        0x3 
- COMMON         0x0000000020007af4        0x4 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-reent.o)
-                0x0000000020007af4                errno
-                0x0000000020007af8                . = ALIGN (0x8)
-                0x0000000020007af8                __bss_end__ = .
-                0x0000000020007af8                _ebss = .
+ COMMON         0x0000000020004114       0x44 BUILD/DISCO_F746NG/GCC_ARM/BSP_DISCO_F746NG/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.o
+                0x0000000020004114                audio_drv
+                0x0000000020004118                haudio_tim
+ COMMON         0x0000000020004158       0xa8 BUILD/DISCO_F746NG/GCC_ARM/BSP_DISCO_F746NG/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_lcd.o
+                0x0000000020004158                hLtdcHandler
+ COMMON         0x0000000020004200       0x34 BUILD/DISCO_F746NG/GCC_ARM/BSP_DISCO_F746NG/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_sdram.o
+                0x0000000020004200                sdramHandle
+ COMMON         0x0000000020004234       0x54 BUILD/DISCO_F746NG/GCC_ARM/mbed-os/platform/source/TARGET_CORTEX_M/mbed_fault_handler.o
+                0x0000000020004234                fault_context
+ COMMON         0x0000000020004288      0x380 BUILD/DISCO_F746NG/GCC_ARM/mbed-os/targets/TARGET_STM/TARGET_STM32F7/serial_device.o
+                0x0000000020004288                uart_handlers
+ COMMON         0x0000000020004608       0x30 BUILD/DISCO_F746NG/GCC_ARM/mbed-os/targets/TARGET_STM/lp_ticker.o
+                0x0000000020004608                LptimHandle
+ COMMON         0x0000000020004638       0x4c BUILD/DISCO_F746NG/GCC_ARM/mbed-os/targets/TARGET_STM/serial_api.o
+                0x0000000020004638                stdio_uart
+ COMMON         0x0000000020004684       0x4c BUILD/DISCO_F746NG/GCC_ARM/mbed-os/targets/TARGET_STM/us_ticker.o
+                0x0000000020004684                TimMasterHandle
+                0x00000000200046c4                timer_ccr1_reg
+                0x00000000200046c8                timer_dier_reg
+                0x00000000200046cc                timer_cnt_reg
+ COMMON         0x00000000200046d0       0x21 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-lock.o)
+                0x00000000200046d0                __lock___malloc_recursive_mutex
+                0x00000000200046d4                __lock___atexit_recursive_mutex
+                0x00000000200046d8                __lock___dd_hash_mutex
+                0x00000000200046dc                __lock___sinit_recursive_mutex
+                0x00000000200046e0                __lock___sfp_recursive_mutex
+                0x00000000200046e4                __lock___at_quick_exit_mutex
+                0x00000000200046e8                __lock___env_recursive_mutex
+                0x00000000200046ec                __lock___tz_mutex
+                0x00000000200046f0                __lock___arc4random_mutex
+ *fill*         0x00000000200046f1        0x3 
+ COMMON         0x00000000200046f4        0x4 /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a(lib_a-reent.o)
+                0x00000000200046f4                errno
+                0x00000000200046f8                . = ALIGN (0x8)
+                0x00000000200046f8                __bss_end__ = .
+                0x00000000200046f8                _ebss = .
 
-.heap           0x0000000020007af8    0x47508
-                0x0000000020007af8                __end__ = .
-                0x0000000020007af8                end = __end__
+.heap           0x00000000200046f8    0x4a908
+                0x00000000200046f8                __end__ = .
+                0x00000000200046f8                end = __end__
  *(.heap*)
                 0x000000002004f000                . = ((ORIGIN (RAM) + LENGTH (RAM)) - STACK_SIZE)
- *fill*         0x0000000020007af8    0x47508 
+ *fill*         0x00000000200046f8    0x4a908 
                 0x000000002004f000                __HeapLimit = .
 
 .stack_dummy
@@ -21629,7 +21626,7 @@ OUTPUT(./BUILD/DISCO_F746NG/GCC_ARM/mbed.elf elf32-littlearm)
  .comment       0x0000000000000075       0x76 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_string.o
  .comment       0x0000000000000075       0x76 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/simple_memory_allocator.o
 
-.debug_info     0x0000000000000000   0x2446e3
+.debug_info     0x0000000000000000   0x244704
  .debug_info    0x0000000000000000     0x62d0 BUILD/DISCO_F746NG/GCC_ARM/AUDIO_DISCO_F746NG/AUDIO_DISCO_F746NG.o
  .debug_info    0x00000000000062d0     0x419d BUILD/DISCO_F746NG/GCC_ARM/BSP_DISCO_F746NG/Drivers/BSP/Components/wm8994/wm8994.o
  .debug_info    0x000000000000a46d     0x2b4f BUILD/DISCO_F746NG/GCC_ARM/BSP_DISCO_F746NG/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery.o
@@ -21707,25 +21704,25 @@ OUTPUT(./BUILD/DISCO_F746NG/GCC_ARM/mbed.elf elf32-littlearm)
  .debug_info    0x00000000001210c8     0x6810 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/disco_f746ng/audio_provider.o
  .debug_info    0x00000000001278d8     0x5a01 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/disco_f746ng/command_responder.o
  .debug_info    0x000000000012d2d9       0x98 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main.o
- .debug_info    0x000000000012d371    0x3a30c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
- .debug_info    0x000000000016767d       0x7e BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/tiny_conv_micro_features_model_data.o
- .debug_info    0x00000000001676fb       0x97 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/yes_micro_features_data.o
- .debug_info    0x0000000000167792     0x55d6 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/activations.o
- .debug_info    0x000000000016cd68     0x83c9 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/add.o
- .debug_info    0x0000000000175131     0x98d2 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/concatenation.o
- .debug_info    0x000000000017ea03     0x7e53 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/conv.o
- .debug_info    0x0000000000186856     0x7f91 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/depthwise_conv.o
- .debug_info    0x000000000018e7e7     0x71ab BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
- .debug_info    0x0000000000195992     0x3fb6 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/reshape.o
- .debug_info    0x0000000000199948     0xaed4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
- .debug_info    0x00000000001a481c     0x651a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/mbed/debug_log.o
- .debug_info    0x00000000001aad36    0x1bd5e BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_helpers.o
- .debug_info    0x00000000001c6a94     0x148f BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
- .debug_info    0x00000000001c7f23    0x3d780 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
- .debug_info    0x00000000002056a3      0x793 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_error_reporter.o
- .debug_info    0x0000000000205e36    0x3a940 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
- .debug_info    0x0000000000240776      0xe47 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_string.o
- .debug_info    0x00000000002415bd     0x3126 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/simple_memory_allocator.o
+ .debug_info    0x000000000012d371    0x3a32d BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
+ .debug_info    0x000000000016769e       0x7e BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/tiny_conv_micro_features_model_data.o
+ .debug_info    0x000000000016771c       0x97 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/yes_micro_features_data.o
+ .debug_info    0x00000000001677b3     0x55d6 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/activations.o
+ .debug_info    0x000000000016cd89     0x83c9 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/add.o
+ .debug_info    0x0000000000175152     0x98d2 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/concatenation.o
+ .debug_info    0x000000000017ea24     0x7e53 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/conv.o
+ .debug_info    0x0000000000186877     0x7f91 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/depthwise_conv.o
+ .debug_info    0x000000000018e808     0x71ab BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
+ .debug_info    0x00000000001959b3     0x3fb6 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/reshape.o
+ .debug_info    0x0000000000199969     0xaed4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
+ .debug_info    0x00000000001a483d     0x651a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/mbed/debug_log.o
+ .debug_info    0x00000000001aad57    0x1bd5e BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_helpers.o
+ .debug_info    0x00000000001c6ab5     0x148f BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
+ .debug_info    0x00000000001c7f44    0x3d780 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+ .debug_info    0x00000000002056c4      0x793 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_error_reporter.o
+ .debug_info    0x0000000000205e57    0x3a940 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
+ .debug_info    0x0000000000240797      0xe47 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_string.o
+ .debug_info    0x00000000002415de     0x3126 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/simple_memory_allocator.o
 
 .debug_abbrev   0x0000000000000000    0x2485e
  .debug_abbrev  0x0000000000000000      0x863 BUILD/DISCO_F746NG/GCC_ARM/AUDIO_DISCO_F746NG/AUDIO_DISCO_F746NG.o
@@ -21825,7 +21822,7 @@ OUTPUT(./BUILD/DISCO_F746NG/GCC_ARM/mbed.elf elf32-littlearm)
  .debug_abbrev  0x0000000000023df3      0x372 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_string.o
  .debug_abbrev  0x0000000000024165      0x6f9 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/simple_memory_allocator.o
 
-.debug_loc      0x0000000000000000    0x53413
+.debug_loc      0x0000000000000000    0x53429
  .debug_loc     0x0000000000000000      0x6c7 BUILD/DISCO_F746NG/GCC_ARM/AUDIO_DISCO_F746NG/AUDIO_DISCO_F746NG.o
  .debug_loc     0x00000000000006c7     0x3244 BUILD/DISCO_F746NG/GCC_ARM/BSP_DISCO_F746NG/Drivers/BSP/Components/wm8994/wm8994.o
  .debug_loc     0x000000000000390b      0x9e6 BUILD/DISCO_F746NG/GCC_ARM/BSP_DISCO_F746NG/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery.o
@@ -21899,23 +21896,23 @@ OUTPUT(./BUILD/DISCO_F746NG/GCC_ARM/mbed.elf elf32-littlearm)
  .debug_loc     0x00000000000353d1      0x294 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/disco_f746ng/audio_provider.o
  .debug_loc     0x0000000000035665      0x14c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/disco_f746ng/command_responder.o
  .debug_loc     0x00000000000357b1       0x4a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main.o
- .debug_loc     0x00000000000357fb      0x706 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
- .debug_loc     0x0000000000035f01     0x107e BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/activations.o
- .debug_loc     0x0000000000036f7f     0x30bb BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/add.o
- .debug_loc     0x000000000003a03a     0x2c1a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/concatenation.o
- .debug_loc     0x000000000003cc54     0x3dc6 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/conv.o
- .debug_loc     0x0000000000040a1a     0x474c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/depthwise_conv.o
- .debug_loc     0x0000000000045166     0x380e BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
- .debug_loc     0x0000000000048974      0x657 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/reshape.o
- .debug_loc     0x0000000000048fcb     0x46ad BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
- .debug_loc     0x000000000004d678       0x90 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/mbed/debug_log.o
- .debug_loc     0x000000000004d708      0x67e BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_helpers.o
- .debug_loc     0x000000000004dd86      0xe7c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
- .debug_loc     0x000000000004ec02     0x29e3 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
- .debug_loc     0x00000000000515e5       0x96 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_error_reporter.o
- .debug_loc     0x000000000005167b      0xfd6 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
- .debug_loc     0x0000000000052651      0xb74 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_string.o
- .debug_loc     0x00000000000531c5      0x24e BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/simple_memory_allocator.o
+ .debug_loc     0x00000000000357fb      0x71c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
+ .debug_loc     0x0000000000035f17     0x107e BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/activations.o
+ .debug_loc     0x0000000000036f95     0x30bb BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/add.o
+ .debug_loc     0x000000000003a050     0x2c1a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/concatenation.o
+ .debug_loc     0x000000000003cc6a     0x3dc6 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/conv.o
+ .debug_loc     0x0000000000040a30     0x474c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/depthwise_conv.o
+ .debug_loc     0x000000000004517c     0x380e BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
+ .debug_loc     0x000000000004898a      0x657 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/reshape.o
+ .debug_loc     0x0000000000048fe1     0x46ad BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
+ .debug_loc     0x000000000004d68e       0x90 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/mbed/debug_log.o
+ .debug_loc     0x000000000004d71e      0x67e BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_helpers.o
+ .debug_loc     0x000000000004dd9c      0xe7c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
+ .debug_loc     0x000000000004ec18     0x29e3 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+ .debug_loc     0x00000000000515fb       0x96 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_error_reporter.o
+ .debug_loc     0x0000000000051691      0xfd6 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
+ .debug_loc     0x0000000000052667      0xb74 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_string.o
+ .debug_loc     0x00000000000531db      0x24e BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/simple_memory_allocator.o
 
 .debug_aranges  0x0000000000000000     0x3868
  .debug_aranges
@@ -22204,7 +22201,7 @@ OUTPUT(./BUILD/DISCO_F746NG/GCC_ARM/mbed.elf elf32-littlearm)
  .debug_ranges  0x0000000000009c10      0x150 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_string.o
  .debug_ranges  0x0000000000009d60       0x50 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/simple_memory_allocator.o
 
-.debug_line     0x0000000000000000    0x4d5d9
+.debug_line     0x0000000000000000    0x4d5db
  .debug_line    0x0000000000000000      0xc8f BUILD/DISCO_F746NG/GCC_ARM/AUDIO_DISCO_F746NG/AUDIO_DISCO_F746NG.o
  .debug_line    0x0000000000000c8f     0x11b8 BUILD/DISCO_F746NG/GCC_ARM/BSP_DISCO_F746NG/Drivers/BSP/Components/wm8994/wm8994.o
  .debug_line    0x0000000000001e47      0xa47 BUILD/DISCO_F746NG/GCC_ARM/BSP_DISCO_F746NG/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery.o
@@ -22282,27 +22279,27 @@ OUTPUT(./BUILD/DISCO_F746NG/GCC_ARM/mbed.elf elf32-littlearm)
  .debug_line    0x00000000000382ff      0xe78 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/disco_f746ng/audio_provider.o
  .debug_line    0x0000000000039177      0xabc BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/disco_f746ng/command_responder.o
  .debug_line    0x0000000000039c33       0x8d BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main.o
- .debug_line    0x0000000000039cc0      0xed5 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
- .debug_line    0x000000000003ab95       0xad BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/tiny_conv_micro_features_model_data.o
- .debug_line    0x000000000003ac42       0x95 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/yes_micro_features_data.o
- .debug_line    0x000000000003acd7      0xdda BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/activations.o
- .debug_line    0x000000000003bab1     0x1dfc BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/add.o
- .debug_line    0x000000000003d8ad     0x20b5 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/concatenation.o
- .debug_line    0x000000000003f962     0x1d81 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/conv.o
- .debug_line    0x00000000000416e3     0x1c71 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/depthwise_conv.o
- .debug_line    0x0000000000043354     0x16a4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
- .debug_line    0x00000000000449f8      0xa95 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/reshape.o
- .debug_line    0x000000000004548d     0x1eb5 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
- .debug_line    0x0000000000047342      0x9ee BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/mbed/debug_log.o
- .debug_line    0x0000000000047d30      0xb57 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_helpers.o
- .debug_line    0x0000000000048887      0xa1b BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
- .debug_line    0x00000000000492a2     0x1d06 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
- .debug_line    0x000000000004afa8      0x430 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_error_reporter.o
- .debug_line    0x000000000004b3d8     0x11d9 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
- .debug_line    0x000000000004c5b1      0x7b7 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_string.o
- .debug_line    0x000000000004cd68      0x871 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/simple_memory_allocator.o
+ .debug_line    0x0000000000039cc0      0xed7 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
+ .debug_line    0x000000000003ab97       0xad BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/tiny_conv_micro_features_model_data.o
+ .debug_line    0x000000000003ac44       0x95 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/yes_micro_features_data.o
+ .debug_line    0x000000000003acd9      0xdda BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/activations.o
+ .debug_line    0x000000000003bab3     0x1dfc BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/add.o
+ .debug_line    0x000000000003d8af     0x20b5 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/concatenation.o
+ .debug_line    0x000000000003f964     0x1d81 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/conv.o
+ .debug_line    0x00000000000416e5     0x1c71 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/depthwise_conv.o
+ .debug_line    0x0000000000043356     0x16a4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
+ .debug_line    0x00000000000449fa      0xa95 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/reshape.o
+ .debug_line    0x000000000004548f     0x1eb5 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
+ .debug_line    0x0000000000047344      0x9ee BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/mbed/debug_log.o
+ .debug_line    0x0000000000047d32      0xb57 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_helpers.o
+ .debug_line    0x0000000000048889      0xa1b BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
+ .debug_line    0x00000000000492a4     0x1d06 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+ .debug_line    0x000000000004afaa      0x430 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_error_reporter.o
+ .debug_line    0x000000000004b3da     0x11d9 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
+ .debug_line    0x000000000004c5b3      0x7b7 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_string.o
+ .debug_line    0x000000000004cd6a      0x871 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/simple_memory_allocator.o
 
-.debug_str      0x0000000000000000    0xa31b6
+.debug_str      0x0000000000000000    0xa31c8
  .debug_str     0x0000000000000000     0x34de BUILD/DISCO_F746NG/GCC_ARM/AUDIO_DISCO_F746NG/AUDIO_DISCO_F746NG.o
                                        0x3c19 (size before relaxing)
  .debug_str     0x00000000000034de      0x2f3 BUILD/DISCO_F746NG/GCC_ARM/BSP_DISCO_F746NG/Drivers/BSP/Components/wm8994/wm8994.o
@@ -22457,43 +22454,43 @@ OUTPUT(./BUILD/DISCO_F746NG/GCC_ARM/mbed.elf elf32-littlearm)
                                        0x383e (size before relaxing)
  .debug_str     0x000000000006721c       0x46 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main.o
                                         0x209 (size before relaxing)
- .debug_str     0x0000000000067262    0x325af BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
-                                      0x6805d (size before relaxing)
- .debug_str     0x0000000000099811       0x64 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/tiny_conv_micro_features_model_data.o
+ .debug_str     0x0000000000067262    0x325c1 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
+                                      0x6806f (size before relaxing)
+ .debug_str     0x0000000000099823       0x64 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/tiny_conv_micro_features_model_data.o
                                         0x288 (size before relaxing)
- .debug_str     0x0000000000099875       0x58 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/yes_micro_features_data.o
+ .debug_str     0x0000000000099887       0x58 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/yes_micro_features_data.o
                                         0x298 (size before relaxing)
- .debug_str     0x00000000000998cd      0xd2a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/activations.o
+ .debug_str     0x00000000000998df      0xd2a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/activations.o
                                        0x3489 (size before relaxing)
- .debug_str     0x000000000009a5f7     0x114a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/add.o
+ .debug_str     0x000000000009a609     0x114a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/add.o
                                        0x442f (size before relaxing)
- .debug_str     0x000000000009b741      0xe8c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/concatenation.o
+ .debug_str     0x000000000009b753      0xe8c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/concatenation.o
                                        0x86ff (size before relaxing)
- .debug_str     0x000000000009c5cd      0x9c2 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/conv.o
+ .debug_str     0x000000000009c5df      0x9c2 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/conv.o
                                        0x42f8 (size before relaxing)
- .debug_str     0x000000000009cf8f      0x691 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/depthwise_conv.o
+ .debug_str     0x000000000009cfa1      0x691 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/depthwise_conv.o
                                        0x4471 (size before relaxing)
- .debug_str     0x000000000009d620      0x4ed BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
+ .debug_str     0x000000000009d632      0x4ed BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
                                        0x3f64 (size before relaxing)
- .debug_str     0x000000000009db0d      0x20c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/reshape.o
+ .debug_str     0x000000000009db1f      0x20c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/reshape.o
                                        0x2907 (size before relaxing)
- .debug_str     0x000000000009dd19     0x3295 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
+ .debug_str     0x000000000009dd2b     0x3295 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
                                        0x6935 (size before relaxing)
- .debug_str     0x00000000000a0fae       0x33 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/mbed/debug_log.o
+ .debug_str     0x00000000000a0fc0       0x33 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/mbed/debug_log.o
                                        0x3f95 (size before relaxing)
- .debug_str     0x00000000000a0fe1      0x221 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_helpers.o
+ .debug_str     0x00000000000a0ff3      0x221 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_helpers.o
                                       0x2c332 (size before relaxing)
- .debug_str     0x00000000000a1202      0x999 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
+ .debug_str     0x00000000000a1214      0x999 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
                                         0xe43 (size before relaxing)
- .debug_str     0x00000000000a1b9b      0xdc3 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+ .debug_str     0x00000000000a1bad      0xdc3 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
                                       0x6836d (size before relaxing)
- .debug_str     0x00000000000a295e       0x8b BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_error_reporter.o
+ .debug_str     0x00000000000a2970       0x8b BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_error_reporter.o
                                         0x76d (size before relaxing)
- .debug_str     0x00000000000a29e9      0x501 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
+ .debug_str     0x00000000000a29fb      0x501 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
                                       0x67b19 (size before relaxing)
- .debug_str     0x00000000000a2eea      0x217 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_string.o
+ .debug_str     0x00000000000a2efc      0x217 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_string.o
                                         0x74c (size before relaxing)
- .debug_str     0x00000000000a3101       0xb5 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/simple_memory_allocator.o
+ .debug_str     0x00000000000a3113       0xb5 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/simple_memory_allocator.o
                                        0x222f (size before relaxing)
 
 .debug_frame    0x0000000000000000     0xbb50
