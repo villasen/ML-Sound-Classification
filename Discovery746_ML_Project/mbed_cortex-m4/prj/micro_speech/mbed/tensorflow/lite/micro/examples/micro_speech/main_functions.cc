@@ -207,7 +207,10 @@ error_reporter->Report("\n*****Starting Sound Recognition Program*****\n");
   const int kNoIndex = 3;
   const int kClappingIndex = 4; 
   const int kGunShotIndex = 5;
-
+  const int kCryingBabyIndex = 6;
+  const int kDoorKnockIndex = 7;
+  const int kSheilaIndex = 8;
+  const int kDogBarkIndex = 9;
 
   // Make sure that the expected "Yes" score is higher than the other classes.
   uint8_t silence_score = output->data.uint8[kSilenceIndex];
@@ -216,10 +219,16 @@ error_reporter->Report("\n*****Starting Sound Recognition Program*****\n");
   uint8_t no_score = output->data.uint8[kNoIndex];
   uint8_t clapping_score = output->data.uint8[kClappingIndex];
   uint8_t gunshot_score = output->data.uint8[kGunShotIndex];
+  uint8_t crying_baby_score = output->data.uint8[kCryingBabyIndex]; 
+  uint8_t door_knock_score = output->data.uint8[kDoorKnockIndex]; 
+  uint8_t sheila_score = output->data.uint8[kSheilaIndex];
+  uint8_t dog_bark_score = output->data.uint8[kDogBarkIndex];
 
 
-  error_reporter->Report("Softmax: silence=%d, unknown=%d, yes=%d, no=%d, clapping=%d, gunshot=%d", 
-  silence_score, unknown_score, yes_score, no_score, clapping_score, gunshot_score); 
+
+  error_reporter->Report("Softmax: silence=%d, unknown=%d, yes=%d, no=%d, clapping=%d, gunshot=%d, crying_baby=%d, door_knock=%d, sheila=%d, dog_bark=%d" 
+  ,silence_score, unknown_score, yes_score, no_score, clapping_score, gunshot_score, crying_baby_score, door_knock_score,
+  sheila_score, dog_bark_score); 
 
   error_reporter->Report("\n*****End of Sound Recognition Classifier*****");
 
