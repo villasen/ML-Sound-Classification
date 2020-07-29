@@ -134,49 +134,6 @@ error_reporter->Report("\n*****Starting Sound Recognition Program*****\n");
   }
 
 
-
-
-
- // model_input_buffer = model_input->data.uint8;
-
-  // Prepare to access the audio spectrograms from a microphone or other source
-  // that will provide the inputs to the neural network.
-  // NOLINTNEXTLINE(runtime-global-variables)
- 
-  //static FeatureProvider static_feature_provider(kFeatureElementCount,
-  //                                               feature_buffer);
- // feature_provider = &static_feature_provider;
-
- // static RecognizeCommands static_recognizer(error_reporter);
- // recognizer = &static_recognizer;
-
- // previous_time = 0;
-
-
-// The name of this function is important for Arduino compatibility.
-
-  // Fetch the spectrogram for the current time.
- // const int32_t current_time = LatestAudioTimestamp();
-//  int how_many_new_slices = 0;
-//  TfLiteStatus feature_status = feature_provider->PopulateFeatureData(
-//      error_reporter, previous_time, current_time, &how_many_new_slices);
- // if (feature_status != kTfLiteOk) {
- //   TF_LITE_REPORT_ERROR(error_reporter, "Feature generation failed");
-//    return;
- // }
- // previous_time = current_time;
-  // If no new audio samples have been received since last time, don't bother
-  // running the network model.
- // if (how_many_new_slices == 0) {
-//    return;
-//  }
-
-  // Copy feature buffer to input tensor
-//  for (int i = 0; i < kFeatureElementCount; i++) {
-//    model_input_buffer[i] = feature_buffer[i];
-//  }
-
-
 // Copy a spectrogram created from a .wav audio file 
   // into the memory area used for the input.
   const uint8_t* features_data = g_yes_micro_f2e59fea_nohash_1_data;
@@ -188,7 +145,6 @@ error_reporter->Report("\n*****Starting Sound Recognition Program*****\n");
   }
 
     
-
   // Run the model on the spectrogram input and make sure it succeeds.
   TfLiteStatus invoke_status = interpreter.Invoke();
   if (invoke_status != kTfLiteOk) {
@@ -226,8 +182,10 @@ error_reporter->Report("\n*****Starting Sound Recognition Program*****\n");
 
 
 
-  error_reporter->Report("Softmax: silence=%d, unknown=%d, yes=%d, no=%d, clapping=%d, gunshot=%d, crying_baby=%d, door_knock=%d, sheila=%d, dog_bark=%d" 
-  ,silence_score, unknown_score, yes_score, no_score, clapping_score, gunshot_score, crying_baby_score, door_knock_score,
+  error_reporter->Report("Softmax: silence=%d, unknown=%d, yes=%d, no=%d,  \
+  clapping=%d, gunshot=%d, crying_baby=%d, door_knock=%d, sheila=%d, dog_bark=%d" 
+  ,silence_score, unknown_score, yes_score, no_score, clapping_score, 
+  gunshot_score, crying_baby_score, door_knock_score,
   sheila_score, dog_bark_score); 
 
   error_reporter->Report("\n*****End of Sound Recognition Classifier*****");
