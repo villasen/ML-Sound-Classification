@@ -3,14 +3,11 @@
         "-x", 
         "assembler-with-cpp"
     ], 
-    "macros": [
-        "TF_LITE_STATIC_MEMORY"
-    ], 
+    "macros": [], 
     "symbols": [
         "ARM_MATH_CM7", 
         "EXTRA_IDLE_STACK_REQUIRED", 
         "MBED_TICKLESS", 
-        "TF_LITE_STATIC_MEMORY", 
         "TRANSACTION_QUEUE_SIZE_SPI=2", 
         "USBHOST_OTHER", 
         "USB_STM_HAL", 

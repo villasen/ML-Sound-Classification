@@ -30,6 +30,20 @@ limitations under the License.
 
 #include "tensorflow/lite/micro/examples/micro_speech/micro_features/no_micro_features_data.h"
 #include "tensorflow/lite/micro/examples/micro_speech/micro_features/yes_micro_features_data.h"
+//#include "tensorflow/lite/micro/examples/micro_speech/micro_features/doorknock_micro_features_data.h"
+
+
+extern const unsigned char g_door_knock_a_1_26188_a_data[];
+extern const unsigned char g_door_knock_a_1_52290_a_data[];
+extern const unsigned char g_door_knock_a_1_81001_a_data[];
+extern const unsigned char g_door_knock_a_1_81001_b_data[];
+extern const unsigned char g_door_knock_a_1_82817_a_data[];
+extern const unsigned char g_door_knock_a_1_101336_a_data[];
+extern const unsigned char g_door_knock_a_1_103995_a_data[];
+extern const unsigned char g_door_knock_a_1_103999_a_data[];
+extern const unsigned char g_door_knock_a_2_114254_a_data[];
+extern const unsigned char g_door_knock_a_2_118624_a_data[];
+extern const unsigned char g_door_knock_a_2_118625_a_data[];
 
 // Globals, used for compatibility with Arduino-style sketches.
 namespace {
@@ -136,7 +150,20 @@ error_reporter->Report("\n*****Starting Sound Recognition Program*****\n");
 
 // Copy a spectrogram created from a .wav audio file 
   // into the memory area used for the input.
-  const uint8_t* features_data = g_yes_micro_f2e59fea_nohash_1_data;
+ // const uint8_t* features_data = g_yes_micro_f2e59fea_nohash_1_data;
+ 
+//  const uint8_t* features_data = g_door_knock_a_1_26188_a_data;
+//  const uint8_t* features_data = g_door_knock_a_1_52290_a_data;
+//  const uint8_t* features_data = g_door_knock_a_1_81001_a_data;
+// const uint8_t* features_data =  g_door_knock_a_1_81001_b_data;
+//const uint8_t* features_data =  g_door_knock_a_1_82817_a_data;
+//const uint8_t* features_data =  g_door_knock_a_1_101336_a_data;
+//const uint8_t* features_data =  g_door_knock_a_1_103995_a_data;
+//const uint8_t* features_data =  g_door_knock_a_1_103999_a_data;
+//const uint8_t* features_data =  g_door_knock_a_2_114254_a_data;
+//const uint8_t* features_data = g_door_knock_a_2_118624_a_data;
+const uint8_t* features_data = g_door_knock_a_2_118625_a_data;
+
   error_reporter->Report("getting input data");
   //const uint8_t* features_data = g_no_micro_f9643d42_nohash_4_data;
   for (int i = 0; i < model_input->bytes; ++i) {
