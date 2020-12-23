@@ -32,7 +32,8 @@ limitations under the License.
 #include "tensorflow/lite/micro/examples/micro_speech/micro_features/yes_micro_features_data.h"
 #include "tensorflow/lite/micro/examples/micro_speech/micro_features/doorknock_micro_features_data.h"
 #include "tensorflow/lite/micro/examples/micro_speech/micro_features/gun_shot_micro_features_data.h"
-
+#include "tensorflow/lite/micro/examples/micro_speech/micro_features/crying_baby_micro_features_data.h"
+#include "tensorflow/lite/micro/examples/micro_speech/micro_features/dog_bark_micro_features_data.h"
 
 // Globals, used for compatibility with Arduino-style sketches.
 namespace {
@@ -164,7 +165,39 @@ error_reporter->Report("\n*****Starting Sound Recognition Program*****\n");
 //const uint8_t* features_data =  g_gun_shot_7064_6_0_0_data;
 //const uint8_t* features_data =  g_gun_shot_7064_6_1_0_data;
 //const uint8_t* features_data =  g_gun_shot_7064_6_2_0_data;
-const uint8_t* features_data = g_gun_shot_7064_6_4_0_data;
+//const uint8_t* features_data = g_gun_shot_7064_6_4_0_data;
+
+
+//** crying baby
+//const uint8_t* features_data =  g_crying_baby_a_1_187207_a_data;
+//const uint8_t* features_data =  g_crying_baby_a_2_50665_a_data;
+//const uint8_t* features_data =  g_crying_baby_a_5_198411_a_data;
+//const uint8_t* features_data =  g_crying_baby_b_2_50665_a_data;
+//const uint8_t* features_data =  g_crying_baby_b_2_80482_a_data;
+//const uint8_t* features_data =  g_crying_baby_b_5_198411_d_data;
+//const uint8_t* features_data =  g_crying_baby_c_3_152007_e_data;
+//const uint8_t* features_data =  g_crying_baby_c_5_198411_a_data;
+//const uint8_t* features_data =  g_crying_baby_c_5_198411_b_data;
+//const uint8_t* features_data =  g_crying_baby_d_4_167077_b_data;
+//const uint8_t* features_data =  g_crying_baby_e_5_198411_d_data;
+
+
+
+//** dog bark
+//const uint8_t* features_data =  g_dog_bark_22973_3_0_0_data;
+//const uint8_t* features_data = g_dog_bark_22973_3_0_0_data;
+//const uint8_t* features_data = g_dog_bark_26256_3_7_36_data;
+//const uint8_t* features_data = g_dog_bark_33696_3_4_0_data;
+//const uint8_t* features_data = g_dog_bark_52077_3_0_13_data;
+//const uint8_t* features_data = g_dog_bark_66587_3_1_0_data;
+//const uint8_t* features_data = g_dog_bark_76640_3_0_0_data;
+//const uint8_t* features_data = g_dog_bark_81799_3_1_0_data;
+//const uint8_t* features_data = g_dog_bark_118101_3_0_0_data;
+//const uint8_t* features_data = g_dog_bark_118962_3_0_0_data;
+//const uint8_t* features_data = g_dog_bark_175915_3_0_1_data;
+const uint8_t* features_data = g_dog_bark_183989_3_1_18_data;
+
+
 
   error_reporter->Report("getting input data");
   //const uint8_t* features_data = g_no_micro_f9643d42_nohash_4_data;
