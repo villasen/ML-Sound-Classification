@@ -10419,10 +10419,44 @@ Discarded input sections
                 0x0000000000000000      0x7a8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/doorknock_micro_features_data.o
  .rodata.g_door_knock_a_2_118624_a_data
                 0x0000000000000000      0x7a8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/doorknock_micro_features_data.o
+ .rodata.g_door_knock_a_2_118625_a_data
+                0x0000000000000000      0x7a8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/doorknock_micro_features_data.o
  .rodata.g_doorknock_micro_f2e59fea_nohash_1_height
                 0x0000000000000000        0x4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/doorknock_micro_features_data.o
  .rodata.g_doorknock_micro_f2e59fea_nohash_1_width
                 0x0000000000000000        0x4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/doorknock_micro_features_data.o
+ .debug_info    0x0000000000000000      0x955 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/doorknock_micro_features_data.o
+ .debug_abbrev  0x0000000000000000       0x86 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/doorknock_micro_features_data.o
+ .debug_aranges
+                0x0000000000000000       0x18 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/doorknock_micro_features_data.o
+ .debug_line    0x0000000000000000       0xa1 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/doorknock_micro_features_data.o
+ .debug_str     0x0000000000000000      0x3d7 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/doorknock_micro_features_data.o
+ .comment       0x0000000000000000       0x76 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/doorknock_micro_features_data.o
+ .ARM.attributes
+                0x0000000000000000       0x37 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/doorknock_micro_features_data.o
+ .text          0x0000000000000000        0x0 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/gun_shot_micro_features_data.o
+ .data          0x0000000000000000        0x0 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/gun_shot_micro_features_data.o
+ .bss           0x0000000000000000        0x0 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/gun_shot_micro_features_data.o
+ .rodata.g_gun_shot_7060_6_0_0_data
+                0x0000000000000000      0x7a8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/gun_shot_micro_features_data.o
+ .rodata.g_gun_shot_7060_6_1_0_data
+                0x0000000000000000      0x7a8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/gun_shot_micro_features_data.o
+ .rodata.g_gun_shot_7060_6_2_0_data
+                0x0000000000000000      0x7a8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/gun_shot_micro_features_data.o
+ .rodata.g_gun_shot_7061_6_0_0_data
+                0x0000000000000000      0x7a8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/gun_shot_micro_features_data.o
+ .rodata.g_gun_shot_7063_6_0_0_data
+                0x0000000000000000      0x7a8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/gun_shot_micro_features_data.o
+ .rodata.g_gun_shot_7064_6_0_0_data
+                0x0000000000000000      0x7a8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/gun_shot_micro_features_data.o
+ .rodata.g_gun_shot_7064_6_1_0_data
+                0x0000000000000000      0x7a8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/gun_shot_micro_features_data.o
+ .rodata.g_gun_shot_7064_6_2_0_data
+                0x0000000000000000      0x7a8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/gun_shot_micro_features_data.o
+ .rodata.g_gun_shot_micro_f2e59fea_nohash_1_height
+                0x0000000000000000        0x4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/gun_shot_micro_features_data.o
+ .rodata.g_gun_shot_micro_f2e59fea_nohash_1_width
+                0x0000000000000000        0x4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/gun_shot_micro_features_data.o
  .text          0x0000000000000000        0x0 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/micro_features_generator.o
  .data          0x0000000000000000        0x0 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/micro_features_generator.o
  .bss           0x0000000000000000        0x0 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/micro_features_generator.o
@@ -10498,8 +10532,8 @@ Discarded input sections
                 0x0000000000000000        0x4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/yes_micro_features_data.o
  .rodata.g_yes_micro_f2e59fea_nohash_1_width
                 0x0000000000000000        0x4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/yes_micro_features_data.o
- .debug_info    0x0000000000000000       0x97 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/yes_micro_features_data.o
- .debug_abbrev  0x0000000000000000       0x6c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/yes_micro_features_data.o
+ .debug_info    0x0000000000000000       0x96 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/yes_micro_features_data.o
+ .debug_abbrev  0x0000000000000000       0x5d BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/yes_micro_features_data.o
  .debug_aranges
                 0x0000000000000000       0x18 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/yes_micro_features_data.o
  .debug_line    0x0000000000000000       0x95 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/yes_micro_features_data.o
@@ -18427,6 +18461,7 @@ LOAD BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/feat
 LOAD BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main.o
 LOAD BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
 LOAD BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/doorknock_micro_features_data.o
+LOAD BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/gun_shot_micro_features_data.o
 LOAD BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/micro_features_generator.o
 LOAD BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/micro_model_settings.o
 LOAD BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/no_micro_features_data.o
@@ -20687,9 +20722,9 @@ LOAD /Users/martin/machine_learning/mbed/GCC_ARM/gcc-arm-none-eabi-8-2018-q4-maj
                 0x0000000008018d34                vtable for tflite::MicroMutableOpResolver
  .rodata.setup.str1.1
                 0x0000000008018d4c      0x1ea BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
- .rodata.g_door_knock_a_2_118625_a_data
-                0x0000000008018f36      0x7a8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/doorknock_micro_features_data.o
-                0x0000000008018f36                g_door_knock_a_2_118625_a_data
+ .rodata.g_gun_shot_7062_6_0_0_data
+                0x0000000008018f36      0x7a8 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/gun_shot_micro_features_data.o
+                0x0000000008018f36                g_gun_shot_7062_6_0_0_data
  *fill*         0x00000000080196de        0x2 
  .rodata.g_tiny_conv_micro_features_model_data
                 0x00000000080196e0     0xa548 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/tiny_conv_micro_features_model_data.o
@@ -21357,7 +21392,7 @@ OUTPUT(./BUILD/DISCO_F746NG/GCC_ARM/mbed.elf elf32-littlearm)
  .ARM.attributes
                 0x0000000000000f5d       0x32 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
  .ARM.attributes
-                0x0000000000000f8f       0x37 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/doorknock_micro_features_data.o
+                0x0000000000000f8f       0x37 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/gun_shot_micro_features_data.o
  .ARM.attributes
                 0x0000000000000fc6       0x37 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/tiny_conv_micro_features_model_data.o
  .ARM.attributes
@@ -21645,7 +21680,7 @@ OUTPUT(./BUILD/DISCO_F746NG/GCC_ARM/mbed.elf elf32-littlearm)
  .comment       0x0000000000000075       0x76 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/disco_f746ng/command_responder.o
  .comment       0x0000000000000075       0x76 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main.o
  .comment       0x0000000000000075       0x76 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
- .comment       0x0000000000000075       0x76 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/doorknock_micro_features_data.o
+ .comment       0x0000000000000075       0x76 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/gun_shot_micro_features_data.o
  .comment       0x0000000000000075       0x76 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/tiny_conv_micro_features_model_data.o
  .comment       0x0000000000000075       0x76 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/activations.o
  .comment       0x0000000000000075       0x76 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/add.o
@@ -21664,7 +21699,7 @@ OUTPUT(./BUILD/DISCO_F746NG/GCC_ARM/mbed.elf elf32-littlearm)
  .comment       0x0000000000000075       0x76 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_string.o
  .comment       0x0000000000000075       0x76 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/simple_memory_allocator.o
 
-.debug_info     0x0000000000000000   0x2450ca
+.debug_info     0x0000000000000000   0x24513f
  .debug_info    0x0000000000000000     0x62d0 BUILD/DISCO_F746NG/GCC_ARM/AUDIO_DISCO_F746NG/AUDIO_DISCO_F746NG.o
  .debug_info    0x00000000000062d0     0x419d BUILD/DISCO_F746NG/GCC_ARM/BSP_DISCO_F746NG/Drivers/BSP/Components/wm8994/wm8994.o
  .debug_info    0x000000000000a46d     0x2b4f BUILD/DISCO_F746NG/GCC_ARM/BSP_DISCO_F746NG/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery.o
@@ -21742,25 +21777,25 @@ OUTPUT(./BUILD/DISCO_F746NG/GCC_ARM/mbed.elf elf32-littlearm)
  .debug_info    0x00000000001210c8     0x6810 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/disco_f746ng/audio_provider.o
  .debug_info    0x00000000001278d8     0x5a01 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/disco_f746ng/command_responder.o
  .debug_info    0x000000000012d2d9       0x98 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main.o
- .debug_info    0x000000000012d371    0x3a435 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
- .debug_info    0x00000000001677a6      0x955 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/doorknock_micro_features_data.o
- .debug_info    0x00000000001680fb       0x7e BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/tiny_conv_micro_features_model_data.o
- .debug_info    0x0000000000168179     0x55d6 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/activations.o
- .debug_info    0x000000000016d74f     0x83c9 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/add.o
- .debug_info    0x0000000000175b18     0x98d2 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/concatenation.o
- .debug_info    0x000000000017f3ea     0x7e53 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/conv.o
- .debug_info    0x000000000018723d     0x7f91 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/depthwise_conv.o
- .debug_info    0x000000000018f1ce     0x71ab BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
- .debug_info    0x0000000000196379     0x3fb6 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/reshape.o
- .debug_info    0x000000000019a32f     0xaed4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
- .debug_info    0x00000000001a5203     0x651a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/mbed/debug_log.o
- .debug_info    0x00000000001ab71d    0x1bd5e BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_helpers.o
- .debug_info    0x00000000001c747b     0x148f BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
- .debug_info    0x00000000001c890a    0x3d780 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
- .debug_info    0x000000000020608a      0x793 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_error_reporter.o
- .debug_info    0x000000000020681d    0x3a940 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
- .debug_info    0x000000000024115d      0xe47 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_string.o
- .debug_info    0x0000000000241fa4     0x3126 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/simple_memory_allocator.o
+ .debug_info    0x000000000012d371    0x3a4c5 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
+ .debug_info    0x0000000000167836      0x93a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/gun_shot_micro_features_data.o
+ .debug_info    0x0000000000168170       0x7e BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/tiny_conv_micro_features_model_data.o
+ .debug_info    0x00000000001681ee     0x55d6 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/activations.o
+ .debug_info    0x000000000016d7c4     0x83c9 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/add.o
+ .debug_info    0x0000000000175b8d     0x98d2 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/concatenation.o
+ .debug_info    0x000000000017f45f     0x7e53 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/conv.o
+ .debug_info    0x00000000001872b2     0x7f91 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/depthwise_conv.o
+ .debug_info    0x000000000018f243     0x71ab BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
+ .debug_info    0x00000000001963ee     0x3fb6 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/reshape.o
+ .debug_info    0x000000000019a3a4     0xaed4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
+ .debug_info    0x00000000001a5278     0x651a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/mbed/debug_log.o
+ .debug_info    0x00000000001ab792    0x1bd5e BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_helpers.o
+ .debug_info    0x00000000001c74f0     0x148f BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
+ .debug_info    0x00000000001c897f    0x3d780 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+ .debug_info    0x00000000002060ff      0x793 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_error_reporter.o
+ .debug_info    0x0000000000206892    0x3a940 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
+ .debug_info    0x00000000002411d2      0xe47 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_string.o
+ .debug_info    0x0000000000242019     0x3126 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/simple_memory_allocator.o
 
 .debug_abbrev   0x0000000000000000    0x24878
  .debug_abbrev  0x0000000000000000      0x863 BUILD/DISCO_F746NG/GCC_ARM/AUDIO_DISCO_F746NG/AUDIO_DISCO_F746NG.o
@@ -21841,7 +21876,7 @@ OUTPUT(./BUILD/DISCO_F746NG/GCC_ARM/mbed.elf elf32-littlearm)
  .debug_abbrev  0x0000000000018635      0x86d BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/disco_f746ng/command_responder.o
  .debug_abbrev  0x0000000000018ea2       0x81 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main.o
  .debug_abbrev  0x0000000000018f23     0x10be BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
- .debug_abbrev  0x0000000000019fe1       0x86 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/doorknock_micro_features_data.o
+ .debug_abbrev  0x0000000000019fe1       0x86 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/gun_shot_micro_features_data.o
  .debug_abbrev  0x000000000001a067       0x5d BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/tiny_conv_micro_features_model_data.o
  .debug_abbrev  0x000000000001a0c4      0xa70 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/activations.o
  .debug_abbrev  0x000000000001ab34      0xc61 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/add.o
@@ -22110,7 +22145,7 @@ OUTPUT(./BUILD/DISCO_F746NG/GCC_ARM/mbed.elf elf32-littlearm)
  .debug_aranges
                 0x0000000000003010       0x48 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
  .debug_aranges
-                0x0000000000003058       0x18 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/doorknock_micro_features_data.o
+                0x0000000000003058       0x18 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/gun_shot_micro_features_data.o
  .debug_aranges
                 0x0000000000003070       0x18 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/tiny_conv_micro_features_model_data.o
  .debug_aranges
@@ -22239,7 +22274,7 @@ OUTPUT(./BUILD/DISCO_F746NG/GCC_ARM/mbed.elf elf32-littlearm)
  .debug_ranges  0x0000000000009c10      0x150 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_string.o
  .debug_ranges  0x0000000000009d60       0x50 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/simple_memory_allocator.o
 
-.debug_line     0x0000000000000000    0x4d5f4
+.debug_line     0x0000000000000000    0x4d635
  .debug_line    0x0000000000000000      0xc8f BUILD/DISCO_F746NG/GCC_ARM/AUDIO_DISCO_F746NG/AUDIO_DISCO_F746NG.o
  .debug_line    0x0000000000000c8f     0x11b8 BUILD/DISCO_F746NG/GCC_ARM/BSP_DISCO_F746NG/Drivers/BSP/Components/wm8994/wm8994.o
  .debug_line    0x0000000000001e47      0xa47 BUILD/DISCO_F746NG/GCC_ARM/BSP_DISCO_F746NG/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery.o
@@ -22317,27 +22352,27 @@ OUTPUT(./BUILD/DISCO_F746NG/GCC_ARM/mbed.elf elf32-littlearm)
  .debug_line    0x00000000000382ff      0xe78 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/disco_f746ng/audio_provider.o
  .debug_line    0x0000000000039177      0xabc BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/disco_f746ng/command_responder.o
  .debug_line    0x0000000000039c33       0x8d BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main.o
- .debug_line    0x0000000000039cc0      0xee4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
- .debug_line    0x000000000003aba4       0xa1 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/doorknock_micro_features_data.o
- .debug_line    0x000000000003ac45       0xad BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/tiny_conv_micro_features_model_data.o
- .debug_line    0x000000000003acf2      0xdda BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/activations.o
- .debug_line    0x000000000003bacc     0x1dfc BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/add.o
- .debug_line    0x000000000003d8c8     0x20b5 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/concatenation.o
- .debug_line    0x000000000003f97d     0x1d81 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/conv.o
- .debug_line    0x00000000000416fe     0x1c71 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/depthwise_conv.o
- .debug_line    0x000000000004336f     0x16a4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
- .debug_line    0x0000000000044a13      0xa95 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/reshape.o
- .debug_line    0x00000000000454a8     0x1eb5 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
- .debug_line    0x000000000004735d      0x9ee BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/mbed/debug_log.o
- .debug_line    0x0000000000047d4b      0xb57 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_helpers.o
- .debug_line    0x00000000000488a2      0xa1b BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
- .debug_line    0x00000000000492bd     0x1d06 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
- .debug_line    0x000000000004afc3      0x430 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_error_reporter.o
- .debug_line    0x000000000004b3f3     0x11d9 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
- .debug_line    0x000000000004c5cc      0x7b7 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_string.o
- .debug_line    0x000000000004cd83      0x871 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/simple_memory_allocator.o
+ .debug_line    0x0000000000039cc0      0xf27 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
+ .debug_line    0x000000000003abe7       0x9f BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/gun_shot_micro_features_data.o
+ .debug_line    0x000000000003ac86       0xad BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/tiny_conv_micro_features_model_data.o
+ .debug_line    0x000000000003ad33      0xdda BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/activations.o
+ .debug_line    0x000000000003bb0d     0x1dfc BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/add.o
+ .debug_line    0x000000000003d909     0x20b5 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/concatenation.o
+ .debug_line    0x000000000003f9be     0x1d81 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/conv.o
+ .debug_line    0x000000000004173f     0x1c71 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/depthwise_conv.o
+ .debug_line    0x00000000000433b0     0x16a4 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
+ .debug_line    0x0000000000044a54      0xa95 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/reshape.o
+ .debug_line    0x00000000000454e9     0x1eb5 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
+ .debug_line    0x000000000004739e      0x9ee BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/mbed/debug_log.o
+ .debug_line    0x0000000000047d8c      0xb57 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_helpers.o
+ .debug_line    0x00000000000488e3      0xa1b BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
+ .debug_line    0x00000000000492fe     0x1d06 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+ .debug_line    0x000000000004b004      0x430 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_error_reporter.o
+ .debug_line    0x000000000004b434     0x11d9 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
+ .debug_line    0x000000000004c60d      0x7b7 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_string.o
+ .debug_line    0x000000000004cdc4      0x871 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/simple_memory_allocator.o
 
-.debug_str      0x0000000000000000    0xa33e7
+.debug_str      0x0000000000000000    0xa3528
  .debug_str     0x0000000000000000     0x34de BUILD/DISCO_F746NG/GCC_ARM/AUDIO_DISCO_F746NG/AUDIO_DISCO_F746NG.o
                                        0x3c19 (size before relaxing)
  .debug_str     0x00000000000034de      0x2f3 BUILD/DISCO_F746NG/GCC_ARM/BSP_DISCO_F746NG/Drivers/BSP/Components/wm8994/wm8994.o
@@ -22492,43 +22527,43 @@ OUTPUT(./BUILD/DISCO_F746NG/GCC_ARM/mbed.elf elf32-littlearm)
                                        0x383e (size before relaxing)
  .debug_str     0x0000000000067215       0x46 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main.o
                                         0x209 (size before relaxing)
- .debug_str     0x000000000006725b    0x3278c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
-                                      0x6823a (size before relaxing)
- .debug_str     0x00000000000999e7       0xb3 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/doorknock_micro_features_data.o
-                                        0x3d7 (size before relaxing)
- .debug_str     0x0000000000099a9a       0x64 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/tiny_conv_micro_features_model_data.o
+ .debug_str     0x000000000006725b    0x32908 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_functions.o
+                                      0x683b6 (size before relaxing)
+ .debug_str     0x0000000000099b63       0x78 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/gun_shot_micro_features_data.o
+                                        0x392 (size before relaxing)
+ .debug_str     0x0000000000099bdb       0x64 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/micro_features/tiny_conv_micro_features_model_data.o
                                         0x288 (size before relaxing)
- .debug_str     0x0000000000099afe      0xd2a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/activations.o
+ .debug_str     0x0000000000099c3f      0xd2a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/activations.o
                                        0x3489 (size before relaxing)
- .debug_str     0x000000000009a828     0x114a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/add.o
+ .debug_str     0x000000000009a969     0x114a BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/add.o
                                        0x442f (size before relaxing)
- .debug_str     0x000000000009b972      0xe8c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/concatenation.o
+ .debug_str     0x000000000009bab3      0xe8c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/concatenation.o
                                        0x86ff (size before relaxing)
- .debug_str     0x000000000009c7fe      0x9c2 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/conv.o
+ .debug_str     0x000000000009c93f      0x9c2 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/conv.o
                                        0x42f8 (size before relaxing)
- .debug_str     0x000000000009d1c0      0x691 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/depthwise_conv.o
+ .debug_str     0x000000000009d301      0x691 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/depthwise_conv.o
                                        0x4471 (size before relaxing)
- .debug_str     0x000000000009d851      0x4ed BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
+ .debug_str     0x000000000009d992      0x4ed BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/fully_connected.o
                                        0x3f64 (size before relaxing)
- .debug_str     0x000000000009dd3e      0x20c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/reshape.o
+ .debug_str     0x000000000009de7f      0x20c BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/reshape.o
                                        0x2907 (size before relaxing)
- .debug_str     0x000000000009df4a     0x3295 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
+ .debug_str     0x000000000009e08b     0x3295 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/kernels/softmax.o
                                        0x6935 (size before relaxing)
- .debug_str     0x00000000000a11df       0x33 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/mbed/debug_log.o
+ .debug_str     0x00000000000a1320       0x33 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/mbed/debug_log.o
                                        0x3f95 (size before relaxing)
- .debug_str     0x00000000000a1212      0x221 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_helpers.o
+ .debug_str     0x00000000000a1353      0x221 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_helpers.o
                                       0x2c332 (size before relaxing)
- .debug_str     0x00000000000a1433      0x999 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
+ .debug_str     0x00000000000a1574      0x999 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/memory_planner/greedy_memory_planner.o
                                         0xe43 (size before relaxing)
- .debug_str     0x00000000000a1dcc      0xdc3 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
+ .debug_str     0x00000000000a1f0d      0xdc3 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_allocator.o
                                       0x6836d (size before relaxing)
- .debug_str     0x00000000000a2b8f       0x8b BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_error_reporter.o
+ .debug_str     0x00000000000a2cd0       0x8b BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_error_reporter.o
                                         0x76d (size before relaxing)
- .debug_str     0x00000000000a2c1a      0x501 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
+ .debug_str     0x00000000000a2d5b      0x501 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_interpreter.o
                                       0x67b19 (size before relaxing)
- .debug_str     0x00000000000a311b      0x217 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_string.o
+ .debug_str     0x00000000000a325c      0x217 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/micro_string.o
                                         0x74c (size before relaxing)
- .debug_str     0x00000000000a3332       0xb5 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/simple_memory_allocator.o
+ .debug_str     0x00000000000a3473       0xb5 BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/simple_memory_allocator.o
                                        0x222f (size before relaxing)
 
 .debug_frame    0x0000000000000000     0xbb50

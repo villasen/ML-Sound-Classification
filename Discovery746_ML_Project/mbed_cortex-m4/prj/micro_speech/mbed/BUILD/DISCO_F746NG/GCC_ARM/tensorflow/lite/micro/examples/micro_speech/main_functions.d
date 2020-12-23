@@ -29,4 +29,6 @@ BUILD/DISCO_F746NG/GCC_ARM/tensorflow/lite/micro/examples/micro_speech/main_func
  tensorflow/lite/micro/micro_mutable_op_resolver.h \
  tensorflow/lite/version.h tensorflow/core/public/version.h \
  tensorflow/lite/micro/examples/micro_speech/micro_features/no_micro_features_data.h \
- tensorflow/lite/micro/examples/micro_speech/micro_features/yes_micro_features_data.h
+ tensorflow/lite/micro/examples/micro_speech/micro_features/yes_micro_features_data.h \
+ tensorflow/lite/micro/examples/micro_speech/micro_features/doorknock_micro_features_data.h \
+ tensorflow/lite/micro/examples/micro_speech/micro_features/gun_shot_micro_features_data.h
