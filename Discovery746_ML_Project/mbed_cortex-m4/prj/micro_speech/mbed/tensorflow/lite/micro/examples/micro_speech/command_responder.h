@@ -29,4 +29,11 @@ void RespondToCommand(tflite::ErrorReporter* error_reporter,
                       int32_t current_time, const char* found_command,
                       uint8_t score, bool is_new_command);
 
+void RespondToCommands(tflite::ErrorReporter *error_reporter,
+                       const char *found_command,
+                      uint8_t score, bool is_new_command);
+  
+
+
+
 #endif  // TENSORFLOW_LITE_MICRO_EXAMPLES_MICRO_SPEECH_COMMAND_RESPONDER_H_

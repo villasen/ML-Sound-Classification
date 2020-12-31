@@ -35,6 +35,8 @@ limitations under the License.
 #include "tensorflow/lite/micro/examples/micro_speech/micro_features/crying_baby_micro_features_data.h"
 #include "tensorflow/lite/micro/examples/micro_speech/micro_features/dog_bark_micro_features_data.h"
 
+
+#define MAX_FEATURE_NUMBER 1960
 // Globals, used for compatibility with Arduino-style sketches.
 namespace {
 tflite::ErrorReporter* error_reporter = nullptr;
@@ -184,28 +186,52 @@ error_reporter->Report("\n*****Starting Sound Recognition Program*****\n");
 
 
 //** dog bark
-//const uint8_t* features_data =  g_dog_bark_22973_3_0_0_data;
-//const uint8_t* features_data = g_dog_bark_22973_3_0_0_data;
-//const uint8_t* features_data = g_dog_bark_26256_3_7_36_data;
-//const uint8_t* features_data = g_dog_bark_33696_3_4_0_data;
-//const uint8_t* features_data = g_dog_bark_52077_3_0_13_data;
-//const uint8_t* features_data = g_dog_bark_66587_3_1_0_data;
-//const uint8_t* features_data = g_dog_bark_76640_3_0_0_data;
-//const uint8_t* features_data = g_dog_bark_81799_3_1_0_data;
-//const uint8_t* features_data = g_dog_bark_118101_3_0_0_data;
-//const uint8_t* features_data = g_dog_bark_118962_3_0_0_data;
-//const uint8_t* features_data = g_dog_bark_175915_3_0_1_data;
-const uint8_t* features_data = g_dog_bark_183989_3_1_18_data;
+//const uint8_t* features_data1 =  g_dog_bark_22973_3_0_0_data;
+//const uint8_t* features_data2 = g_dog_bark_26256_3_7_36_data;
+//const uint8_t* features_data3 = g_dog_bark_33696_3_4_0_data;
+//const uint8_t* features_data4 = g_dog_bark_52077_3_0_13_data;
+//const uint8_t* features_data5 = g_dog_bark_66587_3_1_0_data;
+//const uint8_t* features_data6 = g_dog_bark_76640_3_0_0_data;
+//const uint8_t* features_data7 = g_dog_bark_81799_3_1_0_data;
+//const uint8_t* features_data8 = g_dog_bark_118101_3_0_0_data;
+//const uint8_t* features_data9 = g_dog_bark_118962_3_0_0_data;
+//const uint8_t* features_data10 = g_dog_bark_175915_3_0_1_data;
+//const uint8_t* features_data11 = g_dog_bark_183989_3_1_18_data;
 
 
+const uint8_t* features_data1 =  g_dog_bark_22973_3_0_0_data;
+const uint8_t* features_data2 = g_dog_bark_26256_3_7_36_data;
+const uint8_t* features_data3 = g_dog_bark_33696_3_4_0_data;
+const uint8_t* features_data4 = g_dog_bark_52077_3_0_13_data;
+const uint8_t* features_data5 = g_dog_bark_66587_3_1_0_data;
+const uint8_t* features_data6 = g_dog_bark_76640_3_0_0_data;
+const uint8_t* features_data7 = g_dog_bark_81799_3_1_0_data;
+const uint8_t* features_data8 = g_dog_bark_118101_3_0_0_data;
+const uint8_t* features_data9 = g_dog_bark_118962_3_0_0_data;
+const uint8_t* features_data10 = g_dog_bark_175915_3_0_1_data;
+const uint8_t* features_data11 = g_dog_bark_183989_3_1_18_data;
 
-  error_reporter->Report("getting input data");
+//for (k ; k < 3 ; k++ )
+//{
+
+  // error_reporter->Report("Testing loop #%d", k);
+   
+  // const uint8_t* features_data =  dog_bark_feature_data;   
+  //g_dog_bark_183989_3_1_18_data;
+  //  temp[k] = dog_bark_feature_data[k];
+
+   // features_data =  ptr_dog_bark_feature_data+0;
+   // error_reporter->Report("Features_data[0] = %d", features_data[0]);
   //const uint8_t* features_data = g_no_micro_f9643d42_nohash_4_data;
-  for (int i = 0; i < model_input->bytes; ++i) {
-    model_input->data.uint8[i] = features_data[i];
-    //error_reporter->Report("%d", model_input->data.uint8[i]);
-  }
 
+
+
+
+    for (int i = 0; i < model_input->bytes; ++i) {
+  //  model_input->data.uint8[i] = features_data1[i];
+      model_input->data.uint8[i] = g_dog_bark_22973_3_0_0_data[i];
+    //error_reporter->Report("%d", model_input->data.uint8[i]);
+    }
     
   // Run the model on the spectrogram input and make sure it succeeds.
   TfLiteStatus invoke_status = interpreter.Invoke();
@@ -218,6 +244,9 @@ const uint8_t* features_data = g_dog_bark_183989_3_1_18_data;
   TfLiteTensor* output = interpreter.output(0);
   error_reporter->Report("output: %d", output->data.uint8[0]);
 
+  
+  
+  
   // There are four possible classes in the output, each with a score.
   const int kSilenceIndex = 0;
   const int kUnknownIndex = 1;
@@ -250,12 +279,15 @@ const uint8_t* features_data = g_dog_bark_183989_3_1_18_data;
   gunshot_score, crying_baby_score, door_knock_score,
   sheila_score, dog_bark_score); 
 
+//}
+
+ 
   error_reporter->Report("\n*****End of Sound Recognition Classifier*****");
 
   // Determine whether a command was recognized based on the output of inference
- // const char* found_command = nullptr;
-  //uint8_t score = 0;
- // bool is_new_command = false;
+  const char* found_command = nullptr;
+  uint8_t score = 0;
+  bool is_new_command = false;
 //  TfLiteStatus process_status = recognizer->ProcessLatestResults(
  //     output, current_time, &found_command, &score, &is_new_command);
  // if (process_status != kTfLiteOk) {
@@ -267,8 +299,12 @@ const uint8_t* features_data = g_dog_bark_183989_3_1_18_data;
   // just prints to the error console, but you should replace this with your
   // own function for a real application.
   
-//  RespondToCommand(error_reporter, current_time, found_command, score,
-//                   is_new_command);
+ // RespondToCommand(error_reporter, current_time, found_command, score,
+ //                  is_new_command);
+  
+  
+  //RespondToCommands(error_reporter, found_command, score,
+  //                 is_new_command);
 
 
 }
