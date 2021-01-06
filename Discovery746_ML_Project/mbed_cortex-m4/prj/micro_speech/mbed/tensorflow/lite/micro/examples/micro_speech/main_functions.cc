@@ -50,7 +50,7 @@ int32_t previous_time = 0;
 // Create an area of memory to use for input, output, and intermediate arrays.
 // The size of this will depend on the model you're using, and may need to be
 // determined by experimentation.
-constexpr int kTensorArenaSize = 7 * 1024; // highest 
+constexpr int kTensorArenaSize = 10 * 1024; // highest 
                                             // available is 70*1024
 uint8_t tensor_arena[kTensorArenaSize];
 //uint8_t feature_buffer[kFeatureElementCount];
@@ -66,7 +66,7 @@ void setup() {
   error_reporter = &micro_error_reporter;
 
 
-error_reporter->Report("\n*****Starting Sound Recognition Program*****\n");
+error_reporter->Report("\n*****Starting Sound Recognition Program for DISCO746*****\n");
 
   // Map the model into a usable data structure. This doesn't involve any
   // copying or parsing, it's a very lightweight operation.
@@ -94,12 +94,27 @@ error_reporter->Report("\n*****Starting Sound Recognition Program*****\n");
   micro_mutable_op_resolver.AddBuiltin(
       tflite::BuiltinOperator_DEPTHWISE_CONV_2D,
       tflite::ops::micro::Register_DEPTHWISE_CONV_2D(), 1, 3);
-  
-  // fully connected op layer
+
+/*
+  micro_mutable_op_resolver.AddBuiltin( 
+      tflite::BuiltinOperator_QUANTIZE,
+      tflite::ops::micro::Register_QUANTIZE(), 1, 2);
+*/
+
+ // fully connected op layer
   micro_mutable_op_resolver.AddBuiltin(
       tflite::BuiltinOperator_FULLY_CONNECTED,
       tflite::ops::micro::Register_FULLY_CONNECTED(), 1, 4);
-    
+
+
+  micro_mutable_op_resolver.AddBuiltin(
+      tflite::BuiltinOperator_MAX_POOL_2D,
+      tflite::ops::micro::Register_MAX_POOL_2D(), 1, 1);
+
+  micro_mutable_op_resolver.AddBuiltin(
+      tflite::BuiltinOperator_CONV_2D,
+      tflite::ops::micro::Register_CONV_2D(), 1, 1);
+
 // Reshape operator
   micro_mutable_op_resolver.AddBuiltin(
       tflite::BuiltinOperator_RESHAPE ,
@@ -129,7 +144,8 @@ error_reporter->Report("\n*****Starting Sound Recognition Program*****\n");
   error_reporter->Report("model dim data2=%d", model_input->dims->data[2]);
   error_reporter->Report("model type=%d", model_input->type);
 
-
+ error_reporter->Report("Wait... Thinking...", model_input->type);
+/*
   if ((model_input->dims->size != 4) || (model_input->dims->data[0] != 1) ||
       (model_input->dims->data[1] != kFeatureSliceCount) ||
       (model_input->dims->data[2] != kFeatureSliceSize) ||
@@ -138,11 +154,11 @@ error_reporter->Report("\n*****Starting Sound Recognition Program*****\n");
                          "Bad input tensor parameters in model");
     return;
   }
-
+*/
 
 // Copy a spectrogram created from a .wav audio file 
   // into the memory area used for the input.
- // const uint8_t* features_data = g_yes_micro_f2e59fea_nohash_1_data;
+//  const uint8_t* features_data = g_yes_micro_f2e59fea_nohash_1_data;
 
 //** door knock 
 //  const uint8_t* features_data = g_door_knock_a_1_26188_a_data;
@@ -173,7 +189,7 @@ error_reporter->Report("\n*****Starting Sound Recognition Program*****\n");
 //** crying baby
 //const uint8_t* features_data =  g_crying_baby_a_1_187207_a_data;
 //const uint8_t* features_data =  g_crying_baby_a_2_50665_a_data;
-//const uint8_t* features_data =  g_crying_baby_a_5_198411_a_data;
+const uint8_t* features_data =  g_crying_baby_a_5_198411_a_data;
 //const uint8_t* features_data =  g_crying_baby_b_2_50665_a_data;
 //const uint8_t* features_data =  g_crying_baby_b_2_80482_a_data;
 //const uint8_t* features_data =  g_crying_baby_b_5_198411_d_data;
@@ -186,8 +202,8 @@ error_reporter->Report("\n*****Starting Sound Recognition Program*****\n");
 
 
 //** dog bark
-//const uint8_t* features_data1 =  g_dog_bark_22973_3_0_0_data;
-//const uint8_t* features_data2 = g_dog_bark_26256_3_7_36_data;
+//const uint8_t* features_data =  g_dog_bark_22973_3_0_0_data;
+//const uint8_t* features_data = g_dog_bark_26256_3_7_36_data;
 //const uint8_t* features_data3 = g_dog_bark_33696_3_4_0_data;
 //const uint8_t* features_data4 = g_dog_bark_52077_3_0_13_data;
 //const uint8_t* features_data5 = g_dog_bark_66587_3_1_0_data;
@@ -199,17 +215,17 @@ error_reporter->Report("\n*****Starting Sound Recognition Program*****\n");
 //const uint8_t* features_data11 = g_dog_bark_183989_3_1_18_data;
 
 
-const uint8_t* features_data1 =  g_dog_bark_22973_3_0_0_data;
-const uint8_t* features_data2 = g_dog_bark_26256_3_7_36_data;
-const uint8_t* features_data3 = g_dog_bark_33696_3_4_0_data;
-const uint8_t* features_data4 = g_dog_bark_52077_3_0_13_data;
-const uint8_t* features_data5 = g_dog_bark_66587_3_1_0_data;
-const uint8_t* features_data6 = g_dog_bark_76640_3_0_0_data;
-const uint8_t* features_data7 = g_dog_bark_81799_3_1_0_data;
-const uint8_t* features_data8 = g_dog_bark_118101_3_0_0_data;
-const uint8_t* features_data9 = g_dog_bark_118962_3_0_0_data;
-const uint8_t* features_data10 = g_dog_bark_175915_3_0_1_data;
-const uint8_t* features_data11 = g_dog_bark_183989_3_1_18_data;
+//const uint8_t* features_data1 =  g_dog_bark_22973_3_0_0_data;
+//const uint8_t* features_data2 = g_dog_bark_26256_3_7_36_data;
+//const uint8_t* features_data3 = g_dog_bark_33696_3_4_0_data;
+//const uint8_t* features_data4 = g_dog_bark_52077_3_0_13_data;
+//const uint8_t* features_data5 = g_dog_bark_66587_3_1_0_data;
+//const uint8_t* features_data6 = g_dog_bark_76640_3_0_0_data;
+//const uint8_t* features_data7 = g_dog_bark_81799_3_1_0_data;
+//const uint8_t* features_data8 = g_dog_bark_118101_3_0_0_data;
+//const uint8_t* features_data9 = g_dog_bark_118962_3_0_0_data;
+//const uint8_t* features_data10 = g_dog_bark_175915_3_0_1_data;
+//const uint8_t* features_data11 = g_dog_bark_183989_3_1_18_data;
 
 //for (k ; k < 3 ; k++ )
 //{
@@ -228,8 +244,8 @@ const uint8_t* features_data11 = g_dog_bark_183989_3_1_18_data;
 
 
     for (int i = 0; i < model_input->bytes; ++i) {
-  //  model_input->data.uint8[i] = features_data1[i];
-      model_input->data.uint8[i] = g_dog_bark_22973_3_0_0_data[i];
+    model_input->data.uint8[i] = features_data[i];
+  //    model_input->data.uint8[i] = g_dog_bark_22973_3_0_0_data[i];
     //error_reporter->Report("%d", model_input->data.uint8[i]);
     }
     
@@ -246,7 +262,7 @@ const uint8_t* features_data11 = g_dog_bark_183989_3_1_18_data;
 
   
   
-  
+ /* 
   // There are four possible classes in the output, each with a score.
   const int kSilenceIndex = 0;
   const int kUnknownIndex = 1;
@@ -260,6 +276,7 @@ const uint8_t* features_data11 = g_dog_bark_183989_3_1_18_data;
   const int kDogBarkIndex = 9;
 
   // Make sure that the expected "Yes" score is higher than the other classes.
+ 
   uint8_t silence_score = output->data.uint8[kSilenceIndex];
   uint8_t unknown_score = output->data.uint8[kUnknownIndex];
   uint8_t yes_score = output->data.uint8[kYesIndex];
@@ -270,24 +287,49 @@ const uint8_t* features_data11 = g_dog_bark_183989_3_1_18_data;
   uint8_t door_knock_score = output->data.uint8[kDoorKnockIndex]; 
   uint8_t sheila_score = output->data.uint8[kSheilaIndex];
   uint8_t dog_bark_score = output->data.uint8[kDogBarkIndex];
+*/
+
+  uint8_t silence_score = output->data.uint8[kSilenceIndex];   //1
+  uint8_t unknown_score = output->data.uint8[kUnknownIndex];
+  uint8_t car_horn_score = output->data.uint8[kCarHornIndex];
+  uint8_t coughing_score = output->data.uint8[kCoughingIndex];
+  uint8_t clapping_score = output->data.uint8[kClappingIndex];  //5
+  uint8_t gun_shot_score = output->data.uint8[kGunShotIndex];
+  uint8_t crying_baby_score = output->data.uint8[kCryingBabyIndex]; 
+  uint8_t door_knock_score = output->data.uint8[kDoorKnockIndex]; 
+  uint8_t clock_alarm_score = output->data.uint8[kClockAlarmIndex];
+  uint8_t dog_score = output->data.uint8[kDogIndex];   //10
+  uint8_t can_opening_score = output->data.uint8[kCanOpeningIndex];
+  uint8_t children_playing_score = output->data.uint8[kChildrenPlayingIndex];
+  uint8_t chainsaw_score = output->data.uint8[kChainSawIndex];
+  uint8_t crackling_fire_score = output->data.uint8[kCracklingFireIndex];
+  uint8_t footsteps_score = output->data.uint8[kFootStepsIndex];  //15
+  uint8_t engine_score = output->data.uint8[kEngineIndex];
+
+//car_horn,coughing,clapping,gun_shot,crying_baby,door_knock,clock_alarm,dog,
+//can_opening,children_playing,chainsaw,crackling_fire,footsteps,engine
+//}
 
 
+  error_reporter->Report("Softmax: silence=%d, unknown=%d, car horn=%d, coughing=%d,  \
+  clapping=%d, gunshot=%d, crying_baby=%d, door_knock=%d, clock alarm=%d, dog=%d  \
+  can opening=%d, children playing=%d, chain saw=%d, crackling fire=%d, foot steps=%d \
+  engine=%d" ,silence_score, unknown_score, car_horn_score, coughing_score, clapping_score, 
+  gun_shot_score, crying_baby_score, door_knock_score,
+  clock_alarm_score , dog_score, can_opening_score, children_playing_score,
+  chainsaw_score, crackling_fire_score, footsteps_score, engine_score ); 
 
-  error_reporter->Report("Softmax: silence=%d, unknown=%d, yes=%d, no=%d,  \
-  clapping=%d, gunshot=%d, crying_baby=%d, door_knock=%d, sheila=%d, dog_bark=%d" 
-  ,silence_score, unknown_score, yes_score, no_score, clapping_score, 
-  gunshot_score, crying_baby_score, door_knock_score,
-  sheila_score, dog_bark_score); 
-
+//car_horn,coughing,clapping,gun_shot,crying_baby,door_knock,clock_alarm,dog,
+//can_opening,children_playing,chainsaw,crackling_fire,footsteps,engin
 //}
 
  
-  error_reporter->Report("\n*****End of Sound Recognition Classifier*****");
+  error_reporter->Report("\n*****End of Sound Recognition Classifier for DISCO746*****");
 
   // Determine whether a command was recognized based on the output of inference
-  const char* found_command = nullptr;
-  uint8_t score = 0;
-  bool is_new_command = false;
+ // const char* found_command = nullptr;
+ // uint8_t score = 0;
+//  bool is_new_command = false;
 //  TfLiteStatus process_status = recognizer->ProcessLatestResults(
  //     output, current_time, &found_command, &score, &is_new_command);
  // if (process_status != kTfLiteOk) {

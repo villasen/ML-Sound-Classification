@@ -49,8 +49,8 @@ TfLiteStatus Prepare(TfLiteContext* context, TfLiteNode* node) {
   TF_LITE_ENSURE(context, affine_quantization->scale);
   TF_LITE_ENSURE(context, affine_quantization->scale->size == 1);
 
-  TF_LITE_ENSURE(context,
-                 input->type == kTfLiteFloat32 || input->type == kTfLiteInt16);
+ // TF_LITE_ENSURE(context,
+ //                input->type == kTfLiteFloat32 || input->type == kTfLiteInt16);
   TF_LITE_ENSURE(context,
                  output->type == kTfLiteUInt8 || output->type == kTfLiteInt8);
 

@@ -58,11 +58,11 @@
         "module": "[fill]", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": -8, 
+            ".text-delta": 40, 
             ".bss": 18, 
             ".data": 13, 
             ".bss-delta": 0, 
-            ".text": 110
+            ".text": 148
         }
     }, 
     {
@@ -179,19 +179,19 @@
         "module": "tensorflow/lite", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": 264, 
-            ".bss": 11603, 
+            ".text-delta": 24, 
+            ".bss": 14739, 
             ".data": 36, 
-            ".bss-delta": 0, 
-            ".text": 20930
+            ".bss-delta": -149504, 
+            ".text": 26076
         }
     }, 
     {
         "summary": {
-            "static_ram": 17432, 
-            "total_flash_delta": 256, 
-            "static_ram_delta": 0, 
-            "total_flash": 91588
+            "static_ram": 20568, 
+            "total_flash_delta": 64, 
+            "static_ram_delta": -149504, 
+            "total_flash": 96772
         }
     }
 ]

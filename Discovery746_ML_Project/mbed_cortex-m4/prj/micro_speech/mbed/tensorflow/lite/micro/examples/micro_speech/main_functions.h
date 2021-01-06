@@ -31,7 +31,27 @@ void setup();
 //void loop();
 
 #ifdef __cplusplus
-}
-#endif
 
+}
+
+enum labelsIndex{    
+            //    kSilenceIndex, //1
+            //    kUnknownIndex,
+                kCarHornIndex=2,
+                kCoughingIndex,
+                kClappingIndex, //5
+                kGunShotIndex,
+                kCryingBabyIndex,
+                kDoorKnockIndex,
+                kClockAlarmIndex,
+                kDogIndex,  //10
+                kCanOpeningIndex,
+                kChildrenPlayingIndex,
+                kChainSawIndex,
+                kCracklingFireIndex,
+                kFootStepsIndex,  //15
+                kEngineIndex  //16
+};
+
+#endif
 #endif  // TENSORFLOW_LITE_MICRO_EXAMPLES_MICRO_SPEECH_MAIN_FUNCTIONS_H_

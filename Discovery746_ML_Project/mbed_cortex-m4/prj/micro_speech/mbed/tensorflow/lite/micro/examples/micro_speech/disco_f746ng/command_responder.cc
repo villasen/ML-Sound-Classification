@@ -43,6 +43,7 @@ void RespondToCommand(tflite::ErrorReporter *error_reporter,
   }
 }
 
+/*
 void RespondToCommands(tflite::ErrorReporter *error_reporter,
                        const char *found_command,
                       uint8_t score, bool is_new_command) {
@@ -64,3 +65,4 @@ void RespondToCommands(tflite::ErrorReporter *error_reporter,
     }
   }
 }
+*/

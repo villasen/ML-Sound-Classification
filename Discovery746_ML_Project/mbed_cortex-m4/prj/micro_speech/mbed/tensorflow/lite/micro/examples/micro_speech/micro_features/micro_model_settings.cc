@@ -21,7 +21,7 @@ const char* kCategoryLabels[kCategoryCount] = {
     "yes",
     "no",
 };
-*/
+
 const char* kCategoryLabels[kCategoryCount] = {
     "silence",
     "unknown",
@@ -34,3 +34,26 @@ const char* kCategoryLabels[kCategoryCount] = {
     "sheila",
     "dog_bark",
 };
+*/
+
+const char* kCategoryLabels[kCategoryCount] = {
+    "silence",
+    "unknown",
+    "car_horn",
+    "coughing",
+    "clapping",
+    "gun_shot",
+    "crying_baby",
+    "door_knock",
+    "clock_alarm",
+    "dog",
+    "can_opening",
+    "children_playing",
+    "chainsaw",
+    "crackling_fire",
+    "footsteps",
+    "engine"
+};
+//car_horn,coughing,clapping,gun_shot,crying_baby,door_knock,clock_alarm,dog,
+//can_opening,children_playing,chainsaw,crackling_fire,footsteps,engine
+//}
