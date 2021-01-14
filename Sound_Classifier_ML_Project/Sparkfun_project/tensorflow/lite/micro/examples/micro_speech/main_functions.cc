@@ -140,7 +140,7 @@ error_reporter->Report("\n*****Starting Sound Recognition Program for Sparkfun E
 
 // Copy a spectrogram created from a .wav audio file 
   // into the memory area used for the input.
- // const uint8_t* features_data = g_yes_micro_f2e59fea_nohash_1_data;
+//  const uint8_t* features_data = g_yes_micro_f2e59fea_nohash_1_data;
 
 //** door knock 
 //  const uint8_t* features_data = g_door_knock_a_1_26188_a_data;
@@ -169,7 +169,7 @@ error_reporter->Report("\n*****Starting Sound Recognition Program for Sparkfun E
 
 
 //** crying baby
-//const uint8_t* features_data =  g_crying_baby_a_1_187207_a_data;
+const uint8_t* features_data =  g_crying_baby_a_1_187207_a_data;
 //const uint8_t* features_data =  g_crying_baby_a_2_50665_a_data;
 //const uint8_t* features_data =  g_crying_baby_a_5_198411_a_data;
 //const uint8_t* features_data =  g_crying_baby_b_2_50665_a_data;
@@ -238,15 +238,58 @@ error_reporter->Report("\n*****Starting Sound Recognition Program for Sparkfun E
  // Copy a spectrogram created from a .wav audio file 
   // into the memory area used for the input.
  // const uint8_t* features_data1 = g_yes_micro_f2e59fea_nohash_1_data;
-  const uint8_t* features_data1 = g_dog_bark_183989_3_1_18_data; 
+ // const uint8_t* features_data1 = g_dog_bark_183989_3_1_18_data; 
   //const uint8_t* features_data1 = g_crying_baby_a_5_198411_a_data;
 
+  
+  const uint8_t *sounds_array[6]
+  {
+    g_crying_baby_a_1_187207_a_data,
+    g_crying_baby_a_2_50665_a_data,
+    g_crying_baby_a_5_198411_a_data,
+    g_dog_bark_81799_3_1_0_data,
+    g_door_knock_a_1_26188_a_data,
+    g_yes_micro_f2e59fea_nohash_1_data
+
+  };
+
+
+    const uint8_t**  pfeatures_data;
+    pfeatures_data = sounds_array;
+    unsigned char spectogram_data;
+    //spectogram_data = 
+for (int i = 0; i < 6 ; i++)
+{ 
+    error_reporter->Report("Test Number %d", i);
+    error_reporter->Report("*****************");
+    error_reporter->Report("Testing input data");
+    error_reporter->Report("character from sound file array: %d", features_data[0]);
+    error_reporter->Report("character from sound file pointer: %d", *(*pfeatures_data+1) );
+    
+    error_reporter->Report("Number of bytes in spectrogram: %d", model_input->bytes);
+
+/*
+      for (int i = 0; i < 6; ++i) {          
+          for(int j = 0 ; j < model_input->bytes; ++j)
+          {
+            //error_reporter->Report("file data: %d", (*(*pfeatures_data+i)) );
+            error_reporter->Report("file data: %d", sounds_array[i][j] );
+          }
+      }
+*/
+
+ // const uint8_t**  features_data;
+ // features_data = sounds_array; 
+  
   error_reporter->Report("getting input data");
-  //const uint8_t* features_data = g_no_micro_f9643d42_nohash_4_data;
-  for (int i = 0; i < model_input->bytes; ++i) {
-    model_input->data.uint8[i] = features_data1[i];
-  }
+
+
+  for (int j = 0; j < model_input->bytes; j++) {
+
+     model_input->data.uint8[i] = sounds_array[i][j];//features_data[i];
+    //   model_input->data.uint8[i] = *(*pfeatures_data+i);
  
+    }
  
  
   // Run the model on the spectrogram input and make sure it succeeds.
@@ -261,6 +304,7 @@ error_reporter->Report("\n*****Starting Sound Recognition Program for Sparkfun E
   //TfLiteTensor* output = interpreter->output(0);
   TfLiteTensor* output = interpreter.output(0);
   error_reporter->Report("output: %d", output->data.uint8[0]);
+
   
   // There are four possible classes in the output, each with a score.
   const int kSilenceIndex = 0;
@@ -294,9 +338,10 @@ error_reporter->Report("\n*****Starting Sound Recognition Program for Sparkfun E
   ,silence_score, unknown_score, yes_score, no_score, clapping_score, 
   gunshot_score, crying_baby_score, door_knock_score,
   sheila_score, dog_bark_score);  
-  
 
-  error_reporter->Report("\n*****Test Martin classifying sounds*****");
+}  
+
+  error_reporter->Report("\n*****Martin is classifying sounds*****");
   error_reporter->Report("\n*****End of Sound Recognition Classifier for Sparfun Edge Program*****");
 
   // Determine whether a command was recognized based on the output of inference
