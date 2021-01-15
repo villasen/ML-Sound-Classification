@@ -169,7 +169,7 @@ error_reporter->Report("\n*****Starting Sound Recognition Program for Sparkfun E
 
 
 //** crying baby
-const uint8_t* features_data =  g_crying_baby_a_1_187207_a_data;
+//const uint8_t* features_data =  g_crying_baby_a_1_187207_a_data;
 //const uint8_t* features_data =  g_crying_baby_a_2_50665_a_data;
 //const uint8_t* features_data =  g_crying_baby_a_5_198411_a_data;
 //const uint8_t* features_data =  g_crying_baby_b_2_50665_a_data;
@@ -258,12 +258,12 @@ const uint8_t* features_data =  g_crying_baby_a_1_187207_a_data;
     pfeatures_data = sounds_array;
     unsigned char spectogram_data;
     //spectogram_data = 
-for (int i = 0; i < 6 ; i++)
+for (int i = 0; i < BABY_TOTAL_FILE_NUMBER ; i++)
 { 
-    error_reporter->Report("Test Number %d", i);
+    error_reporter->Report("Test Number is %d", i);
     error_reporter->Report("*****************");
     error_reporter->Report("Testing input data");
-    error_reporter->Report("character from sound file array: %d", features_data[0]);
+  //  error_reporter->Report("character from sound file array: %d", features_data[0]);
     error_reporter->Report("character from sound file pointer: %d", *(*pfeatures_data+1) );
     
     error_reporter->Report("Number of bytes in spectrogram: %d", model_input->bytes);
@@ -286,7 +286,8 @@ for (int i = 0; i < 6 ; i++)
 
   for (int j = 0; j < model_input->bytes; j++) {
 
-     model_input->data.uint8[i] = sounds_array[i][j];//features_data[i];
+       model_input->data.uint8[j] =  g_crying_baby_sounds_arrays[i][j];
+    // model_input->data.uint8[i] = sounds_array[i][j];//features_data[i];
     //   model_input->data.uint8[i] = *(*pfeatures_data+i);
  
     }

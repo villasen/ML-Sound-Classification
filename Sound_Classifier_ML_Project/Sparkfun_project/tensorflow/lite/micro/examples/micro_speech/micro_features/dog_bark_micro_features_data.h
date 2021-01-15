@@ -19,6 +19,9 @@ limitations under the License.
 extern const int g_dog_bark_micro_f2e59fea_nohash_1_width;
 extern const int g_dog_bark_micro_f2e59fea_nohash_1_height;
 
+extern const unsigned char *g_dog_bark_sounds_arrays[11];
+const int DOG_TOTAL_FILE_NUMBER = 11;
+
 extern const unsigned char g_dog_bark_22973_3_0_0_data[];
 extern const unsigned char g_dog_bark_26256_3_7_36_data[];
 extern const unsigned char g_dog_bark_33696_3_4_0_data[];

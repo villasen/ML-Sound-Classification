@@ -2223,3 +2223,20 @@ const unsigned char g_door_knock_a_2_118625_a_data[] = {
   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 };
+
+
+const unsigned char *g_door_knock_sounds_arrays[11]
+{
+ g_door_knock_a_1_26188_a_data,
+ g_door_knock_a_1_52290_a_data,
+ g_door_knock_a_1_81001_a_data,
+ g_door_knock_a_1_81001_b_data,
+ g_door_knock_a_1_82817_a_data,
+ g_door_knock_a_1_101336_a_data,
+ g_door_knock_a_1_103995_a_data,
+ g_door_knock_a_1_103999_a_data,
+ g_door_knock_a_2_114254_a_data,
+ g_door_knock_a_2_118624_a_data,
+ g_door_knock_a_2_118625_a_data,
+
+};

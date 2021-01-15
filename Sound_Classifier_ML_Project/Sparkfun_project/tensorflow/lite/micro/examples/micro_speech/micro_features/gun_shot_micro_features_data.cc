@@ -2221,3 +2221,19 @@ const unsigned char g_gun_shot_7064_6_4_0_data[] = {
   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 };
+
+const unsigned char *g_gun_shot_sounds_arrays[11]
+{
+ g_gun_shot_7060_6_0_0_data,
+ g_gun_shot_7060_6_1_0_data,
+ g_gun_shot_7060_6_2_0_data,
+ g_gun_shot_7061_6_0_0_data,
+ g_gun_shot_7062_6_0_0_data,
+ g_gun_shot_7063_6_0_0_data,
+ g_gun_shot_7064_6_0_0_data,
+ g_gun_shot_7064_6_1_0_data,
+ g_gun_shot_7064_6_2_0_data,
+ g_gun_shot_7064_6_3_0_data,
+ g_gun_shot_7064_6_4_0_data,
+};
+

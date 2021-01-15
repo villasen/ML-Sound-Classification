@@ -19,6 +19,7 @@ limitations under the License.
 extern const int g_doorknock_micro_f2e59fea_nohash_1_width;
 extern const int g_doorknock_micro_f2e59fea_nohash_1_height;
 
+extern const unsigned char *g_door_knock_sounds_arrays[11];
 
 extern const unsigned char g_door_knock_a_1_26188_a_data[];
 extern const unsigned char g_door_knock_a_1_52290_a_data[];

@@ -2220,3 +2220,21 @@ const unsigned char g_dog_bark_183989_3_1_18_data[] = {
   192, 164, 188, 112, 114, 133, 99, 0, 145, 0, 
   152, 0, 117, 0, 68, 0, 120, 51, 51, 51, 
 };
+
+
+
+const unsigned char *g_dog_bark_sounds_arrays[11]
+{
+ g_dog_bark_22973_3_0_0_data,
+ g_dog_bark_26256_3_7_36_data,
+ g_dog_bark_33696_3_4_0_data,
+ g_dog_bark_52077_3_0_13_data,
+ g_dog_bark_66587_3_1_0_data,
+ g_dog_bark_76640_3_0_0_data,
+ g_dog_bark_81799_3_1_0_data,
+ g_dog_bark_118101_3_0_0_data,
+ g_dog_bark_118962_3_0_0_data,
+ g_dog_bark_175915_3_0_1_data,
+ g_dog_bark_183989_3_1_18_data
+
+};

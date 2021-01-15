@@ -29,7 +29,10 @@ extern const unsigned char g_crying_baby_c_3_152007_e_data[];
 extern const unsigned char g_crying_baby_c_5_198411_a_data[];
 extern const unsigned char g_crying_baby_c_5_198411_b_data[];
 extern const unsigned char g_crying_baby_d_4_167077_b_data[];
-extern const unsigned char g_crying_baby_e_5_198411_d_data[]; 
+extern const unsigned char g_crying_baby_e_5_198411_d_data[];
+
+extern const unsigned char *g_crying_baby_sounds_arrays[11];
+const int BABY_TOTAL_FILE_NUMBER = 11;
 
 
 

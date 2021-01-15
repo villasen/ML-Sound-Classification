@@ -19,6 +19,8 @@ limitations under the License.
 extern const int g_gun_shot_micro_f2e59fea_nohash_1_width;
 extern const int g_gun_shot_micro_f2e59fea_nohash_1_height;
 
+extern const unsigned char *g_gun_shot_sounds_arrays[11];
+
 extern const unsigned char g_gun_shot_7060_6_0_0_data[];
 extern const unsigned char g_gun_shot_7060_6_1_0_data[];
 extern const unsigned char g_gun_shot_7060_6_2_0_data[];

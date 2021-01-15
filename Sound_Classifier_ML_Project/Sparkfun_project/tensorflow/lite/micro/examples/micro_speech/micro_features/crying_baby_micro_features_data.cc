@@ -31,6 +31,7 @@ limitations under the License.
 const int g_crying_baby_micro_f2e59fea_nohash_1_width = 40;
 const int g_cryging_baby_micro_f2e59fea_nohash_1_height = 49;
 
+
  
 const unsigned char g_crying_baby_a_1_187207_a_data[] = {
   250, 228, 249, 225, 242, 225, 248, 228, 250, 229, 
@@ -2221,3 +2222,19 @@ const unsigned char g_crying_baby_e_5_198411_d_data[] = {
   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 };
 
+
+const unsigned char *g_crying_baby_sounds_arrays[11]
+{
+ g_crying_baby_a_1_187207_a_data,
+ g_crying_baby_a_2_50665_a_data,
+ g_crying_baby_a_5_198411_a_data,
+ g_crying_baby_b_2_50665_a_data,
+ g_crying_baby_b_2_80482_a_data,
+ g_crying_baby_b_5_198411_d_data,
+ g_crying_baby_c_3_152007_e_data,
+ g_crying_baby_c_5_198411_a_data,
+ g_crying_baby_c_5_198411_b_data,
+ g_crying_baby_d_4_167077_b_data,
+ g_crying_baby_e_5_198411_d_data
+
+};
