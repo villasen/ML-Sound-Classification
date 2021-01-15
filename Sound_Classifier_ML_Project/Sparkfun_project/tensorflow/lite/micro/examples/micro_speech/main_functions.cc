@@ -94,11 +94,6 @@ error_reporter->Report("\n*****Starting Sound Recognition Program for Sparkfun E
   micro_mutable_op_resolver.AddBuiltin(tflite::BuiltinOperator_SOFTMAX,
                                        tflite::ops::micro::Register_SOFTMAX());
 
-  // Build an interpreter to run the model with.
- // static tflite::MicroInterpreter static_interpreter(
- //     model, micro_mutable_op_resolver, tensor_arena, kTensorArenaSize,
- //     error_reporter);
- // interpreter = &static_interpreter;
 
   // Build an interpreter to run the model with.
   tflite::MicroInterpreter interpreter(model, micro_mutable_op_resolver,
@@ -106,11 +101,6 @@ error_reporter->Report("\n*****Starting Sound Recognition Program for Sparkfun E
                                     error_reporter);
 
  
- 
-
- 
-  // Allocate memory from the tensor_arena for the model's tensors.
- // TfLiteStatus allocate_status = interpreter->AllocateTensors();
   TfLiteStatus allocate_status = interpreter.AllocateTensors();
 
   if (allocate_status != kTfLiteOk) {
@@ -140,62 +130,6 @@ error_reporter->Report("\n*****Starting Sound Recognition Program for Sparkfun E
 
 // Copy a spectrogram created from a .wav audio file 
   // into the memory area used for the input.
-//  const uint8_t* features_data = g_yes_micro_f2e59fea_nohash_1_data;
-
-//** door knock 
-//  const uint8_t* features_data = g_door_knock_a_1_26188_a_data;
-//  const uint8_t* features_data = g_door_knock_a_1_52290_a_data;
-//  const uint8_t* features_data = g_door_knock_a_1_81001_a_data;
-// const uint8_t* features_data =  g_door_knock_a_1_81001_b_data;
-//const uint8_t* features_data =  g_door_knock_a_1_82817_a_data;
-//const uint8_t* features_data =  g_door_knock_a_1_101336_a_data;
-//const uint8_t* features_data =  g_door_knock_a_1_103995_a_data;
-//const uint8_t* features_data =  g_door_knock_a_1_103999_a_data;
-//const uint8_t* features_data =  g_door_knock_a_2_114254_a_data;
-//const uint8_t* features_data = g_door_knock_a_2_118624_a_data;
-//const uint8_t* features_data = g_door_knock_a_2_118625_a_data;
-
-//** gun shot
-//const uint8_t* features_data =  g_gun_shot_7060_6_0_0_data;
-//const uint8_t* features_data =  g_gun_shot_7060_6_1_0_data;
-//const uint8_t* features_data =  g_gun_shot_7060_6_2_0_data;
-//const uint8_t* features_data =  g_gun_shot_7061_6_0_0_data;
-//const uint8_t* features_data =  g_gun_shot_7062_6_0_0_data;
-//const uint8_t* features_data =  g_gun_shot_7063_6_0_0_data;
-//const uint8_t* features_data =  g_gun_shot_7064_6_0_0_data;
-//const uint8_t* features_data =  g_gun_shot_7064_6_1_0_data;
-//const uint8_t* features_data =  g_gun_shot_7064_6_2_0_data;
-//const uint8_t* features_data = g_gun_shot_7064_6_4_0_data;
-
-
-//** crying baby
-//const uint8_t* features_data =  g_crying_baby_a_1_187207_a_data;
-//const uint8_t* features_data =  g_crying_baby_a_2_50665_a_data;
-//const uint8_t* features_data =  g_crying_baby_a_5_198411_a_data;
-//const uint8_t* features_data =  g_crying_baby_b_2_50665_a_data;
-//const uint8_t* features_data =  g_crying_baby_b_2_80482_a_data;
-//const uint8_t* features_data =  g_crying_baby_b_5_198411_d_data;
-//const uint8_t* features_data =  g_crying_baby_c_3_152007_e_data;
-//const uint8_t* features_data =  g_crying_baby_c_5_198411_a_data;
-//const uint8_t* features_data =  g_crying_baby_c_5_198411_b_data;
-//const uint8_t* features_data =  g_crying_baby_d_4_167077_b_data;
-//const uint8_t* features_data =  g_crying_baby_e_5_198411_d_data;
-
-
-
-//** dog bark
-//const uint8_t* features_data1 =  g_dog_bark_22973_3_0_0_data;
-//const uint8_t* features_data2 = g_dog_bark_26256_3_7_36_data;
-//const uint8_t* features_data3 = g_dog_bark_33696_3_4_0_data;
-//const uint8_t* features_data4 = g_dog_bark_52077_3_0_13_data;
-//const uint8_t* features_data5 = g_dog_bark_66587_3_1_0_data;
-//const uint8_t* features_data6 = g_dog_bark_76640_3_0_0_data;
-//const uint8_t* features_data7 = g_dog_bark_81799_3_1_0_data;
-//const uint8_t* features_data8 = g_dog_bark_118101_3_0_0_data;
-//const uint8_t* features_data9 = g_dog_bark_118962_3_0_0_data;
-//const uint8_t* features_data10 = g_dog_bark_175915_3_0_1_data;
-//const uint8_t* features_data11 = g_dog_bark_183989_3_1_18_data;
-
 
 
 
@@ -211,12 +145,6 @@ error_reporter->Report("\n*****Starting Sound Recognition Program for Sparkfun E
 
  // previous_time = 0;
 //}
-
-// The name of this function is important for Arduino compatibility.
-//void loop() {
-
-
-
 
   // Fetch the spectrogram for the current time.
   //const int32_t current_time = LatestAudioTimestamp();
@@ -262,39 +190,18 @@ for (int i = 0; i < BABY_TOTAL_FILE_NUMBER ; i++)
 { 
     error_reporter->Report("Test Number is %d", i);
     error_reporter->Report("*****************");
-    error_reporter->Report("Testing input data");
-  //  error_reporter->Report("character from sound file array: %d", features_data[0]);
-    error_reporter->Report("character from sound file pointer: %d", *(*pfeatures_data+1) );
-    
-    error_reporter->Report("Number of bytes in spectrogram: %d", model_input->bytes);
-
-/*
-      for (int i = 0; i < 6; ++i) {          
-          for(int j = 0 ; j < model_input->bytes; ++j)
-          {
-            //error_reporter->Report("file data: %d", (*(*pfeatures_data+i)) );
-            error_reporter->Report("file data: %d", sounds_array[i][j] );
-          }
-      }
-*/
-
- // const uint8_t**  features_data;
- // features_data = sounds_array; 
-  
-  error_reporter->Report("getting input data");
+    error_reporter->Report("Testing input data crying baby");
 
 
   for (int j = 0; j < model_input->bytes; j++) {
-
        model_input->data.uint8[j] =  g_crying_baby_sounds_arrays[i][j];
-    // model_input->data.uint8[i] = sounds_array[i][j];//features_data[i];
-    //   model_input->data.uint8[i] = *(*pfeatures_data+i);
- 
+    //   model_input->data.uint8[j] =  g_dog_bark_sounds_arrays[i][j];
+    //   model_input->data.uint8[j] =  g_door_knock_sounds_arrays[i][j];
+    //   model_input->data.uint8[j] =  g_gun_shot_sounds_arrays[i][j];   
     }
  
  
   // Run the model on the spectrogram input and make sure it succeeds.
- // TfLiteStatus invoke_status = interpreter->Invoke();
   TfLiteStatus invoke_status = interpreter.Invoke();
   if (invoke_status != kTfLiteOk) {
     error_reporter->Report("Invoke failed");
@@ -310,8 +217,8 @@ for (int i = 0; i < BABY_TOTAL_FILE_NUMBER ; i++)
   // There are four possible classes in the output, each with a score.
   const int kSilenceIndex = 0;
   const int kUnknownIndex = 1;
-  const int kYesIndex = 2;
-  const int kNoIndex = 3;
+  const int kcarhornIndex = 2;
+  const int kCoughingIndex = 3;
   const int kClappingIndex = 4; 
   const int kGunShotIndex = 5;
   const int kCryingBabyIndex = 6;
@@ -323,8 +230,8 @@ for (int i = 0; i < BABY_TOTAL_FILE_NUMBER ; i++)
   // Make sure that the expected "Yes" score is higher than the other classes.
   uint8_t silence_score = output->data.uint8[kSilenceIndex];
   uint8_t unknown_score = output->data.uint8[kUnknownIndex];
-  uint8_t yes_score = output->data.uint8[kYesIndex];
-  uint8_t no_score = output->data.uint8[kNoIndex];
+  uint8_t car_horn_score = output->data.uint8[kcarhornIndex];
+  uint8_t coughing_score = output->data.uint8[kCoughingIndex];
   uint8_t clapping_score = output->data.uint8[kClappingIndex];
   uint8_t gunshot_score = output->data.uint8[kGunShotIndex];
   uint8_t crying_baby_score = output->data.uint8[kCryingBabyIndex]; 
@@ -333,10 +240,10 @@ for (int i = 0; i < BABY_TOTAL_FILE_NUMBER ; i++)
   uint8_t dog_bark_score = output->data.uint8[kDogBarkIndex];
 
  // error_reporter->Report("Softmax: silence=%d, unknown=%d, yes=%d, no=%d", silence_score, unknown_score, yes_score, no_score); 
-  
-  error_reporter->Report("Softmax: silence=%d, unknown=%d, yes=%d, no=%d,  \
-  clapping=%d, gunshot=%d, crying_baby=%d, door_knock=%d, sheila=%d, dog_bark=%d" 
-  ,silence_score, unknown_score, yes_score, no_score, clapping_score, 
+  //"car_horn,coughing,clapping,gun_shot,crying_baby,door_knock,clock_alarm,dog"
+  error_reporter->Report("Softmax: silence=%d, unknown=%d, car horn=%d, coughing=%d,  \
+  clapping=%d, gunshot=%d, crying_baby=%d, door_knock=%d, clock alarm=%d, dog=%d" 
+  ,silence_score, unknown_score, kcarhornIndex, coughing_score, clapping_score, 
   gunshot_score, crying_baby_score, door_knock_score,
   sheila_score, dog_bark_score);  
 
