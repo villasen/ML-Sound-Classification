@@ -40,7 +40,6 @@ limitations under the License.
 namespace {
 tflite::ErrorReporter* error_reporter = nullptr;
 const tflite::Model* model = nullptr;
-//tflite::MicroInterpreter* interpreter = nullptr;
 TfLiteTensor* model_input = nullptr;
 FeatureProvider* feature_provider = nullptr;
 RecognizeCommands* recognizer = nullptr;
@@ -78,16 +77,16 @@ error_reporter->Report("\n*****Starting Sound Recognition Program for Sparkfun E
   // An easier approach is to just use the AllOpsResolver, but this will
   // incur some penalty in code space for op implementations that are not
   // needed by this graph.
-  //
-  // tflite::ops::micro::AllOpsResolver resolver;
-  // NOLINTNEXTLINE(runtime-global-variables)
-  
+
+ 
   static tflite::MicroMutableOpResolver micro_mutable_op_resolver;
 
 
   micro_mutable_op_resolver.AddBuiltin(
       tflite::BuiltinOperator_DEPTHWISE_CONV_2D,
       tflite::ops::micro::Register_DEPTHWISE_CONV_2D());
+
+
   micro_mutable_op_resolver.AddBuiltin(
       tflite::BuiltinOperator_FULLY_CONNECTED,
       tflite::ops::micro::Register_FULLY_CONNECTED());
@@ -128,64 +127,10 @@ error_reporter->Report("\n*****Starting Sound Recognition Program for Sparkfun E
     return;
   }
 
-// Copy a spectrogram created from a .wav audio file 
-  // into the memory area used for the input.
 
 
-
-  // Prepare to access the audio spectrograms from a microphone or other source
-  // that will provide the inputs to the neural network.
-  // NOLINTNEXTLINE(runtime-global-variables)
- // static FeatureProvider static_feature_provider(kFeatureElementCount,
- //                                                model_input->data.uint8);
-  //feature_provider = &static_feature_provider;
-
- // static RecognizeCommands static_recognizer(error_reporter);
- // recognizer = &static_recognizer;
-
- // previous_time = 0;
-//}
-
-  // Fetch the spectrogram for the current time.
-  //const int32_t current_time = LatestAudioTimestamp();
-  //int how_many_new_slices = 0;
- // TfLiteStatus feature_status = feature_provider->PopulateFeatureData(
-  //    error_reporter, previous_time, current_time, &how_many_new_slices);
-  //if (feature_status != kTfLiteOk) {
- //   error_reporter->Report("Feature generation failed");
-  //  return;
-  //}
- // previous_time = current_time;
-  // If no new audio samples have been received since last time, don't bother
-  // running the network model.
-  //if (how_many_new_slices == 0) {
-  //  return;
- // }
-
- 
- // Copy a spectrogram created from a .wav audio file 
-  // into the memory area used for the input.
- // const uint8_t* features_data1 = g_yes_micro_f2e59fea_nohash_1_data;
- // const uint8_t* features_data1 = g_dog_bark_183989_3_1_18_data; 
-  //const uint8_t* features_data1 = g_crying_baby_a_5_198411_a_data;
-
-  
-  const uint8_t *sounds_array[6]
-  {
-    g_crying_baby_a_1_187207_a_data,
-    g_crying_baby_a_2_50665_a_data,
-    g_crying_baby_a_5_198411_a_data,
-    g_dog_bark_81799_3_1_0_data,
-    g_door_knock_a_1_26188_a_data,
-    g_yes_micro_f2e59fea_nohash_1_data
-
-  };
-
-
-    const uint8_t**  pfeatures_data;
-    pfeatures_data = sounds_array;
     unsigned char spectogram_data;
-    //spectogram_data = 
+
 for (int i = 0; i < BABY_TOTAL_FILE_NUMBER ; i++)
 { 
     error_reporter->Report("Test Number is %d", i);
@@ -194,10 +139,10 @@ for (int i = 0; i < BABY_TOTAL_FILE_NUMBER ; i++)
 
 
   for (int j = 0; j < model_input->bytes; j++) {
-       model_input->data.uint8[j] =  g_crying_baby_sounds_arrays[i][j];
+    //   model_input->data.uint8[j] =  g_crying_baby_sounds_arrays[i][j];
     //   model_input->data.uint8[j] =  g_dog_bark_sounds_arrays[i][j];
     //   model_input->data.uint8[j] =  g_door_knock_sounds_arrays[i][j];
-    //   model_input->data.uint8[j] =  g_gun_shot_sounds_arrays[i][j];   
+       model_input->data.uint8[j] =  g_gun_shot_sounds_arrays[i][j];   
     }
  
  
