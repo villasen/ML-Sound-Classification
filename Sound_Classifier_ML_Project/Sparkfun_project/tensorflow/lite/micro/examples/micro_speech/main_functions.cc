@@ -34,7 +34,7 @@ limitations under the License.
 #include "tensorflow/lite/micro/examples/micro_speech/micro_features/gun_shot_micro_features_data.h"
 #include "tensorflow/lite/micro/examples/micro_speech/micro_features/crying_baby_micro_features_data.h"
 #include "tensorflow/lite/micro/examples/micro_speech/micro_features/dog_bark_micro_features_data.h"
-
+#include "tensorflow/lite/micro/examples/micro_speech/micro_features/car_horn_micro_features_data.h"
 
 // Globals, used for compatibility with Arduino-style sketches.
 namespace {
