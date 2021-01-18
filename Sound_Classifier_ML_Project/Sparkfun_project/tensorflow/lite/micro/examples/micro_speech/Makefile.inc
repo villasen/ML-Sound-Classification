@@ -194,6 +194,8 @@ tensorflow/lite/micro/examples/micro_speech/micro_features/crying_baby_micro_fea
 tensorflow/lite/micro/examples/micro_speech/micro_features/dog_bark_micro_features_data.cc \
 tensorflow/lite/micro/examples/micro_speech/micro_features/doorknock_micro_features_data.cc \
 tensorflow/lite/micro/examples/micro_speech/micro_features/gun_shot_micro_features_data.cc \
+tensorflow/lite/micro/examples/micro_speech/micro_features/clapping_micro_features_data.cc \
+tensorflow/lite/micro/examples/micro_speech/micro_features/car_horn_micro_features_data.cc \
 tensorflow/lite/micro/examples/micro_speech/micro_features/tiny_conv_micro_features_model_data.cc \
 tensorflow/lite/micro/examples/micro_speech/recognize_commands.cc \
 tensorflow/lite/micro/examples/micro_speech/command_responder.cc \
@@ -208,6 +210,8 @@ tensorflow/lite/micro/examples/micro_speech/micro_features/crying_baby_micro_fea
 tensorflow/lite/micro/examples/micro_speech/micro_features/dog_bark_micro_features_data.h \
 tensorflow/lite/micro/examples/micro_speech/micro_features/doorknock_micro_features_data.h \
 tensorflow/lite/micro/examples/micro_speech/micro_features/gun_shot_micro_features_data.h \
+tensorflow/lite/micro/examples/micro_speech/micro_features/clapping_micro_features_data.h \
+tensorflow/lite/micro/examples/micro_speech/micro_features/clar_horn_micro_features_data.h \
 tensorflow/lite/micro/examples/micro_speech/micro_features/tiny_conv_micro_features_model_data.h \
 tensorflow/lite/micro/examples/micro_speech/recognize_commands.h \
 tensorflow/lite/micro/examples/micro_speech/command_responder.h \

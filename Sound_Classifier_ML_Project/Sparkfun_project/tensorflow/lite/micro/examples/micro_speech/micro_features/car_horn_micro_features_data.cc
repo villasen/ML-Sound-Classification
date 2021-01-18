@@ -2224,7 +2224,7 @@ const unsigned char g_car_horn_a_1_28808_a_data[] = {
 };
 
 
-const unsigned char *g_dog_bark_sounds_arrays[11]
+const unsigned char *g_car_horn_sounds_arrays[11]
 {
  g_car_horn_e_2_128465_a_data,
  g_car_horn_d_2_42101_a_data,
