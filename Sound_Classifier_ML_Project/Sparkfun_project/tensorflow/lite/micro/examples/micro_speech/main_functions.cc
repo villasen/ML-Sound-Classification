@@ -36,7 +36,9 @@ limitations under the License.
 #include "tensorflow/lite/micro/examples/micro_speech/micro_features/dog_bark_micro_features_data.h"
 #include "tensorflow/lite/micro/examples/micro_speech/micro_features/car_horn_micro_features_data.h"
 #include "tensorflow/lite/micro/examples/micro_speech/micro_features/clapping_micro_features_data.h"
-
+#include "tensorflow/lite/micro/examples/micro_speech/micro_features/clock_alarm_micro_features_data.h"
+#include "tensorflow/lite/micro/examples/micro_speech/micro_features/coughing_micro_features_data.h"
+#include "tensorflow/lite/micro/examples/micro_speech/micro_features/dog_micro_features_data.h"
 
 
 // Globals, used for compatibility with Arduino-style sketches.
@@ -146,7 +148,11 @@ for (int i = 0; i < BABY_TOTAL_FILE_NUMBER ; i++)
     //   model_input->data.uint8[j] =  g_dog_bark_sounds_arrays[i][j];
     //   model_input->data.uint8[j] =  g_door_knock_sounds_arrays[i][j];
     //   model_input->data.uint8[j] =  g_gun_shot_sounds_arrays[i][j]; 
-         model_input->data.uint8[j] =  g_clapping_sounds_arrays[i][j]; 
+    //     model_input->data.uint8[j] =  g_clapping_sounds_arrays[i][j]; 
+    //     model_input->data.uint8[j] =  g_clock_alarm_sounds_arrays[i][j]; 
+   //      model_input->data.uint8[j] =  g_coughing_sounds_arrays[i][j]; 
+         model_input->data.uint8[j] =  g_dog_sounds_arrays[i][j];
+
     }
  
  
